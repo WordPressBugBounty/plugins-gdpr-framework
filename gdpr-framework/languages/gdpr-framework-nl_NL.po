@@ -1,0 +1,3901 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codelight
+# This file is distributed under the same license as the The GDPR Framework package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: The GDPR Framework 1.0\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2022-04-18 11:06-0400\n"
+"PO-Revision-Date: 2022-04-18 11:33-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: gdpr-framework.php:111
+msgid "First Name"
+msgstr "Voornaam"
+
+#: gdpr-framework.php:112
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: gdpr-framework.php:113
+msgid "Email"
+msgstr "E-mail"
+
+#: gdpr-framework.php:140
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr "WordPress GDPR &rsaquo; fout"
+
+#: gdpr-framework.php:151
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.0 or greater."
+msgstr "U moet PHP 5.6.0 of hoger gebruiken."
+
+#: gdpr-framework.php:152
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Ongeldige PHP versie"
+
+#: gdpr-framework.php:162
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "U moet WordPress 4.3.0 of hoger gebruiken."
+
+#: gdpr-framework.php:163
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Ongeldige versie van WordPress"
+
+#: gdpr-framework.php:236
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: gdpr-helper-functions.php:195
+msgid ""
+"This website uses cookies to ensure you get the best experience on our website."
+msgstr ""
+"Deze website maakt gebruik van cookies om ervoor te zorgen dat u de beste "
+"ervaring op onze website krijgt."
+
+#: gdpr-helper-functions.php:208
+msgid "Decline"
+msgstr "afwijzen"
+
+#: gdpr-helper-functions.php:221
+msgid "Accept"
+msgstr "Aanvaarden"
+
+#: gdpr-helper-functions.php:234
+msgid "Learn more"
+msgstr "Kom meer te weten"
+
+#: gdpr-helper-functions.php:289
+msgid "Cookie Policy"
+msgstr "Cookie beleid"
+
+#: gdpr-helper-functions.php:327
+msgid "Settings"
+msgstr "Instellingen"
+
+#: gdpr-helper-functions.php:328
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: src/Admin/AdminTab.php:208
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:114
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/Admin/AdminTab.php:244
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Beleid gegenereerd!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "Algemeen"
+
+#: src/Admin/AdminTabGeneral.php:56
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: src/Admin/AdminTabGeneral.php:61
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Privacy Tools inschakelen"
+
+#: src/Admin/AdminTabGeneral.php:68
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Algemene voorwaarden inschakelen"
+
+#: src/Admin/AdminTabGeneral.php:75
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Schakel selectievakje voor opmerkingen uit"
+
+#: src/Admin/AdminTabGeneral.php:82
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Schakel selectievakje Formulier registreren uit"
+
+#: src/Admin/AdminTabGeneral.php:92
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "E-mail Instellingen"
+
+#: src/Admin/AdminTabGeneral.php:97
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "Naam afzender"
+
+#: src/Admin/AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "E-mail afzender"
+
+#: src/Admin/AdminTabGeneral.php:113
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "Pagina's"
+
+#: src/Admin/AdminTabGeneral.php:118 src/Admin/WordpressAdmin.php:166
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Privacy Tools  pagina"
+
+#: src/Admin/AdminTabGeneral.php:125
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy Policy Custom URL"
+msgctxt "(Admin)"
+msgid "Privacy Tools Custom URL"
+msgstr "Privacybeleid Aangepaste URL"
+
+#: src/Admin/AdminTabGeneral.php:132 src/Admin/WordpressAdmin.php:162
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Privacybeleidpagina"
+
+#: src/Admin/AdminTabGeneral.php:139
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Privacybeleid Aangepaste URL"
+
+#: src/Admin/AdminTabGeneral.php:146
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Algemene voorwaarden pagina"
+
+#: src/Admin/AdminTabGeneral.php:153
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Terms & Conditions Page"
+msgctxt "(Admin)"
+msgid "Terms & Conditions Custom URL"
+msgstr "Algemene Voorwaarden Pagina"
+
+#: src/Admin/AdminTabGeneral.php:163
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Bekijk en Exporteer gegevens"
+
+#: src/Admin/AdminTabGeneral.php:168
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Export Actie"
+
+#: src/Admin/AdminTabGeneral.php:175 src/Admin/AdminTabGeneral.php:221
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "E-mail om te melden"
+
+#: src/Admin/AdminTabGeneral.php:183
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Unknown Data Subject Message"
+msgstr "Bericht onbekende betrokkene"
+
+#: src/Admin/AdminTabGeneral.php:193
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Verwijder & anonimiseer gegevens"
+
+#: src/Admin/AdminTabGeneral.php:198
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Verwijder handeling"
+
+#: src/Admin/AdminTabGeneral.php:205
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Verwijderen of opnieuw toewijzen van inhoud?"
+
+#: src/Admin/AdminTabGeneral.php:213
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Inhoud toewijzen aan"
+
+#: src/Admin/AdminTabGeneral.php:233
+msgctxt "(Admin)"
+msgid "Styling"
+msgstr "Opmaak"
+
+#: src/Admin/AdminTabGeneral.php:238
+msgctxt "(Admin)"
+msgid "Enable basic styling on Privacy Tools page"
+msgstr "Schakel de basis styling in voor de Privacy Gereedschap pagina"
+
+#: src/Admin/AdminTabGeneral.php:250
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "Compatibiliteit"
+
+#: src/Admin/AdminTabGeneral.php:255
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Automatische thema geschiktheid aanzetten"
+
+#: src/Admin/AdminTabGeneral.php:267
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "WooCommerce-integratie"
+
+#: src/Admin/AdminTabGeneral.php:272
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Schakel WooCommerce-compatibiliteit in"
+
+#: src/Admin/AdminTabGeneral.php:279
+#: views/admin/general/woo-disable_checkbox.php:10
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Schakel WooCommerce Privacy Checkbox uit"
+
+#: src/Admin/AdminTabGeneral.php:286
+#: views/admin/general/woo-disable_register_checkbox.php:9
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr "Schakel WooCommerce Register Privacy uit"
+
+#: src/Admin/AdminTabGeneral.php:298
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Eenvoudige digitale downloadintegratie"
+
+#: src/Admin/AdminTabGeneral.php:303
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Schakel EDD-compatibiliteit in"
+
+#: src/Admin/AdminTabGeneral.php:333
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:184
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr "Schakel Checkbox voor opmerkingen uit"
+
+#: src/Admin/AdminTabGeneral.php:342
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:192
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Schakel selectievakje voor registratieformulier uit"
+
+#: src/Admin/AdminTabGeneral.php:431 src/Admin/AdminTabGeneral.php:448
+#: src/Admin/AdminTabGeneral.php:476 src/Admin/AdminTabGeneral.php:552
+#: views/installer/steps/configuration-settings.php:62
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selecteer &mdash;"
+
+#: src/Admin/WordpressAdmin.php:65
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Privacy & GDPR instellingen"
+
+#: src/Admin/WordpressAdmin.php:66 views/installer/welcome-notice.php:6
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Data443 GDPR"
+msgstr "Data443 AVG"
+
+#: src/Components/AdvancedIntegration/AdminTabAdvancedIntegration.php:17
+#: src/Components/AdvancedIntegration/AdminTabAdvancedIntegration.php:26
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "No data found!"
+msgctxt "(Admin)"
+msgid "Data Hound"
+msgstr "Geen data gevonden!"
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:50
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "Toestemming"
+
+#: src/Components/Consent/AdminTabConsent.php:55
+msgctxt "(Admin)"
+msgid "Additional Settings"
+msgstr "Aanvullende Instellingen"
+
+#: src/Components/Consent/AdminTabConsent.php:60
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Display Consent Calendar"
+msgstr "Toestemmingskalender weergeven"
+
+#: src/Components/Consent/AdminTabConsent.php:172
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr ""
+"Toestemming slug is een verplicht veld (slug is het gedeelte dat na de "
+"domeinnaam komt in de URL)"
+
+#: src/Components/Consent/AdminTabConsent.php:177
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"Alleen alfanummerieke karakters, streep en underscore mogen worden gebruikt in "
+"de toestemming slug veld."
+
+#: src/Components/Consent/AdminTabConsent.php:182
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Toestemming titel is een verplicht veld!"
+
+#: src/Components/Consent/AdminTabConsent.php:194
+msgid ""
+"To use this website, you accepted our Privacy Policy. If you wish to withdraw "
+"your acceptance, please use the \"Delete my data\" button below."
+msgstr ""
+"Om deze website te gebruiken heb je onze privacy beleid geaccepteerd. Als u "
+"dit wenst in te trekken, klikt op onderstaande button \"Mijn gegevens "
+"verwijderen\"."
+
+#: src/Components/Consent/AdminTabConsent.php:197
+#, fuzzy
+msgid ""
+"Enable this feature to allow users to submit a time limit on how many months "
+"their consent is given for their coments and registration."
+msgstr ""
+"Schakel deze functie in om gebruikers in staat te stellen een tijdslimiet in "
+"te dienen voor het aantal maanden dat hun toestemming wordt gegeven voor hun "
+"coments en registratie."
+
+#: src/Components/Consent/ConsentManager.php:55
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:146
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Ik accepteer de %sPrivacy Policy%s"
+
+#: src/Components/Consent/ConsentManager.php:59
+#: src/Components/Consent/ConsentManager.php:103
+#: src/Components/Consent/ConsentManager.php:111
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, they "
+"should simply request to delete all their data."
+msgstr ""
+"Deze toestemming is niet standaard zichtbaar. Als iemand het wil intrekken, "
+"moet hij/zij gewoon vragen om alle gegevens te verwijderen."
+
+#: src/Components/Consent/ConsentManager.php:70
+#, fuzzy
+msgid "Do Not Sell My Data"
+msgstr "Verkoop mijn gegevens niet"
+
+#: src/Components/Consent/ConsentManager.php:72
+#, fuzzy
+msgctxt "(Admin)"
+msgid "I do not consent to having my information sold by "
+msgstr "Ik ga er niet mee akkoord dat mijn gegevens worden verkocht door "
+
+#: src/Components/Consent/ConsentManager.php:79
+#, fuzzy
+msgid "Receive Communications from "
+msgstr "Ik ga ermee akkoord om andere communicatie te ontvangen van "
+
+#: src/Components/Consent/ConsentManager.php:81
+#, fuzzy
+msgctxt "(Admin)"
+msgid "I agree to receive other communications from "
+msgstr "Ik ga ermee akkoord om andere communicatie te ontvangen van "
+
+#: src/Components/Consent/ConsentManager.php:99
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Ik accepteer de %sAlgemene Voorwaarden%s"
+
+#: src/Components/Consent/ConsentManager.php:110
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Site Cookie Consent"
+msgstr "Toestemming voor sitecookies"
+
+#: src/Components/Consent/ConsentManager.php:120
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Woocommerce Policy Toestemming"
+
+#: src/Components/Consent/ConsentManager.php:121
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Deze toestemming is standaard zichtbaar op de pagina voor het afrekenen met "
+"woocommerce. Als iemand het wil intrekken, moeten ze eenvoudig verzoeken om al "
+"hun gegevens te verwijderen."
+
+#: src/Components/Consent/ConsentManager.php:404
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Company information"
+msgid "Consent Information"
+msgstr "Bedrijfsinformatie"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Cookie Popup"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:44
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Cookie Popup-instellingen"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:48
+#: views/admin/general/enable-popup.php:9
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Pop-up van cookie-acceptatie inschakelen"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:54
+#: views/admin/general/enable-onetime-popup.php:9
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr "Schakel eenmalige pop-up voor acceptatie van cookies in"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:60
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Schakel Privacybeleid over Popup in"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:66
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Cookie acceptatie Popup header"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:72
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Cookie acceptatie pop-up inhoud"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:81
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Acceptatie Pop-up instelling"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:86
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Popup positie"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:93
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Pop-up thema"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:100
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Pop-up Sta tekst toe"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:107
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Pop-up Tekst afwijzen"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:114
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Pop-up Meer informatie Tekst"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:121
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Cookie acceptatie link doel"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:128
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Cookie acceptatie achtergrondkleur"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:135
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Tekstkleur voor acceptatie van cookies"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:142
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Cookie acceptatie knop Backgroung kleur"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:149
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Cookie acceptatie Knopkleur"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:156
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Grenskleur voor acceptatie van cookies"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:17
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:28
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Do Not Sell My Data"
+msgstr "Verkoop mijn gegevens niet"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:34
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:62
+msgctxt "(Admin)"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:40
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:68
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Shortcode for PHP"
+msgstr "Shortcode voor PHP"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:46
+#, fuzzy
+msgctxt "(Admin)"
+msgid "View Requests"
+msgstr "Bekijk aanvragen"
+
+#: src/Components/PrivacyManager/AdminTabPrivacyManager.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443™ Privacy Manager"
+msgctxt "(Admin)"
+msgid "Global Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: src/Components/PrivacyManager/AdminTabPrivacyManager.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443™ Privacy Manager"
+msgctxt "(Admin)"
+msgid "Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:62
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:71
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Bedrijfsinformatie"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:76
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:224
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "Bedrijfsnaam"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:84
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "Bedrijf E-mail"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:91
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Bedrijfslocatie"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:107
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:263
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Naam contactpersoon"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:114
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:271
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "E-mail Vertegenwoordiger"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:121
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:279
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Telefoonnummer Vertegenwoordiger"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:137
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Autoriteit Persoonsgegevens"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:143
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:309
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Website van de Autoriteit Persoonsgegevens "
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:150
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "E-mail van de Autoriteit Persoonsgegevens "
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:157
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:325
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Telefoonnummer van de Autoriteit Persoonsgegevens"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:167
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:177
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Officer"
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Functionaris Gegevensbescherming"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:170
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr ""
+"Veelgestelde Vragen: Moet ik een Functionaris Gegevensbeschermer aanstellen?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:184
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Naam van de Functionaris Gegevensbescherming"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:192
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "E-mailadres van de Functionaris Gegevensbescherming"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:204
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:360
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Tekst verwijderen"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:232
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "Contact email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Vertegenwoordiger Contact"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:255
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr ""
+"Veelgestelde Vragen: Moet ik een EU-gebaseerde vertegenwoordiger benoemen?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:295
+#, fuzzy, php-format
+msgctxt "(Admin)"
+msgid "See the %slist of contacts here%s."
+msgstr "Bekijk hier de %s lijst met contacten%s."
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:344
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "DPO Naam"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:352
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "From Email"
+msgctxt "(Admin)"
+msgid "DPO Email"
+msgstr "Van email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:436
+msgctxt "(Admin)"
+msgid "Save & Generate Policy"
+msgstr "Opslaan & genereer het beleid"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:86
+#: src/Installer/Installer.php:316 src/Installer/Steps/PolicySettings.php:214
+#: views/themes/storefront/footer.php:3 views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy"
+msgctxt "(Admin)"
+msgid "Privacy Safe"
+msgstr "Privacy"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:33
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Privacy Safe by Data443"
+msgstr "Privacy Veilig door Data443"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:38
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Register for Privacy Safe"
+msgstr "Registreer voor Privacy Safe"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:44
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy & GDPR Settings"
+msgctxt "(Admin)"
+msgid "Privacy Safe Settings"
+msgstr "Privacy & GDPR Instellingen"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:50
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Seal Code"
+msgstr "Sealcode"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:56
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Image Code"
+msgstr "Afbeeldingscode"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:74
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Support"
+msgctxt "(Admin)"
+msgid "Support Data443"
+msgstr "Support"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:83
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Strengthen your reputation. The privacy safe seal assures your customers that "
+"your business is in compliance with privacy laws and regulations. The privacy "
+"safe seal will verify that the GDPR Framework plugin is installed."
+msgstr ""
+"Versterk uw reputatie. Het privacyveilige zegel verzekert uw klanten dat uw "
+"bedrijf voldoet aan de privacywet- en regelgeving. Het privacyveilige zegel "
+"controleert of de GDPR Framework-plug-in is geïnstalleerd."
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:86
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Register now to activate your Privacy Safe seal. Visit the link below, "
+"complete the complete the checkout process. Once approved you will recieve "
+"notice to get your seal code and image code. Enter those here and save. You "
+"can then place the seal where you would like on your site."
+msgstr ""
+"Registreer nu om uw Privacy Safe-zegel te activeren. Bezoek de onderstaande "
+"link, voltooi het afrekenproces. Na goedkeuring ontvangt u een bericht om uw "
+"verzegelingscode en afbeeldingscode te krijgen. Voer die hier in en sla op. U "
+"kunt dan de verzegeling plaatsen waar u wilt op uw site."
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:86
+msgctxt "(Admin)"
+msgid "Register Here"
+msgstr "Registreer hier"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:89
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Embed the shortcode provided to display your privacy safe seal."
+msgstr ""
+"Sluit de meegeleverde shortcode in om uw privacyveilige zegel weer te geven."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:23
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:57
+msgid "This page is currently disabled."
+msgstr "Deze pagina is momenteel uitgeschakeld."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:27
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:61
+#, fuzzy
+msgid "Please configure the Privacy Tools page in the admin interface."
+msgstr "Configureer de pagina Privacytools in de beheerdersinterface."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:43
+#: src/Installer/Installer.php:325 src/Installer/Steps/ConfigurationPages.php:67
+#: views/themes/storefront/footer.php:7 views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Privacy Tools"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:20
+msgid "We have received your request and will reply within 30 days."
+msgstr "Wij hebben uw aanvraag ontvangen en geven u binnen 30 dagen antwoord."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:16
+msgid "Consent withdrawn."
+msgstr "Toestemming ingetrokken."
+
+#: src/Components/WordpressUser/RegistrationForm.php:58
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr "<strong>ERROR</strong>: Je dient de algemene voorwaarden te accepteren."
+
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: src/Components/WordpressUser/WordpressUser.php:65
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Privacy Tools"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Data onderwerpen"
+
+#: src/DataSubject/DataRepository.php:146
+msgid "Data exported"
+msgstr "Data geëxporteerd"
+
+#: src/DataSubject/DataRepository.php:162
+msgid "Data export request"
+msgstr "Verzoek tot exporteren data"
+
+#: src/DataSubject/DataRepository.php:176
+msgid "Data removed"
+msgstr "Data verwijderd"
+
+#: src/DataSubject/DataRepository.php:192
+msgid "Data removal request"
+msgstr "Verzoek tot verwijderen data"
+
+#: src/DataSubject/DataSubjectIdentificator.php:78
+#: src/DataSubject/DataSubjectIdentificator.php:96
+msgid "Your personal data on"
+msgstr "Je persoonlijke data op"
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr "België"
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr "Kroatië"
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr "Tsjechië"
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr "Denemarken"
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr "Finland"
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "France"
+msgstr "Frankrijk"
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr "Duitsland"
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr "Griekenland"
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr "Ierland"
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr "Italië"
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr "Letland"
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr "Litouwen"
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr "Roemenië"
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr "Slowakije"
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr "Slovenië"
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr "Spanje"
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr "Zweden"
+
+#: src/Helpers.php:55
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: src/Helpers.php:57
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Afghanistan "
+msgstr "Afghanistan "
+
+#: src/Helpers.php:58
+msgctxt "(Admin)"
+msgid "Åland Islands"
+msgstr "Ålands Eilanden"
+
+#: src/Helpers.php:59
+msgctxt "(Admin)"
+msgid "Albania"
+msgstr "Albanië"
+
+#: src/Helpers.php:60
+msgctxt "(Admin)"
+msgid "Algeria"
+msgstr "Algerije"
+
+#: src/Helpers.php:61
+#, fuzzy
+msgctxt "(Admin)"
+msgid "American Samoa  "
+msgstr "Amerikaans-Samoa  "
+
+#: src/Helpers.php:62
+msgctxt "(Admin)"
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Helpers.php:63
+msgctxt "(Admin)"
+msgid "Angola"
+msgstr "Angola"
+
+#: src/Helpers.php:64
+msgctxt "(Admin)"
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: src/Helpers.php:65
+msgctxt "(Admin)"
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: src/Helpers.php:66
+msgctxt "(Admin)"
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+#: src/Helpers.php:67
+msgctxt "(Admin)"
+msgid "Argentina"
+msgstr "Argentinië"
+
+#: src/Helpers.php:68
+msgctxt "(Admin)"
+msgid "Armenia"
+msgstr "Armenië"
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Australia"
+msgstr "Australië"
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "Bahamas"
+msgstr "Bahama’s"
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: src/Helpers.php:75
+msgctxt "(Admin)"
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/Helpers.php:76
+msgctxt "(Admin)"
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+#: src/Helpers.php:77
+msgctxt "(Admin)"
+msgid "Belize"
+msgstr "Belize"
+
+#: src/Helpers.php:78
+msgctxt "(Admin)"
+msgid "Benin"
+msgstr "Benin"
+
+#: src/Helpers.php:79
+msgctxt "(Admin)"
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: src/Helpers.php:80
+msgctxt "(Admin)"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: src/Helpers.php:81
+msgctxt "(Admin)"
+msgid "Bolivia, Plurinational State of"
+msgstr "Bolivia"
+
+#: src/Helpers.php:82
+msgctxt "(Admin)"
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius en Saba"
+
+#: src/Helpers.php:83
+msgctxt "(Admin)"
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië en Herzegovina"
+
+#: src/Helpers.php:84
+msgctxt "(Admin)"
+msgid "Botswana"
+msgstr "Botswana"
+
+#: src/Helpers.php:85
+msgctxt "(Admin)"
+msgid "Bouvet Island"
+msgstr "Bouvet Eilanden"
+
+#: src/Helpers.php:86
+msgctxt "(Admin)"
+msgid "Brazil"
+msgstr "Brazilië"
+
+#: src/Helpers.php:87
+msgctxt "(Admin)"
+msgid "British Indian Ocean Territory"
+msgstr "Brits Indische Oceaanterritorium"
+
+#: src/Helpers.php:88
+msgctxt "(Admin)"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: src/Helpers.php:89
+msgctxt "(Admin)"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: src/Helpers.php:90
+msgctxt "(Admin)"
+msgid "Burundi"
+msgstr "Burundi"
+
+#: src/Helpers.php:91
+msgctxt "(Admin)"
+msgid "Cambodia"
+msgstr "Cambodja"
+
+#: src/Helpers.php:92
+msgctxt "(Admin)"
+msgid "Cameroon"
+msgstr "Kameroen"
+
+#: src/Helpers.php:93
+msgctxt "(Admin)"
+msgid "Canada"
+msgstr "Canada"
+
+#: src/Helpers.php:94
+msgctxt "(Admin)"
+msgid "Cape Verde"
+msgstr "Kaapverdië"
+
+#: src/Helpers.php:95
+msgctxt "(Admin)"
+msgid "Cayman Islands"
+msgstr "Kaaiman Eilanden"
+
+#: src/Helpers.php:96
+msgctxt "(Admin)"
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: src/Helpers.php:97
+msgctxt "(Admin)"
+msgid "Chad"
+msgstr "Tsjaad"
+
+#: src/Helpers.php:98
+msgctxt "(Admin)"
+msgid "Chile"
+msgstr "Chili"
+
+#: src/Helpers.php:99
+msgctxt "(Admin)"
+msgid "China"
+msgstr "China"
+
+#: src/Helpers.php:100
+msgctxt "(Admin)"
+msgid "Christmas Island"
+msgstr "Christmaseiland"
+
+#: src/Helpers.php:101
+msgctxt "(Admin)"
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokos Eilanden"
+
+#: src/Helpers.php:102
+msgctxt "(Admin)"
+msgid "Colombia"
+msgstr "Colombia"
+
+#: src/Helpers.php:103
+msgctxt "(Admin)"
+msgid "Comoros"
+msgstr "Comoren"
+
+#: src/Helpers.php:104
+msgctxt "(Admin)"
+msgid "Congo"
+msgstr "Congo"
+
+#: src/Helpers.php:105
+msgctxt "(Admin)"
+msgid "Congo, the Democratic Republic of the"
+msgstr "Congo, Dem. Republiek"
+
+#: src/Helpers.php:106
+msgctxt "(Admin)"
+msgid "Cook Islands"
+msgstr "Cookeilanden"
+
+#: src/Helpers.php:107
+msgctxt "(Admin)"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/Helpers.php:108
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Côte dIvoire"
+msgstr "Ivoorkust"
+
+#: src/Helpers.php:109
+msgctxt "(Admin)"
+msgid "Cuba"
+msgstr "Cuba"
+
+#: src/Helpers.php:110
+msgctxt "(Admin)"
+msgid "Curaçao"
+msgstr "Curaçao"
+
+#: src/Helpers.php:111
+msgctxt "(Admin)"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: src/Helpers.php:112
+msgctxt "(Admin)"
+msgid "Dominica"
+msgstr "Dominica"
+
+#: src/Helpers.php:113
+msgctxt "(Admin)"
+msgid "Dominican Republic"
+msgstr "Dominicaanse Republiek"
+
+#: src/Helpers.php:114
+msgctxt "(Admin)"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: src/Helpers.php:115
+msgctxt "(Admin)"
+msgid "Egypt"
+msgstr "Egypte"
+
+#: src/Helpers.php:116
+msgctxt "(Admin)"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/Helpers.php:117
+msgctxt "(Admin)"
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+#: src/Helpers.php:118
+msgctxt "(Admin)"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: src/Helpers.php:119
+msgctxt "(Admin)"
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+#: src/Helpers.php:120
+msgctxt "(Admin)"
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falkland Eilanden (Malvinas)"
+
+#: src/Helpers.php:121
+msgctxt "(Admin)"
+msgid "Faroe Islands"
+msgstr "Faeroër Eilanden"
+
+#: src/Helpers.php:122
+msgctxt "(Admin)"
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/Helpers.php:123
+msgctxt "(Admin)"
+msgid "French Guiana"
+msgstr "Frans-Guyana"
+
+#: src/Helpers.php:124
+msgctxt "(Admin)"
+msgid "French Polynesia"
+msgstr "Frans-Polynesië"
+
+#: src/Helpers.php:125
+msgctxt "(Admin)"
+msgid "French Southern Territories"
+msgstr "Franse zuidelijke gebieden"
+
+#: src/Helpers.php:126
+msgctxt "(Admin)"
+msgid "Gabon"
+msgstr "Gabon"
+
+#: src/Helpers.php:127
+msgctxt "(Admin)"
+msgid "Gambia"
+msgstr "Gambia"
+
+#: src/Helpers.php:128
+msgctxt "(Admin)"
+msgid "Georgia"
+msgstr "Georgië"
+
+#: src/Helpers.php:129
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Georgia "
+msgstr "Georgië "
+
+#: src/Helpers.php:130
+msgctxt "(Admin)"
+msgid "Ghana"
+msgstr "Ghana"
+
+#: src/Helpers.php:131
+msgctxt "(Admin)"
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/Helpers.php:132
+msgctxt "(Admin)"
+msgid "Greenland"
+msgstr "Groenland"
+
+#: src/Helpers.php:133
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Grenada "
+msgstr "Grenada "
+
+#: src/Helpers.php:134
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Guadeloupe  "
+msgstr "Guadeloupe  "
+
+#: src/Helpers.php:135
+msgctxt "(Admin)"
+msgid "Guam"
+msgstr "Guam"
+
+#: src/Helpers.php:136
+msgctxt "(Admin)"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/Helpers.php:137
+msgctxt "(Admin)"
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/Helpers.php:138
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Guinea  "
+msgstr "Guinee  "
+
+#: src/Helpers.php:139
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Guinea-Bissau   "
+msgstr "Guinee-Bissau   "
+
+#: src/Helpers.php:140
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Guyana  "
+msgstr "Guyana  "
+
+#: src/Helpers.php:141
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Haiti   "
+msgstr "Haïti   "
+
+#: src/Helpers.php:142
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Heard Island and McDonald Islands   "
+msgstr "Heardeiland en McDonaldeilanden   "
+
+#: src/Helpers.php:143
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Holy See (Vatican City State)   "
+msgstr "Heilige Stoel (Vaticaanstad)   "
+
+#: src/Helpers.php:144
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Honduras    "
+msgstr "Honduras    "
+
+#: src/Helpers.php:145
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Hong Kong   "
+msgstr "Hongkong   "
+
+#: src/Helpers.php:146
+#, fuzzy
+msgctxt "(Admin)"
+msgid "India   "
+msgstr "India   "
+
+#: src/Helpers.php:147
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Indonesia   "
+msgstr "Indonesië   "
+
+#: src/Helpers.php:148
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Iran, Islamic Republic of   "
+msgstr "Iran, Islamitische Republiek   "
+
+#: src/Helpers.php:149
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Iraq    "
+msgstr "Irak    "
+
+#: src/Helpers.php:150
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Isle of Man "
+msgstr "Eiland Man "
+
+#: src/Helpers.php:151
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Israel  "
+msgstr "Israël  "
+
+#: src/Helpers.php:152
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Jamaica "
+msgstr "Jamaica "
+
+#: src/Helpers.php:153
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Japan   "
+msgstr "Japan   "
+
+#: src/Helpers.php:154
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Jersey  "
+msgstr "Jersey  "
+
+#: src/Helpers.php:155
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Jordan  "
+msgstr "Jordanië  "
+
+#: src/Helpers.php:156
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Kazakhstan  "
+msgstr "Kazachstan  "
+
+#: src/Helpers.php:157
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Kenya   "
+msgstr "Kenia   "
+
+#: src/Helpers.php:158
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Kiribati    "
+msgstr "Kiribati    "
+
+#: src/Helpers.php:159
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Korea, Democratic Peoples Republic of   "
+msgstr "Korea, Democratische Volksrepubliek   "
+
+#: src/Helpers.php:160
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Korea, Republic of  "
+msgstr "Korea, Republiek  "
+
+#: src/Helpers.php:161
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Kuwait  "
+msgstr "Koeweit  "
+
+#: src/Helpers.php:162
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Kyrgyzstan  "
+msgstr "Kirgizië  "
+
+#: src/Helpers.php:163
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Lao Peoples Democratic Republic "
+msgstr "Laotiaanse Volksrepubliek "
+
+#: src/Helpers.php:164
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Lebanon "
+msgstr "Libanon "
+
+#: src/Helpers.php:165
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Lesotho "
+msgstr "Lesotho "
+
+#: src/Helpers.php:166
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Liberia "
+msgstr "Liberia "
+
+#: src/Helpers.php:167
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Libya   "
+msgstr "Libië   "
+
+#: src/Helpers.php:168
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Macao   "
+msgstr "Macao   "
+
+#: src/Helpers.php:169
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Macedonia, the Former Yugoslav Republic of  "
+msgstr "Macedonië, de Voormalige Joegoslavische Republiek  "
+
+#: src/Helpers.php:170
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Madagascar  "
+msgstr "Madagaskar  "
+
+#: src/Helpers.php:171
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Malawi  "
+msgstr "Malawi  "
+
+#: src/Helpers.php:172
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Malaysia    "
+msgstr "Maleisië    "
+
+#: src/Helpers.php:173
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Maldives    "
+msgstr "Maldiven    "
+
+#: src/Helpers.php:174
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mali    "
+msgstr "Mali    "
+
+#: src/Helpers.php:175
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Marshall Islands    "
+msgstr "Marshalleilanden    "
+
+#: src/Helpers.php:176
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Martinique  "
+msgstr "Martinique  "
+
+#: src/Helpers.php:177
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mauritania  "
+msgstr "Mauritanië  "
+
+#: src/Helpers.php:178
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mauritius   "
+msgstr "Mauritius   "
+
+#: src/Helpers.php:179
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mayotte "
+msgstr "Mayotte "
+
+#: src/Helpers.php:180
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mexico  "
+msgstr "Mexico  "
+
+#: src/Helpers.php:181
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Micronesia, Federated States of "
+msgstr "Micronesië, Federale Staten van "
+
+#: src/Helpers.php:182
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Moldova, Republic of    "
+msgstr "Moldavië, Republiek    "
+
+#: src/Helpers.php:183
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Monaco  "
+msgstr "Monaco  "
+
+#: src/Helpers.php:184
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mongolia    "
+msgstr "Mongolië    "
+
+#: src/Helpers.php:185
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Montenegro  "
+msgstr "Montenegro  "
+
+#: src/Helpers.php:186
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Montserrat  "
+msgstr "Montserrat  "
+
+#: src/Helpers.php:187
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Morocco "
+msgstr "Marokko "
+
+#: src/Helpers.php:188
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Mozambique  "
+msgstr "Mozambique  "
+
+#: src/Helpers.php:189
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Myanmar "
+msgstr "Myanmar "
+
+#: src/Helpers.php:190
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Namibia "
+msgstr "Namibië "
+
+#: src/Helpers.php:191
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Nauru   "
+msgstr "Nauru   "
+
+#: src/Helpers.php:192
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Nepal   "
+msgstr "Nepal   "
+
+#: src/Helpers.php:193
+#, fuzzy
+msgctxt "(Admin)"
+msgid "New Caledonia   "
+msgstr "Nieuw-Caledonië   "
+
+#: src/Helpers.php:194
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Netherlands"
+msgctxt "(Admin)"
+msgid "New Zealand "
+msgstr "Nederland"
+
+#: src/Helpers.php:195
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Nicaragua   "
+msgstr "Nicaragua   "
+
+#: src/Helpers.php:196
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Niger   "
+msgstr "Niger   "
+
+#: src/Helpers.php:197
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Nigeria "
+msgstr "Nigeria "
+
+#: src/Helpers.php:198
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Niue    "
+msgstr "Niue    "
+
+#: src/Helpers.php:199
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Norfolk Island  "
+msgstr "Norfolk  "
+
+#: src/Helpers.php:200
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Northern Mariana Islands    "
+msgstr "Noordelijke Marianen    "
+
+#: src/Helpers.php:201
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Oman    "
+msgstr "Oman    "
+
+#: src/Helpers.php:202
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Pakistan    "
+msgstr "Pakistan    "
+
+#: src/Helpers.php:203
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Palau   "
+msgstr "Palau   "
+
+#: src/Helpers.php:204
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Palestine, State of "
+msgstr "Palestina, Staat "
+
+#: src/Helpers.php:205
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Panama  "
+msgstr "Panama  "
+
+#: src/Helpers.php:206
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Papua New Guinea    "
+msgstr "Papoea-Nieuw-Guinea    "
+
+#: src/Helpers.php:207
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Paraguay    "
+msgstr "Paraguay    "
+
+#: src/Helpers.php:208
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Peru    "
+msgstr "Peru    "
+
+#: src/Helpers.php:209
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Philippines "
+msgstr "Filipijnen "
+
+#: src/Helpers.php:210
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Pitcairn    "
+msgstr "Pitcairn    "
+
+#: src/Helpers.php:211
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Puerto Rico "
+msgstr "Puerto Rico "
+
+#: src/Helpers.php:212
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Qatar   "
+msgstr "Qatar   "
+
+#: src/Helpers.php:213
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Réunion "
+msgstr "Réunion "
+
+#: src/Helpers.php:214
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Russian Federation  "
+msgstr "Rusland  "
+
+#: src/Helpers.php:215
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Rwanda  "
+msgstr "Rwanda  "
+
+#: src/Helpers.php:216
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Barthélemy    "
+msgstr "Saint-Barthélemy    "
+
+#: src/Helpers.php:217
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Helena, Ascension and Tristan da Cunha    "
+msgstr "Sint-Helena, Hemelvaart en Tristan da Cunha    "
+
+#: src/Helpers.php:218
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Kitts and Nevis   "
+msgstr "Saint Kitts en Nevis   "
+
+#: src/Helpers.php:219
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Lucia "
+msgstr "Saint Lucia "
+
+#: src/Helpers.php:220
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Martin (French part)  "
+msgstr "Saint Martin (Frans deel)  "
+
+#: src/Helpers.php:221
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Pierre and Miquelon   "
+msgstr "Saint Pierre en Miquelon   "
+
+#: src/Helpers.php:222
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saint Vincent and the Grenadines    "
+msgstr "Saint Vincent en de Grenadines    "
+
+#: src/Helpers.php:223
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Samoa   "
+msgstr "Samoa   "
+
+#: src/Helpers.php:224
+#, fuzzy
+msgctxt "(Admin)"
+msgid "San Marino  "
+msgstr "San Marino  "
+
+#: src/Helpers.php:225
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Sao Tome and Principe   "
+msgstr "Sao Tomé en Principe   "
+
+#: src/Helpers.php:226
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Saudi Arabia    "
+msgstr "Saudi-Arabië    "
+
+#: src/Helpers.php:227
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Senegal "
+msgstr "Senegal "
+
+#: src/Helpers.php:228
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Serbia  "
+msgstr "Servië  "
+
+#: src/Helpers.php:229
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Seychelles  "
+msgstr "Seychellen  "
+
+#: src/Helpers.php:230
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Sierra Leone    "
+msgstr "Sierra Leone    "
+
+#: src/Helpers.php:231
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Singapore   "
+msgstr "Singapore   "
+
+#: src/Helpers.php:232
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Sint Maarten (Dutch part)   "
+msgstr "Sint Maarten (Nederlands deel)   "
+
+#: src/Helpers.php:233
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Solomon Islands "
+msgstr "Salomonseilanden "
+
+#: src/Helpers.php:234
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Somalia "
+msgstr "Somalië "
+
+#: src/Helpers.php:235
+#, fuzzy
+msgctxt "(Admin)"
+msgid "South Africa    "
+msgstr "Zuid-Afrika    "
+
+#: src/Helpers.php:236
+#, fuzzy
+msgctxt "(Admin)"
+msgid "South Georgia and the South Sandwich Islands    "
+msgstr "Zuid-Georgië en de Zuidelijke Sandwicheilanden    "
+
+#: src/Helpers.php:237
+#, fuzzy
+msgctxt "(Admin)"
+msgid "South Sudan "
+msgstr "Zuid-Soedan "
+
+#: src/Helpers.php:238
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Sri Lanka   "
+msgstr "Sri Lanka   "
+
+#: src/Helpers.php:239
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Sudan   "
+msgstr "Soedan   "
+
+#: src/Helpers.php:240
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Suriname    "
+msgstr "Suriname    "
+
+#: src/Helpers.php:241
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Svalbard and Jan Mayen  "
+msgstr "Spitsbergen en Jan Mayen  "
+
+#: src/Helpers.php:242
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Switzerland"
+msgctxt "(Admin)"
+msgid "Swaziland   "
+msgstr "Zwitserland"
+
+#: src/Helpers.php:243
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Syrian Arab Republic    "
+msgstr "Syrische Arabische Republiek    "
+
+#: src/Helpers.php:244
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Taiwan   "
+msgstr "Taiwan   "
+
+#: src/Helpers.php:245
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tajikistan  "
+msgstr "Tadzjikistan  "
+
+#: src/Helpers.php:246
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tanzania, United Republic of    "
+msgstr "Tanzania, Verenigde Republiek    "
+
+#: src/Helpers.php:247
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Thailand    "
+msgstr "Thailand    "
+
+#: src/Helpers.php:248
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Timor-Leste "
+msgstr "Oost-Timor "
+
+#: src/Helpers.php:249
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Togo    "
+msgstr "Togo    "
+
+#: src/Helpers.php:250
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tokelau "
+msgstr "Tokelau "
+
+#: src/Helpers.php:251
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tonga   "
+msgstr "Tonga   "
+
+#: src/Helpers.php:252
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Trinidad and Tobago "
+msgstr "Trinidad enTobago "
+
+#: src/Helpers.php:253
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tunisia "
+msgstr "Tunesië "
+
+#: src/Helpers.php:254
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Turkey  "
+msgstr "Turkije  "
+
+#: src/Helpers.php:255
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Turkmenistan    "
+msgstr "Turkmenistan    "
+
+#: src/Helpers.php:256
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Turks and Caicos Islands    "
+msgstr "Turks- en Caicoseilanden    "
+
+#: src/Helpers.php:257
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Tuvalu  "
+msgstr "Tuvalu  "
+
+#: src/Helpers.php:258
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Uganda  "
+msgstr "Oeganda  "
+
+#: src/Helpers.php:259
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Ukraine "
+msgstr "Oekraïne "
+
+#: src/Helpers.php:260
+#, fuzzy
+msgctxt "(Admin)"
+msgid "United Arab Emirates    "
+msgstr "Verenigde Arabische Emiraten    "
+
+#: src/Helpers.php:261
+#, fuzzy
+msgctxt "(Admin)"
+msgid "United States Minor Outlying Islands    "
+msgstr "Kleine buiteneilanden van de Verenigde Staten    "
+
+#: src/Helpers.php:262
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Uruguay "
+msgstr "Uruguay "
+
+#: src/Helpers.php:263
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Uzbekistan  "
+msgstr "Oezbekistan  "
+
+#: src/Helpers.php:264
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Vanuatu "
+msgstr "Vanuatu "
+
+#: src/Helpers.php:265
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Venezuela, Bolivarian Republic of   "
+msgstr "Venezuela, Bolivariaanse Republiek   "
+
+#: src/Helpers.php:266
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Viet Nam    "
+msgstr "Vietnam    "
+
+#: src/Helpers.php:267
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Virgin Islands, British "
+msgstr "Britse Maagdeneilanden "
+
+#: src/Helpers.php:268
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Virgin Islands, U.S.    "
+msgstr "Maagdeneilanden, VERENIGDE KONINKRIJK    "
+
+#: src/Helpers.php:269
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Wallis and Futuna   "
+msgstr "Wallis en Futuna   "
+
+#: src/Helpers.php:270
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Western Sahara  "
+msgstr "Westelijke Sahara  "
+
+#: src/Helpers.php:271
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Yemen   "
+msgstr "Jemen   "
+
+#: src/Helpers.php:272
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Zambia  "
+msgstr "Zambia  "
+
+#: src/Helpers.php:273
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Zimbabwe    "
+msgstr "Zimbabwe    "
+
+#: src/Helpers.php:288
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr "IJsland"
+
+#: src/Helpers.php:289
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr "Norwegen"
+
+#: src/Helpers.php:290
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Helpers.php:291
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+#: src/Helpers.php:292
+msgctxt "(Admin)"
+msgid "United States"
+msgstr "Verenigde Staten"
+
+#: src/Helpers.php:383
+msgid "An error has occurred. Please contact the site administrator."
+msgstr "Er is een fout opgetreden, neem contact op met de sitebeheerder."
+
+#: src/Installer/Installer.php:145
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Installatie Wizard"
+
+#: src/Installer/Steps/ConfigurationPages.php:24
+#: src/Installer/Steps/ConfigurationPages.php:34
+#: src/Installer/Steps/PolicySettings.php:24
+#: src/Installer/Steps/PolicySettings.php:49
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Maak nieuwe pagina aan &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:39
+msgctxt "(Admin)"
+msgid "We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr ""
+"We hebben automatisch je WooCommerce Algemene Voorwaarden pagina geselecteerd."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "gdpr voorwaarden tekst"
+
+#: src/Modules/ContactForm7/Flamingo.php:23
+#: views/modules/contact-form-7/form-privacy-tab.php:1
+msgid "Privacy"
+msgstr "Privacy"
+
+#: src/Modules/ContactForm7/Flamingo.php:67
+#, fuzzy
+msgid "Form submissions: "
+msgstr "Formulierinzendingen: "
+
+#: src/Modules/ContactForm7/Flamingo.php:162
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Do you want form to be GDPR compliance."
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Wilt u dat de vorm voldoet aan GDPR?"
+
+#: src/Modules/ContactForm7/Flamingo.php:163
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "You have installed flamingo, To make this GDPR compliance in individual "
+#| "contact form's privacy tab check the checkbox for include data to be search "
+#| "on Privacy tool."
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search on "
+"Privacy tool."
+msgstr ""
+"Je hebt flamingo geïnstalleerd. Om deze GDPR-conformiteit te bereiken in het "
+"privacytabblad van het individuele contactformulier vink je het selectievakje "
+"aan voor het opnemen van gegevens in de privacytool."
+
+#: src/Modules/EddGdpr/EddGdpr.php:48
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Company information"
+msgid "EDD Customer Information"
+msgstr "Bedrijfsinformatie"
+
+#: src/Modules/EddGdpr/EddGdpr.php:57
+#, fuzzy
+msgid "EDD Order Information"
+msgstr "EDD Bestelinformatie"
+
+#: src/Modules/EddGdpr/EddGdpr.php:66
+#, fuzzy
+msgid "EDD File Downloads"
+msgstr "EDD-bestandsdownloads"
+
+#: src/Modules/EddGdpr/EddGdpr.php:75
+#, fuzzy
+msgid "EDD API Access Logs"
+msgstr "EDD API-toegangslogboeken"
+
+#: src/Modules/NewsletterGdpr/NewsletterGdpr.php:82
+#, fuzzy
+msgid "Newsletter Form submissions: "
+msgstr "Nieuwsbrief Formulier inzendingen: "
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:47
+msgid "Customer Information"
+msgstr "Klant informatie"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:54
+msgid "Order Information"
+msgstr "Orderinformatie"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:165
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Bevestig het privacybeleid"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:180
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Your Privacy Policy has been generated."
+msgid "Privacy Policy consent is required!"
+msgstr "Uw privacybeleid is gegenereerd."
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr "Nonce fout voor actie \"%s\". Ga terug en probeer het opnieuw!"
+
+#: src/Router.php:149
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr "U heeft onvoldoende rechten om deze actie uit te voeren!"
+
+#: views/admin/consent.php:3
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Standaard toestemming types"
+
+#: views/admin/consent.php:4
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Dit zijn de toestemming typen die automatisch zijn geregistreerd door het "
+"framework of een plugin."
+
+#: views/admin/consent.php:7 views/admin/consent.php:53
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "Slug"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:61
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "Titel"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:64
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "Omschrijving"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: views/admin/consent.php:29
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Aangepaste toestemming typen"
+
+#: views/admin/consent.php:30
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used anywhere "
+"by default - you will need to build an integration for each of them."
+msgstr ""
+"Hier kunt u aangepaste toestemmingstypen toevoegen om bij te houden. Ze worden "
+"nergens standaard gebruikt - u moet voor elk daarvan een integratie maken."
+
+#: views/admin/consent.php:35
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Machineleesbare Slug (het gedeelte van de URL dat na de domeinnaam komt)"
+
+#: views/admin/consent.php:44 views/admin/consent.php:69
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Zichtbaar?"
+
+#: views/admin/consent.php:73
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: views/admin/consent.php:79
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Toon toestemmingstypes"
+
+#: views/admin/consent.php:80
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Voeg toestemmingstype toe"
+
+#: views/admin/consent.php:81
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Verberg toestemmingstypes"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "Aanvullende informatie"
+
+#: views/admin/consent.php:97
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Deze tekst wordt weergegeven bij je onderwerpen op de Privacy Tools pagina."
+
+#: views/admin/consent/enable-consent-until.php:11
+msgctxt "(Admin)"
+msgid " "
+msgstr " "
+
+#: views/admin/data-subjects/search-form.php:2
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"Op deze pagina kunt u zien welke onderwerpen met persoonlijke gegevens die u "
+"opslaat, downloaden en exporteren of verwijderen."
+
+#: views/admin/data-subjects/search-form.php:10
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Vind data onderwerp per e-mail"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "Zoeken"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: views/admin/data-subjects/search-results.php:13
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "No data found!"
+msgctxt "(Admin)"
+msgid "Data found."
+msgstr "Geen data gevonden!"
+
+#: views/admin/data-subjects/search-results.php:14
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "is niet een geregistreerde gebruiker."
+
+#: views/admin/data-subjects/search-results.php:21
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Gegevens downloaden (HTML)"
+
+#: views/admin/data-subjects/search-results.php:22
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Exporteer gegevens (JSON)"
+
+#: views/admin/data-subjects/search-results.php:26
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is disabled."
+msgstr ""
+"Deze gebruiker heeft beheerdersfuncties. Het verwijderen van gegevens via deze "
+"interface is uitgeschakeld."
+
+#: views/admin/data-subjects/search-results.php:29
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Gegevens anoniem maken"
+
+#: views/admin/data-subjects/search-results.php:30
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Gegevens verwijderen"
+
+#: views/admin/data-subjects/search-results.php:34
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Geen data gevonden!"
+
+#: views/admin/data-subjects/search-results.php:41
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Toestemmingen gegeven"
+
+#: views/admin/data-subjects/search-results.php:54
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "No consents given"
+msgctxt "(Admin)"
+msgid "No consents given!"
+msgstr "Geen toestemmingen gegeven"
+
+#: views/admin/general/custom-policy-url.php:6
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr "Laat dit leeg als de pagina met het privacybeleid al is geselecteerd"
+
+#: views/admin/general/custom-terms-url.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Leave blank if privacy policy page already selected"
+msgctxt "(Admin)"
+msgid "Leave blank if terms and condition page already selected"
+msgstr "Laat dit leeg als de pagina met het privacybeleid al is geselecteerd"
+
+#: views/admin/general/custom-tools-url.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Leave blank if privacy policy page already selected"
+msgctxt "(Admin)"
+msgid "Leave blank if privacy tools page already selected"
+msgstr "Laat dit leeg als de pagina met het privacybeleid al is geselecteerd"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Inhoud verwijderen"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Inhoud aan een gebruiker toewijzen"
+
+#: views/admin/general/delete-action-reassign.php:10
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Als de gebruiker inhoud op uw site heeft doorgegeven, moet het worden "
+"verwijderd of worden toegewezen aan een andere gebruiker?"
+
+#: views/admin/general/description-data-page.php:2
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Selecteer de pagina waar gebruikers naartoe kunnen om hun gegevens te beheren. "
+"Deze pagina moet de [gdpr_privacy_tools] shortcode bevatten."
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr ""
+"Wat moet er gebeuren als een betrokkene verzoekt om het verwijderen van zijn "
+"gegevens."
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their data."
+msgstr ""
+"Wat moet er gebeuren als een betrokkene verzoekt om het bekijken of exporteren "
+"van zijn gegevens."
+
+#: views/admin/general/description-position-action.php:2
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Selecteer de positie van de pop-up"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr "Optioneel. Selecteer de pagina met uw Algemene voorwaarden"
+
+#: views/admin/general/description-theme-action.php:2
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Selecteer thema van de Pop-up"
+
+#: views/admin/general/disble-checkbox.php:9
+msgctxt "(Admin)"
+msgid "."
+msgstr "."
+
+#: views/admin/general/edd-compatibility.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable EDD data on GDPR tool."
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Schakel EDD-gegevens in op GDPR-tool."
+
+#: views/admin/general/edd-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Werkt voor EDD versie 2.0.0 of nieuwer."
+
+#: views/admin/general/enable-policy-popup.php:9
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Schakel beleidskoppeling in pop-up in"
+
+#: views/admin/general/enable-popup.php:12
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+#| "accepted on popup accept button."
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b> Opmerking: </ b> Noodzaak om aangepaste inhoud toe te voegen <b> "
+"gdpr_cookie_consent </ b> is geaccepteerd op de knop Pop-up accepteren."
+
+#: views/admin/general/enable-tac.php:9
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr "Schakel de term en conditiepagina in."
+
+#: views/admin/general/enable.php:9
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Schakel de weergave-, export- en vergeet-functionaliteit in voor gebruikers en "
+"bezoekers"
+
+#: views/admin/general/enable.php:12
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows visitors "
+"to request viewing and deleting their personal data and withdraw consents."
+msgstr ""
+"Schakel de Privacy Tools-pagina in op de website en het beheergedeelte van de "
+"website. Hierdoor kunnen bezoekers een verzoek indienen om hun persoonlijke "
+"gegevens te bekijken en verwijderen of het intrekken van toestemmingen."
+
+#: views/admin/general/enable_popup_allow_content.php:3
+msgctxt "gdpr-framework"
+msgid "Accept"
+msgstr "Aanvaarden"
+
+#: views/admin/general/enable_popup_content.php:5
+msgctxt "gdpr-framework"
+msgid ""
+"This website uses cookies to ensure you get the best experience on our website."
+msgstr ""
+"Deze website maakt gebruik van cookies om ervoor te zorgen dat u de beste "
+"ervaring op onze website krijgt."
+
+#: views/admin/general/enable_popup_dismiss_content.php:3
+msgctxt "gdpr-framework"
+msgid "Decline"
+msgstr "afwijzen"
+
+#: views/admin/general/enable_popup_header.php:7
+#, fuzzy
+#| msgid "Leave blank if don't want header to get display."
+msgctxt "(Admin)"
+msgid "Leave blank if you don't want a header to get displayed."
+msgstr "Laat dit leeg als u niet wilt dat de header wordt weergegeven."
+
+#: views/admin/general/enable_popup_learnmore_content.php:3
+msgctxt "gdpr-framework"
+msgid "Learn more"
+msgstr "Kom meer te weten"
+
+#: views/admin/general/popup_link_target.php:3
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Volgende Teb"
+
+#: views/admin/general/popup_link_target.php:6
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "Zelf"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr "Basisstijl voor de pagina Privacytools inschakelen."
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Automatisch links toevoegen aan de footer voor de Privacy Policy en de Privacy "
+"Tools."
+
+#: views/admin/general/unknown-user-message.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This text will be displayed to your data subjects on the Privacy Tools page."
+msgctxt "(Admin)"
+msgid ""
+"This message is displayed if the email entered on the privacy tools page is "
+"not found."
+msgstr ""
+"Deze tekst wordt weergegeven bij je onderwerpen op de Privacy Tools pagina."
+
+#: views/admin/general/woo-compatibility.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable WooCommerce data on GDPR tool."
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Schakel WooCommerce-gegevens over GDPR-tool in."
+
+#: views/admin/general/woo-compatibility.php:12
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Werkt voor WooCommerce versie 3.4.0 of nieuwer."
+
+#: views/admin/notices/header-privacy-safe.php:5
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Privacy Safe By Data443"
+msgstr "Privacy veilig door Data443"
+
+#: views/admin/notices/header.php:5 views/admin/settings-page.php:3
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "The GDPR Framework"
+msgctxt "(Admin)"
+msgid "The GDPR Framework By Data443"
+msgstr "Het GDRP Framework"
+
+#: views/admin/notices/help.php:3 views/admin/settings-page.php:39
+#, fuzzy, php-format
+msgctxt "(Admin)"
+msgid "Need help? Take a look at our %sdocumentation%s."
+msgstr "Hulp nodig? Bekijk onze %sdocumentation%s."
+
+#: views/admin/notices/helper-autoinstall.php:2
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"Er is een pagina Privacy Policy aangemaakt, maar deze is leeg. U kunt op deze "
+"pagina een policy-sjabloon genereren."
+
+#: views/admin/notices/helper-autoinstall.php:6
+#, fuzzy, php-format
+#| msgid "I accept the %sPrivacy Policy%s"
+msgctxt "(Admin)"
+msgid "Read more about the %sPrivacy Policy%s"
+msgstr "Ik accepteer de %sPrivacy Policy%s"
+
+#: views/admin/notices/helper-policy.php:2
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the places "
+"marked with [TODO] and replace them with real content!"
+msgstr ""
+"Let op - uw privacybeleid vereist nog steeds enige aandacht. Zoek de plaatsen "
+"gemarkeerd met [TODO] en vervang ze door echte inhoud!"
+
+#: views/admin/notices/helper-settings.php:2
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Heads up! The GDPR Framework is not properly configured, so it will not work "
+"just yet."
+msgstr ""
+"Let op! Het GDPR Framework is niet goed geconfigureerd, dus het zal nog niet "
+"werken."
+
+#: views/admin/notices/helper-settings.php:4
+#, fuzzy, php-format
+msgctxt "(Admin)"
+msgid "Go to %sTools > Data443 GDPR%s and make sure all fields are filled in."
+msgstr ""
+"Ga naar %sTools > Data443 GDPR%s en zorg ervoor dat alle velden zijn ingevuld."
+
+#: views/admin/notices/helper-tools.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"De inhoud van deze pagina moet de [gdpr_privacy_tools] shortcode bevatten."
+
+#: views/admin/privacy-manager/header.php:2
+#: views/admin/privacy-manager/header.php:21
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443™ Privacy Manager"
+msgctxt "(Admin)"
+msgid "Data443™ Global Privacy Manager"
+msgstr "Data443™ Privacy Manager"
+
+#: views/admin/privacy-manager/header.php:3
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"zorgt voor naleving van de privacywetgeving, zoals GDPR, CCPA, LGPD, enz. op "
+"het volgende niveau."
+
+#: views/admin/privacy-manager/header.php:4
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Includes the following features:"
+msgstr "Bevat de volgende functies:"
+
+#: views/admin/privacy-manager/header.php:6
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Available within minutes – designed to be deployed to your website over the "
+"phone with one link!"
+msgstr ""
+"Beschikbaar binnen enkele minuten - ontworpen om via de telefoon op uw website "
+"te worden geïmplementeerd met één link!"
+
+#: views/admin/privacy-manager/header.php:7
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Fully branded Subject Access Request Form"
+msgstr "Aanvraagformulier voor toegang tot onderwerp volledig gebrandmerkt"
+
+#: views/admin/privacy-manager/header.php:8
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Custom Workflow Engine"
+msgstr "Aangepaste workflow-engine"
+
+#: views/admin/privacy-manager/header.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie and Consent Management Tracking"
+msgstr "Tracking van cookies en toestemmingsbeheer"
+
+#: views/admin/privacy-manager/header.php:10
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Opt-in and Opt-out Management"
+msgstr "Opt-in en Opt-out Beheer"
+
+#: views/admin/privacy-manager/header.php:11
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Do Not Sell Management Interface"
+msgstr "Verkoop geen beheerinterface"
+
+#: views/admin/privacy-manager/header.php:12
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Full On Premise and In Cloud Data Discovery"
+msgstr "Volledige on-premise en in cloud data discovery"
+
+#: views/admin/privacy-manager/header.php:13
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Complete End to End Data Mapping"
+msgstr "Volledige end-to-end gegevenstoewijzing"
+
+#: views/admin/privacy-manager/header.php:14
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Full Data Classification and Governance"
+msgstr "Volledige gegevensclassificatie en governance"
+
+#: views/admin/privacy-manager/header.php:15
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Data Deletion and Monitoring Compliance Management"
+msgstr "Gegevensverwijdering en monitoring van nalevingsbeheer"
+
+#: views/admin/privacy-manager/header.php:16
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Data Stores instantly available: Windows NTFS, OneDrive, Dropbox, Office365, "
+"GoogleMail, Salesforce, Quickbooks, MailChimp, Sharepoint, MySQL, MSSQL, "
+"PostGreSQL, Mongo"
+msgstr ""
+"Gegevensopslag direct beschikbaar: Windows NTFS, OneDrive, Dropbox, Office365, "
+"GoogleMail, Salesforce, Quickbooks, MailChimp, Sharepoint, MySQL, MSSQL, "
+"PostGreSQL, Mongo"
+
+#: views/admin/privacy-manager/header.php:17
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Data Stores addons available: over 200 SaaS, On Premise databases & File shares"
+msgstr ""
+"Data Stores addons beschikbaar: meer dan 200 SaaS, On Premise databases & File "
+"shares"
+
+#: views/admin/privacy-manager/header.php:18
+#, fuzzy
+msgctxt "(Admin)"
+msgid "PowerBI and Dashboarding"
+msgstr "PowerBI en Dashboarding"
+
+#: views/admin/privacy-manager/header.php:21
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Waar u zich ook bevindt op uw reis over gegevensprivacy, het uiteindelijke "
+"doel is compliance."
+
+#: views/admin/privacy-manager/header.php:21
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr "stelt uw organisatie in staat om te voldoen aan alle privacyregels."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr "Selecteer de pagina waar jullie Privacy-beleid op zal staan"
+
+#: views/admin/privacy-policy/generated.php:3
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Uw Privacy Policy is gegenereerd."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; Terug"
+
+#: views/admin/privacy-policy/has-dpo.php:11
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Ik heb een functionaris voor gegevensbescherming (DPO) aangesteld"
+
+#: views/admin/privacy-policy/header.php:2
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information you "
+"entered below."
+msgstr ""
+"Op deze pagina kunt u een Privacy Policy genereren op basis van de informatie "
+"die u hieronder heeft ingevoerd."
+
+#: views/admin/privacy-safe/enable-backlink.php:11
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> We need your support. By selecting to support Data443, a small "
+"link is added below the privacy safe seal linking back to our product page on "
+"data443.com. Uncheck if you prefer not to have the link display on your site."
+msgstr ""
+"<b>Opmerking:</b> We hebben uw steun nodig. Door ervoor te kiezen om Data443 "
+"te ondersteunen, wordt een kleine link toegevoegd onder het privacyveilige "
+"zegel dat teruglinkt naar onze productpagina op data443.com. Schakel het "
+"selectievakje uit als u de link liever niet op uw site wilt weergeven."
+
+#: views/admin/settings-page.php:8
+msgctxt "(Admin)"
+msgid "GDPR settings saved!"
+msgstr "GDPR Instellingen opgeslagen!"
+
+#: views/admin/settings-page.php:31
+#, fuzzy, php-format
+#| msgctxt "(Admin)"
+#| msgid "The GDPR Framework. Built with &#9829; by %sCodelight%s."
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sData443%s."
+msgstr "Het GDPR Framework. Ontwikkeld met &#9829; door %sCodelight%s."
+
+#: views/admin/settings-page.php:47
+#, fuzzy, php-format
+msgctxt "(Admin)"
+msgid "Support our development efforts! leave a %s5-star rating%s."
+msgstr ""
+"Steun onze ontwikkelingsinspanningen! laat een %s5-sterrenbeoordeling achter%s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:11
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Meer informatie nodig?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:17
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "Handleiding voor websitebeheerders"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:20
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Lees de volledige handleiding over GDRP complice."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:26
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Kennisbank"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:29
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr "Bekijk de kennisbank voor veel gestelde vragen en antwoorden."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:35
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Developer’s guide to GDPR"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:38
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr ""
+"We hebben een gedetailleerde gids die u helpt om uw sites compatibel te maken."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:46
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Hulp nodig?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:52
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Vraag een support-ticket aan"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:55
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request and "
+"we’ll get right on it!"
+msgstr ""
+"Heeft u een bug gevonden of heeft u een vraag over de plug-in? Dien een "
+"ondersteuningsverzoek in en we komen er meteen aan!"
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:61
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Vraag nu een consult aan"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:64
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr "Heeft u hulp nodig bij het voldoen aan uw site? We kunnen helpen!"
+
+#: views/admin/wizard-buttons.php:2
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Installatiewizard opnieuw uitvoeren"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr "Deze e-mail is puur ter info. Je hoeft geen verdere actie te ondernemen"
+
+#: views/email/action-forget.php:8
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "De betrokkene had een gebruikersaccount op uw website."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Iemand heeft om toegang tot uw gegevens gevraagd op"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Als dit een vergissing was, negeer dan deze e-mail en er zal niets gebeuren."
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "Ga naar het volgende adres om je data te beheren:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Deze link is 15 minuten geldig."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Iemand heeft om informatie over uw persoonlijke gegevens gevraagd op"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Geen van uw persoonlijke gegevens wordt opgeslagen op"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Als dit een vergissing was, negeer dan deze e-mail en er zal niets gebeuren."
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr "Ter herinnering: volgens de GDPR heb je 30 dagen om eraan te voldoen."
+
+#: views/global/delete-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Automatisch gegevens anonimiseren"
+
+#: views/global/delete-action.php:5
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Automatisch gegevens verwijderen"
+
+#: views/global/delete-action.php:9
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Gegevens automatisch anonimiseren en me via e-mail op de hoogte stellen"
+
+#: views/global/delete-action.php:13
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Automatisch gegevens verwijderen en me via e-mail op de hoogte stellen"
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Geef mij alleen via emaill bericht"
+
+#: views/global/export-action.php:2
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Data automatisch downloaden"
+
+#: views/global/export-action.php:6
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Downloaden gegevens automatisch en informeer me via e-mail"
+
+#: views/global/position-action.php:2
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Banner bottom"
+msgstr "Banner onderkant"
+
+#: views/global/position-action.php:5
+msgctxt "(Admin)"
+msgid "Floating left"
+msgstr "Links zwevend"
+
+#: views/global/position-action.php:8
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Floating Right"
+msgstr "Zwevend rechts"
+
+#: views/global/position-action.php:11
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Banner top"
+msgstr "Banner boven"
+
+#: views/global/theme-action.php:2
+msgctxt "(Admin)"
+msgid "Default"
+msgstr "Standaard"
+
+#: views/global/theme-action.php:5
+msgctxt "(Admin)"
+msgid "Classic"
+msgstr "Klassiek"
+
+#: views/global/theme-action.php:8
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Edgeless"
+msgstr "Randloos"
+
+#: views/installer/continue-notice.php:2
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "De opstelling van The GDPR Framework is nog niet voltooid."
+
+#: views/installer/continue-notice.php:3
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "U kunt de installatie op elk gewenst moment voortzetten."
+
+#: views/installer/continue-notice.php:6
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Ga verder met de setup-wizard"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Dit bericht verbergen"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "Terug"
+
+#: views/installer/header.php:7
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Setup Wizard"
+msgstr "WordPress GDPR &rsaquo; Wizard Setup"
+
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "Het GDRP Framework"
+
+#: views/installer/header.php:26
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "I need help"
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "Ik heb hulp nodig"
+
+#: views/installer/header.php:29
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Documenten voor Ontwikkelaars"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "Instellingen"
+
+#: views/installer/header.php:46
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Formulieren & Toestemming"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "Integraties"
+
+#: views/installer/privacy-safe-notice.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Strengthen your reputation. Privacy safe gives your customers total control of "
+"their private information. The privacy safe seal assures your new customers "
+"that your business is in compliance with new privacy laws and regulations. For "
+"the privacy safe seal will verify that GDPR Framework plugin is installed."
+msgstr ""
+"Versterk uw reputatie. Privacy safe geeft uw klanten totale controle over hun "
+"privé-informatie. Het privacyveilige zegel verzekert uw nieuwe klanten dat uw "
+"bedrijf voldoet aan de nieuwe privacywet- en regelgeving. Voor de privacy zal "
+"het veilige zegel controleren of de GDPR Framework-plug-in is geïnstalleerd."
+
+#: views/installer/privacy-safe-notice.php:9
+msgctxt "(Admin)"
+msgid "Learn More"
+msgstr "Leer meer"
+
+#: views/installer/privacy-safe-notice.php:12
+msgctxt "(Admin)"
+msgid "Maybe Later"
+msgstr "Misschien later"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Voer een e-mailadres in voor notificatie"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "Ik ga akkoord"
+
+#: views/installer/welcome-notice.php:2
+#, fuzzy
+#| msgid "The The GDPR Framework setup has not been finalized yet."
+msgctxt "(Admin)"
+msgid "The GDPR Framework has not been set up yet. Would you like to do that?"
+msgstr "De opstelling van The GDPR Framework is nog niet voltooid."
+
+#: views/installer/welcome-notice.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Our setup wizard will guide you through the process."
+msgstr "Onze installatiewizard leidt u door het proces."
+
+#: views/installer/welcome-notice.php:4
+#, fuzzy
+msgctxt "(Admin)"
+msgid "You can also configure the plugin manually by going to"
+msgstr "U kunt de plug-in ook handmatig configureren door naar"
+
+#: views/installer/welcome-notice.php:5
+msgctxt "(Admin)"
+msgid "Tools"
+msgstr "Tools"
+
+#: views/installer/welcome-notice.php:10
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Installatiewizard uitvoeren"
+
+#: views/installer/welcome-notice.php:14
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Pagina’s automatisch installeren"
+
+#: views/installer/welcome-notice.php:18
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Overslaan en handmatig installeren"
+
+#: views/modules/contact-form-7/form-privacy-tab.php:10
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Include the entries of this form when downloading or deleting a data subject's "
+"data."
+msgstr ""
+"Neem de invoer van dit formulier op bij het downloaden of verwijderen van de "
+"gegevens van een betrokkene."
+
+#: views/modules/contact-form-7/form-privacy-tab.php:18
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Select the mail-tag of the sender's email field (for example, your-email)."
+msgstr ""
+"Selecteer de e-mailtag van het e-mailveld van de afzender (bijvoorbeeld uw-e-"
+"mailadres)."
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Deze tag genereert de standaardtekst voor het selectievakje Algemene "
+"voorwaarden en/of Privacybeleid."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "Invoegen"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "Toestemming"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Hier kunt u alle toestemmingen die u heeft gegeven intrekken."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+msgid "Consents"
+msgstr "Toestemmingen"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "Terugtrekken"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:6
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Verwijder gebruiker en alle data"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:12
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Verwijder mijn gegevens"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:6 views/privacy-tools/form-delete.php:26
+msgid "Delete all data we have gathered about you."
+msgstr "Verwijder alle gegevens die wij van jou hebben verzameld."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:7 views/privacy-tools/form-delete.php:27
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr ""
+"Heeft u een gebruikersaccount op onze site, dan zal het deze ook worden "
+"verwijderd."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:18
+#: views/privacy-tools/form-delete.php:8 views/privacy-tools/form-delete.php:28
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr ""
+"Wees voorzichtig, deze actie kan niet ongedaan worden gemaakt en is permanent."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:20
+#: views/privacy-tools/form-delete.php:10
+msgid "Note Regarding Order:"
+msgstr "Opmerking met betrekking tot de bestelling:"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:21
+#: views/privacy-tools/form-delete.php:11
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Uw bestelling met status Verwerking wordt pas verwijderd als de status "
+"verandert."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+#: views/privacy-tools/form-delete.php:12
+msgid "Your order with status Completed will get anonymize."
+msgstr "Uw bestelling met de status Voltooid wordt geanonimiseerd."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:23
+#: views/privacy-tools/form-delete.php:13
+msgid "If you delete Completed order you can't apply for refund."
+msgstr ""
+"Als u de voltooide bestelling verwijdert, kunt u geen restitutie aanvragen."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:29
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/anonymizing "
+"via this page is disabled."
+msgstr ""
+"U lijkt een beheerder of een vergelijkbare rol te hebben, dus verwijderen/"
+"anonimiseren via deze pagina is uitgeschakeld."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Download uw gegevens"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:13
+msgid "Download as table"
+msgstr "Downloaden als tabel"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:22
+msgid "Export as JSON"
+msgstr "Exporteer gegevens (JSON)"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr "U kunt al uw gegevens downloaden om te bekijken in een tabel."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr ""
+"Als alternatief kun je de data exporteren naar een machine-leesbaar JSON "
+"formaat."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Verwijder gebruiker en alle data"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Anonimiseer gebruiker en alle data"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:18
+msgctxt "gdpr-framework"
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr ""
+"Wees voorzichtig, deze actie kan niet ongedaan worden gemaakt en is permanent."
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "Data GDPR, AVG (Algemene wet inzake Gegevensbescherming)"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Deze gebruiker is geanonimiseerd."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Geen toestemmingen gegeven"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:2
+#, fuzzy
+msgctxt "gdpr-framework"
+msgid "GDPR User logs"
+msgstr "GDPR Gebruikerslogboeken"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:8
+#, fuzzy
+msgctxt "gdpr-framework"
+msgid "S.no"
+msgstr "S.no"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:9
+msgctxt "gdpr-framework"
+msgid "User ID"
+msgstr "Gebruikers ID"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:10
+#, fuzzy
+msgctxt "gdpr-framework"
+msgid "User logs"
+msgstr "Gebruikerslogboeken"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:11
+msgctxt "gdpr-framework"
+msgid "Updated date"
+msgstr "Bijgewerkte datum"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:50
+#, fuzzy
+msgctxt "gdpr-framework"
+msgid "No User Logs"
+msgstr "Geen gebruikerslogboeken"
+
+#: views/privacy-tools/donotsell.php:14
+#, fuzzy
+#| msgid "Data removal request"
+msgid "Do Not Sell Request"
+msgstr "Verzoek tot verwijderen data"
+
+#: views/privacy-tools/donotsell.php:51
+#, fuzzy
+msgid "I agree to receive other communications from "
+msgstr "Ik ga ermee akkoord om andere communicatie te ontvangen van "
+
+#: views/privacy-tools/donotsell.php:61
+msgctxt "(Admin)"
+msgid "Send Request"
+msgstr "Verzoek versturen"
+
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Toestemming typen"
+
+#: views/privacy-tools/form-delete.php:3
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Mijn gebruiker en gegevens verwijderen"
+
+#: views/privacy-tools/form-delete.php:20 views/privacy-tools/form-delete.php:32
+msgid "Delete my data"
+msgstr "Verwijder mijn gegevens"
+
+#: views/privacy-tools/form-identify.php:8
+#, fuzzy
+msgid "Back to front page"
+msgstr "Terug naar voorpagina"
+
+#: views/privacy-tools/form-identify.php:14
+msgid "Please identify yourself via e-mail"
+msgstr "Identificeer uzelf via e-mail"
+
+#: views/privacy-tools/form-identify.php:17
+#: views/privacy-tools/form-identify.php:20
+msgid "Enter your email address"
+msgstr "Voer uw e-mailadres in"
+
+#: views/privacy-tools/form-identify.php:23
+msgid "Send email"
+msgstr "Verstuur email"
+
+#: views/privacy-tools/notice-admin-role.php:4
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr "Het verwijderen van data is uitgezet voor admin accounts."
+
+#: views/privacy-tools/notices.php:4
+msgid ""
+"We will send you an email with the link to access your data. Please check your "
+"spam folder as well!"
+msgstr ""
+"Wij sturen u een e-mail met de link voor toegang tot uw gegevens. Controleer "
+"je spam-map ook!"
+
+#: views/privacy-tools/notices.php:8
+msgid "The email you entered does not appear to be a valid email."
+msgstr "Het e-mailadres dat u hebt ingevoerd, lijkt ongeldig."
+
+#: views/privacy-tools/notices.php:12
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr "Sorry - de link lijkt verlopen. Probeer het opnieuw!"
+
+#: views/privacy-tools/notices.php:24
+msgid "Your personal data has been removed!"
+msgstr "Je persoonlijke data is verwijderd!"
+
+#: views/privacy-tools/privacy-tools.php:5
+msgid "You are identified as"
+msgstr "Je bent geïdentificeerd als"
+
+#. Plugin Name of the plugin/theme
+msgid "The GDPR Framework"
+msgstr "Het GDRP Framework"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.data443.com/gdpr-framework/"
+msgstr "https://www.data443.com/gdpr-framework/"
+
+#. Description of the plugin/theme
+msgid ""
+"Tools to help make your website GDPR-compliant. Fully documented, extendable "
+"and developer-friendly."
+msgstr ""
+"Gereedschap die u helpt om uw website GDPR-compatibel te maken. Volledig "
+"gedocumenteerd, uitbreidbaar en makkelijk voor de ontwikkelaar."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Data443"
+msgstr "Data443 AVG"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://www.data443.com/"
+msgstr "https://www.data443.com/"
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "You appear to be running a development version of GDPR. You must run "
+#~ "<code>composer install</code> from the plugin directory."
+#~ msgstr ""
+#~ "U lijkt een ontwikkelingsversie van GDPR te gebruiken. U moet u "
+#~ "<code>composer starten en installeren van </code> van de plugin map."
+
+#~ msgctxt "(Admin)"
+#~ msgid "Autoloader not found."
+#~ msgstr "Autoloader is niet gevonden."
+
+#, php-format
+#~ msgid "%sERROR:%s You need to accept the privacy policy to post a comment."
+#~ msgstr ""
+#~ "%sERROR:%s U moet het privacybeleid accepteren om een ​​reactie te plaatsen."
+
+#~ msgctxt "(Admin)"
+#~ msgid "Rest of the world"
+#~ msgstr "Overige landen"
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "Found a bug or problem with the plugin? Post in the wordpress.org support "
+#~ "forum."
+#~ msgstr ""
+#~ "Heeft u een bug of probleem met de plug-in gevonden? Plaats het op het "
+#~ "supportforum van wordpress.org."
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "Need development or legal assistance in making your site compliant? We can "
+#~ "help!"
+#~ msgstr ""
+#~ "Ondersteuning of juridische hulp nodig om je website GDRP compliant te "
+#~ "maken? Wij kunnen je helpen!"
+
+#, php-format
+#~ msgid "I accept the %sTerms and Conditions%s and the %sPrivacy Policy%s"
+#~ msgstr "Ik accepteer de %sAlgemene voorwaarden%s en de %sPrivacy Policy%s"
+
+#~ msgid "Manage consents"
+#~ msgstr "Toestemmingen beheren"
+
+#~ msgid "Back to Privacy Tools"
+#~ msgstr "Terug naar Privacy Tools"
+
+#~ msgid "Identify yourself!"
+#~ msgstr "Identificeer jezelf!"
+
+#~ msgctxt "(Admin)"
+#~ msgid "This page allows you to advance integration with ClassiDocs™"
+#~ msgstr "Op deze pagina kunt u de integratie met ClassiDocs ™ bevorderen"
+
+#~ msgctxt "(Admin)"
+#~ msgid "ClassiDocs Password"
+#~ msgstr "ClassiDocs-wachtwoord"
+
+#~ msgctxt "(Admin)"
+#~ msgid "ClassiDocs Username"
+#~ msgstr "ClassiDocs-gebruikersnaam"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Enable Response with related queries?"
+#~ msgstr "Reactie activeren met gerelateerde zoekopdrachten?"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Submit SAR request details?"
+#~ msgstr "SAR-aanvraaggegevens opgeven?"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Integrate with ClassiDocs?"
+#~ msgstr "Integreren met ClassiDocs?"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Integration Settings"
+#~ msgstr "Integratie-instellingen"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Advanced Integration"
+#~ msgstr "Geavanceerde integratie"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Sign up for free here"
+#~ msgstr "Meld je hier gratis aan"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Click Here"
+#~ msgstr "Klik hier"
+
+#~ msgid "Previous Results"
+#~ msgstr "Risultati precedenti"
+
+#~ msgid "Current Results"
+#~ msgstr "Risultati attuali"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Path"
+#~ msgstr "Sentiero"
+
+#~ msgid "Workstation"
+#~ msgstr "stazione di lavoro"
+
+#~ msgid "No ClassiDocs data found!"
+#~ msgstr "Nessun dato ClassiDocs trovato!"
+
+#~ msgid "Cookies used on the website!"
+#~ msgstr "Cookies gebruikt op de website!"
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "In addition to DSAR tracking and management, Privacy Manager adds the "
+#~ "following features to your data protection compliance resources:"
+#~ msgstr ""
+#~ "Naast het volgen en beheren van DSAR voegt Privacy Manager de volgende "
+#~ "functies toe aan uw compliance-bronnen voor gegevensbescherming:"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Log and store ICO breach notifications"
+#~ msgstr "Registreer en bewaar ICO-inbreukmeldingen"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Keeps full record of all requests, ticketed and timeline"
+#~ msgstr "Houdt volledig overzicht van alle verzoeken, ticketed en tijdlijn"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Gap analysis and breach notifications"
+#~ msgstr "Gap-analyse en meldingen wegens overtreding"
+
+#~ msgctxt "(Admin)"
+#~ msgid "In depth activity log with all GDPR, CCPA, etc actions evidenced"
+#~ msgstr ""
+#~ "Diepgaand activiteitenlogboek met alle GDPR-, CCPA-, enz. Acties bewezen"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Highlights areas of concern and where you need to focus"
+#~ msgstr "Markeert zorgwekkende gebieden en waar u moet focussen"
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "eLearning platform with access for all staff to ensure privacy regulation "
+#~ "compliance and obligations"
+#~ msgstr ""
+#~ "e-learningplatform met toegang voor alle medewerkers om te zorgen voor "
+#~ "naleving en verplichtingen van privacyregelingen"
+
+#~ msgctxt "(Admin)"
+#~ msgid "Tracks who accesses the system, when and why"
+#~ msgstr "Geeft aan wie toegang heeft tot het systeem, wanneer en waarom"
+
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "Our system enables your business to demonstrate its obligations in "
+#~ "protecting your customer data, show understanding of your business "
+#~ "activities and deliver eLearning and online tests to employees, ensuring "
+#~ "everyone in your company understands your privacy compliance rules and best "
+#~ "practices to operate."
+#~ msgstr ""
+#~ "Ons systeem stelt uw bedrijf in staat om zijn verplichtingen aan te tonen "
+#~ "bij het beschermen van uw klantgegevens, inzicht in uw bedrijfsactiviteiten "
+#~ "te tonen en eLearning en online tests aan werknemers te leveren, zodat "
+#~ "iedereen in uw bedrijf uw privacymaatregelen en best practices begrijpt."
+
+#~ msgctxt "(Admin)"
+#~ msgid "Enable WooCommerce data on GDPR tool"
+#~ msgstr "Schakel WooCommerce-gegevens over GDPR-tool in"

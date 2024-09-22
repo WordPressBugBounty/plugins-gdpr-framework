@@ -1,0 +1,4477 @@
+# Translation of Plugins - The GDPR Framework By Data443 - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - The GDPR Framework By Data443 - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - The GDPR Framework By Data443 - Development "
+"(trunk)\n"
+"Report-Msgid-Bugs-To: gdpr@codelight.eu\n"
+"POT-Creation-Date: 2022-04-18 11:06-0400\n"
+"PO-Revision-Date: 2022-04-18 11:17-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: gdpr-framework.php:111
+msgid "First Name"
+msgstr "Förnamn"
+
+#: gdpr-framework.php:112
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: gdpr-framework.php:113
+msgid "Email"
+msgstr "E-post"
+
+#: gdpr-framework.php:140
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "WordPress GDPR &rsaquo; Error"
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Error"
+msgstr "WordPress GDPR &rsaquo; Fel"
+
+#: gdpr-framework.php:151
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "You must be using PHP 5.6.0 or greater."
+msgctxt "(Admin)"
+msgid "You must be using PHP 5.6.0 or greater."
+msgstr "Du måste använda PHP 5.6.0 eller senare."
+
+#: gdpr-framework.php:152
+msgctxt "(Admin)"
+msgid "Invalid PHP version"
+msgstr "Ogiltig version av PHP"
+
+#: gdpr-framework.php:162
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "You must be using WordPress 4.3.0 or greater."
+msgctxt "(Admin)"
+msgid "You must be using WordPress 4.3.0 or greater."
+msgstr "Du måste använda WordPress 4.3.0 eller senare."
+
+#: gdpr-framework.php:163
+msgctxt "(Admin)"
+msgid "Invalid WordPress version"
+msgstr "Ogiltig WordPress-version"
+
+#: gdpr-framework.php:236
+msgctxt "(Admin)"
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: gdpr-helper-functions.php:195
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Denna webbplats använder cookies för att ge dig den bästa upplevelsen av vår "
+"webbplats."
+
+#: gdpr-helper-functions.php:208
+msgid "Decline"
+msgstr "Avböj"
+
+#: gdpr-helper-functions.php:221
+msgid "Accept"
+msgstr "Acceptera"
+
+#: gdpr-helper-functions.php:234
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: gdpr-helper-functions.php:289
+msgid "Cookie Policy"
+msgstr "Cookie-policy"
+
+#: gdpr-helper-functions.php:327
+msgid "Settings"
+msgstr "Inställningar"
+
+#: gdpr-helper-functions.php:328
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: src/Admin/AdminTab.php:208
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:114
+msgctxt "(Admin)"
+msgid "Save"
+msgstr "Spara"
+
+#: src/Admin/AdminTab.php:244
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Policy generated!"
+msgctxt "(Admin)"
+msgid "Policy generated!"
+msgstr "Policy skapad!"
+
+#: src/Admin/AdminTabGeneral.php:11
+msgctxt "(Admin)"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/Admin/AdminTabGeneral.php:56
+msgctxt "(Admin)"
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: src/Admin/AdminTabGeneral.php:61
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable Privacy Tools"
+msgctxt "(Admin)"
+msgid "Enable Privacy Tools"
+msgstr "Aktivera integritetsverktyg"
+
+#: src/Admin/AdminTabGeneral.php:68
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable the term and condition page."
+msgctxt "(Admin)"
+msgid "Enable Term and Conditions"
+msgstr "Aktivera term och villkorssidan."
+
+#: src/Admin/AdminTabGeneral.php:75
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Comment Checkbox"
+msgctxt "(Admin)"
+msgid "Disable Comment Checkbox"
+msgstr "Inaktivera kryssruta för kommentar"
+
+#: src/Admin/AdminTabGeneral.php:82
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Register Form Checkbox"
+msgctxt "(Admin)"
+msgid "Disable Register Form Checkbox"
+msgstr "Inaktivera kryssruta för registreringsformulär"
+
+#: src/Admin/AdminTabGeneral.php:92
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Email Setting"
+msgctxt "(Admin)"
+msgid "Email Setting"
+msgstr "E-postinställningar"
+
+#: src/Admin/AdminTabGeneral.php:97
+msgctxt "(Admin)"
+msgid "From Name"
+msgstr "Från namn"
+
+#: src/Admin/AdminTabGeneral.php:104
+msgctxt "(Admin)"
+msgid "From Email"
+msgstr "Från e-post"
+
+#: src/Admin/AdminTabGeneral.php:113
+msgctxt "(Admin)"
+msgid "Pages"
+msgstr "Sidor"
+
+#: src/Admin/AdminTabGeneral.php:118 src/Admin/WordpressAdmin.php:166
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy Tools Page"
+msgctxt "(Admin)"
+msgid "Privacy Tools Page"
+msgstr "Sida för integritetsverktyg"
+
+#: src/Admin/AdminTabGeneral.php:125
+#, fuzzy
+#| msgid "Privacy Tools"
+msgctxt "(Admin)"
+msgid "Privacy Tools Custom URL"
+msgstr "Integritetsverktyg"
+
+#: src/Admin/AdminTabGeneral.php:132 src/Admin/WordpressAdmin.php:162
+msgctxt "(Admin)"
+msgid "Privacy Policy Page"
+msgstr "Integritetsspolicysida"
+
+#: src/Admin/AdminTabGeneral.php:139
+msgctxt "(Admin)"
+msgid "Privacy Policy Custom URL"
+msgstr "Integritetsspolicy anpassad URL"
+
+#: src/Admin/AdminTabGeneral.php:146
+msgctxt "(Admin)"
+msgid "Terms & Conditions Page"
+msgstr "Användarvillkors sida"
+
+#: src/Admin/AdminTabGeneral.php:153
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Terms & Conditions Page"
+msgctxt "(Admin)"
+msgid "Terms & Conditions Custom URL"
+msgstr "Sida för användarvillkor"
+
+#: src/Admin/AdminTabGeneral.php:163
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "View & Export Data"
+msgctxt "(Admin)"
+msgid "View & Export Data"
+msgstr "Visa och exportera uppgifter"
+
+#: src/Admin/AdminTabGeneral.php:168
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Export action"
+msgctxt "(Admin)"
+msgid "Export action"
+msgstr "Exportåtgärd"
+
+#: src/Admin/AdminTabGeneral.php:175 src/Admin/AdminTabGeneral.php:221
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Email to notify"
+msgctxt "(Admin)"
+msgid "Email to notify"
+msgstr "E-post att notifiera"
+
+#: src/Admin/AdminTabGeneral.php:183
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Unknown Data Subject Message"
+msgstr "Okänt meddelande om registrerade"
+
+#: src/Admin/AdminTabGeneral.php:193
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete & Anonymize Data"
+msgctxt "(Admin)"
+msgid "Delete & Anonymize Data"
+msgstr "Ta bort och anonymisera uppgifter"
+
+#: src/Admin/AdminTabGeneral.php:198
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete action"
+msgctxt "(Admin)"
+msgid "Delete action"
+msgstr "Ta bort åtgärd"
+
+#: src/Admin/AdminTabGeneral.php:205
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete or reassign content?"
+msgctxt "(Admin)"
+msgid "Delete or reassign content?"
+msgstr "Ta bort eller tilldela innehåll?"
+
+#: src/Admin/AdminTabGeneral.php:213
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Reassign content to"
+msgctxt "(Admin)"
+msgid "Reassign content to"
+msgstr "Tilldela innehåll till"
+
+#: src/Admin/AdminTabGeneral.php:233
+msgctxt "(Admin)"
+msgid "Styling"
+msgstr "Styling"
+
+#: src/Admin/AdminTabGeneral.php:238
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable basic styling on Privacy Tools page"
+msgctxt "(Admin)"
+msgid "Enable basic styling on Privacy Tools page"
+msgstr "Aktivera grundläggande stilmall för sidan för integritetsverktyg"
+
+#: src/Admin/AdminTabGeneral.php:250
+msgctxt "(Admin)"
+msgid "Compatibility"
+msgstr "Kompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:255
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable automatic theme compatibility"
+msgctxt "(Admin)"
+msgid "Enable automatic theme compatibility"
+msgstr "Aktivera automatisk temakompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:267
+msgctxt "(Admin)"
+msgid "Woocommerce Integration"
+msgstr "Integrering med WooCommerce"
+
+#: src/Admin/AdminTabGeneral.php:272
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable WooCommerce Compatibility"
+msgctxt "(Admin)"
+msgid "Enable WooCommerce Compatibility"
+msgstr "Aktivera WooCommerce-kompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:279
+#: views/admin/general/woo-disable_checkbox.php:10
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Comment Checkbox"
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Privacy Checkbox"
+msgstr "Inaktivera kryssruta för kommentar"
+
+#: src/Admin/AdminTabGeneral.php:286
+#: views/admin/general/woo-disable_register_checkbox.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Register Form Checkbox"
+msgctxt "(Admin)"
+msgid "Disable WooCommerce Register Privacy Checkbox"
+msgstr "Inaktivera kryssruta för registreringsformulär"
+
+#: src/Admin/AdminTabGeneral.php:298
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Easy Digital Download Integration"
+msgstr "Enkel integrering av digital nedladdning"
+
+#: src/Admin/AdminTabGeneral.php:303
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable WooCommerce Compatibility"
+msgctxt "(Admin)"
+msgid "Enable EDD Compatibility"
+msgstr "Aktivera WooCommerce-kompatibilitet"
+
+#: src/Admin/AdminTabGeneral.php:333
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:184
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Comment Checkbox"
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Comments"
+msgstr "Inaktivera kryssruta för kommentar"
+
+#: src/Admin/AdminTabGeneral.php:342
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:192
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Disable Register Form Checkbox"
+msgctxt "(Admin)"
+msgid "Disable Checkbox For Register Form"
+msgstr "Inaktivera kryssruta för registreringsformulär"
+
+#: src/Admin/AdminTabGeneral.php:431 src/Admin/AdminTabGeneral.php:448
+#: src/Admin/AdminTabGeneral.php:476 src/Admin/AdminTabGeneral.php:552
+#: views/installer/steps/configuration-settings.php:62
+msgctxt "(Admin)"
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Välj &mdash;"
+
+#: src/Admin/WordpressAdmin.php:65
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy & GDPR Settings"
+msgctxt "(Admin)"
+msgid "Privacy & GDPR Settings"
+msgstr "Integritets- och GDPR-inställningar"
+
+#: src/Admin/WordpressAdmin.php:66 views/installer/welcome-notice.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443 GDPR"
+msgctxt "(Admin)"
+msgid "Data443 GDPR"
+msgstr "Data443 GDPR"
+
+#: src/Components/AdvancedIntegration/AdminTabAdvancedIntegration.php:17
+#: src/Components/AdvancedIntegration/AdminTabAdvancedIntegration.php:26
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data found."
+msgctxt "(Admin)"
+msgid "Data Hound"
+msgstr "Data hittades."
+
+#: src/Components/Consent/AdminTabConsent.php:30
+#: src/Components/Consent/AdminTabConsent.php:50
+msgctxt "(Admin)"
+msgid "Consent"
+msgstr "Samtycke"
+
+#: src/Components/Consent/AdminTabConsent.php:55
+msgctxt "(Admin)"
+msgid "Additional Settings"
+msgstr "Ytterligare inställningar"
+
+#: src/Components/Consent/AdminTabConsent.php:60
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Display Consent Calendar"
+msgstr "Visa samtyckeskalender"
+
+#: src/Components/Consent/AdminTabConsent.php:172
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Consent slug is a required field!"
+msgctxt "(Admin)"
+msgid "Consent slug is a required field!"
+msgstr "Samtyckespermalänk är ett obligatoriskt fält!"
+
+#: src/Components/Consent/AdminTabConsent.php:177
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "You may only use alphanumeric characters, dash and underscore in the "
+#| "consent slug field."
+msgctxt "(Admin)"
+msgid ""
+"You may only use alphanumeric characters, dash and underscore in the consent "
+"slug field."
+msgstr ""
+"Du får enbart använda alfanumeriska tecken, bindestreck och understreck i "
+"fältet för samtyckespermalänk."
+
+#: src/Components/Consent/AdminTabConsent.php:182
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Consent title is a required field!"
+msgctxt "(Admin)"
+msgid "Consent title is a required field!"
+msgstr "Samtyckesrubrik är ett obligatoriskt fält!"
+
+#: src/Components/Consent/AdminTabConsent.php:194
+msgid ""
+"To use this website, you accepted our Privacy Policy. If you wish to "
+"withdraw your acceptance, please use the \"Delete my data\" button below."
+msgstr ""
+"Genom att använda denna webbplats har du godkänt vår integritetspolicy. Om "
+"du önskar att återkalla ditt samtycke, använd knappen ”Radera mina "
+"uppgifter” nedan."
+
+#: src/Components/Consent/AdminTabConsent.php:197
+#, fuzzy
+msgid ""
+"Enable this feature to allow users to submit a time limit on how many months "
+"their consent is given for their coments and registration."
+msgstr ""
+"Aktivera den här funktionen så att användarna kan skicka in en tidsgräns för "
+"hur många månader deras samtycke ges för deras coments och registrering."
+
+#: src/Components/Consent/ConsentManager.php:55
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:146
+#, php-format
+msgid "I accept the %sPrivacy Policy%s"
+msgstr "Jag godkänner %sintegritetspolicyn%s"
+
+#: src/Components/Consent/ConsentManager.php:59
+#: src/Components/Consent/ConsentManager.php:103
+#: src/Components/Consent/ConsentManager.php:111
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This consent is not visible by default. If someone wishes to withdraw it, "
+#| "they should simply request to delete all their data."
+msgctxt "(Admin)"
+msgid ""
+"This consent is not visible by default. If someone wishes to withdraw it, "
+"they should simply request to delete all their data."
+msgstr ""
+"Detta samtycke visas inte som standard. Om någon vill återkalla sitt "
+"samtycke, behöver de be om radering av samtlig uppgifter om dem."
+
+#: src/Components/Consent/ConsentManager.php:70
+#, fuzzy
+msgid "Do Not Sell My Data"
+msgstr "Sälj inte mina uppgifter"
+
+#: src/Components/Consent/ConsentManager.php:72
+#, fuzzy
+msgctxt "(Admin)"
+msgid "I do not consent to having my information sold by "
+msgstr "Jag samtycker inte till att mina uppgifter säljs av "
+
+#: src/Components/Consent/ConsentManager.php:79
+#, fuzzy
+#| msgid "I agree to receive other communications from "
+msgid "Receive Communications from "
+msgstr "Jag samtycker till att ta emot annan kommunikation från "
+
+#: src/Components/Consent/ConsentManager.php:81
+msgctxt "(Admin)"
+msgid "I agree to receive other communications from "
+msgstr "Jag samtycker till att ta emot annan kommunikation från "
+
+#: src/Components/Consent/ConsentManager.php:99
+#, php-format
+msgid "I accept the %sTerms & Conditions%s"
+msgstr "Jag godkänner %sanvändarvillkoren%s"
+
+#: src/Components/Consent/ConsentManager.php:110
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Site Cookie Consent"
+msgstr "Samtycke till webbplatscookie"
+
+#: src/Components/Consent/ConsentManager.php:120
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Woocommerce Policy Consent"
+msgstr "Samtycke från Woocommerce Policy"
+
+#: src/Components/Consent/ConsentManager.php:121
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This consent is not visible by default. If someone wishes to withdraw it, "
+#| "they should simply request to delete all their data."
+msgctxt "(Admin)"
+msgid ""
+"This consent is visible by default on woocommerce checkout page. If someone "
+"wishes to withdraw it, they should simply request to delete all their data."
+msgstr ""
+"Detta samtycke visas inte som standard. Om någon vill återkalla sitt "
+"samtycke, behöver de be om radering av samtlig uppgifter om dem."
+
+#: src/Components/Consent/ConsentManager.php:404
+msgid "Consent Information"
+msgstr "Samtyckesinformation"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:17
+msgctxt "(Admin)"
+msgid "Cookie Popup"
+msgstr "Cookie popup"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:44
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Popup Settings"
+msgstr "Popup-inställningar för cookies"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:48
+#: views/admin/general/enable-popup.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Enable Cookie Acceptance Popup"
+msgstr "Aktivera popup-fönster för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:54
+#: views/admin/general/enable-onetime-popup.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Enable One Time Cookie Acceptance Popup"
+msgstr "Aktivera popup-popup för acceptans av engångscookie"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:60
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable Privacy Tools"
+msgctxt "(Admin)"
+msgid "Enable Privacy policy on Popup"
+msgstr "Aktivera integritetsverktyg"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:66
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup header"
+msgstr "Popup-rubrik för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:72
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Popup Content"
+msgstr "Popup-innehåll för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:81
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Acceptance Popup Setting"
+msgstr "Popup-inställning för godkännande"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:86
+msgctxt "(Admin)"
+msgid "Popup Position"
+msgstr "Position på popup"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:93
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Popup theme"
+msgctxt "(Admin)"
+msgid "Popup theme"
+msgstr "Popup-tema"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:100
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Popup Allow Text"
+msgstr "Popup Tillåt text"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:107
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Popup Dismiss Text"
+msgstr "Popup-avvisning av text"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:114
+msgctxt "(Admin)"
+msgid "Popup Learn More Text"
+msgstr "Popup läs mer text"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:121
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance link target"
+msgstr "Länkmål för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:128
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Background Color"
+msgstr "Bakgrundsfärg för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:135
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Text Color"
+msgstr "Textfärg för cookieacceptans"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:142
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Backgroung Color"
+msgstr "Cookie Acceptans knapp Backgroung Färg"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:149
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Button Color"
+msgstr "Färg på knappen Cookie-godkännande"
+
+#: src/Components/CookiePopup/AdminTabCookiePopup.php:156
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie Acceptance Border Color"
+msgstr "Färg på gränsfärg för cookieacceptans"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:17
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:28
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Do Not Sell My Data"
+msgstr "Sälj inte mina uppgifter"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:34
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:62
+msgctxt "(Admin)"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:40
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:68
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Shortcode for PHP"
+msgctxt "(Admin)"
+msgid "Shortcode for PHP"
+msgstr "Kortkod för PHP"
+
+#: src/Components/DoNotSell/AdminTabDoNotSell.php:46
+#, fuzzy
+msgctxt "(Admin)"
+msgid "View Requests"
+msgstr "Visa förfrågningar"
+
+#: src/Components/PrivacyManager/AdminTabPrivacyManager.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy Manager"
+msgctxt "(Admin)"
+msgid "Global Privacy Manager"
+msgstr "Integritetshanterare"
+
+#: src/Components/PrivacyManager/AdminTabPrivacyManager.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy Manager"
+msgctxt "(Admin)"
+msgid "Privacy Manager"
+msgstr "Integritetshanterare"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:19
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:62
+#: views/admin/privacy-policy/generated.php:1 views/installer/header.php:41
+msgctxt "(Admin)"
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:71
+msgctxt "(Admin)"
+msgid "Company information"
+msgstr "Företagsinformation"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:76
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:224
+msgctxt "(Admin)"
+msgid "Company Name"
+msgstr "Företagsnamn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:84
+msgctxt "(Admin)"
+msgid "Company Email"
+msgstr "Företagets Email"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:91
+msgctxt "(Admin)"
+msgid "Company Location"
+msgstr "Ort"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:107
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:263
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Representative Contact Name"
+msgctxt "(Admin)"
+msgid "Representative Contact Name"
+msgstr "Representants namn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:114
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:271
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Representative Contact Email"
+msgctxt "(Admin)"
+msgid "Representative Contact Email"
+msgstr "Representants e-postadress"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:121
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:279
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Representative Contact Phone"
+msgctxt "(Admin)"
+msgid "Representative Contact Phone"
+msgstr "Representants telefonnummer"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:137
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Authority"
+msgctxt "(Admin)"
+msgid "Data Protection Authority"
+msgstr "Dataskyddsmyndighet"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:143
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:309
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Authority Website"
+msgctxt "(Admin)"
+msgid "Data Protection Authority Website"
+msgstr "Dataskyddsmyndighetens webbplats"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:150
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:317
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Authority Email"
+msgctxt "(Admin)"
+msgid "Data Protection Authority Email"
+msgstr "Dataskyddsmyndighetens e-postadress"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:157
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:325
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Authority Phone"
+msgctxt "(Admin)"
+msgid "Data Protection Authority Phone"
+msgstr "Dataskyddsmyndighetens telefonnummer"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:167
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:177
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Officer"
+msgctxt "(Admin)"
+msgid "Data Protection Officer"
+msgstr "Dataskyddsombud"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:170
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint a Data Protection Officer?"
+msgstr "Kunskapsdatabas: Behöver jag ett dataskyddsombud?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:184
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Officer Name"
+msgctxt "(Admin)"
+msgid "Data Protection Officer Name"
+msgstr "Dataskyddsombudets namn"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:192
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Protection Officer Email"
+msgctxt "(Admin)"
+msgid "Data Protection Officer Email"
+msgstr "Dataskyddsombudets e-postadress"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:204
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:360
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete Text"
+msgctxt "(Admin)"
+msgid "Delete Text"
+msgstr "Ta bort text"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:232
+msgctxt "(Admin)"
+msgid "Contact Email"
+msgstr "E-post för kontakt"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:252
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Representative Contact"
+msgctxt "(Admin)"
+msgid "Representative Contact"
+msgstr "Representantkontakt"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:255
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgctxt "(Admin)"
+msgid "Knowledge base: Do I need to appoint an EU-based representative?"
+msgstr "Kunskapsdatabas: Behöver jag en EU-baserad representant?"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:295
+#, fuzzy, php-format
+#| msgctxt "(Admin)"
+#| msgid "See the %slist of contacts here%s."
+msgctxt "(Admin)"
+msgid "See the %slist of contacts here%s."
+msgstr "Se %slistan av kontakter här%s."
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:344
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "DPO Name"
+msgctxt "(Admin)"
+msgid "DPO Name"
+msgstr "Namn DPO (dataskyddsombud)"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:352
+msgctxt "(Admin)"
+msgid "DPO Email"
+msgstr "DSO e-post"
+
+#: src/Components/PrivacyPolicy/AdminTabPrivacyPolicy.php:436
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Save & Generate Policy"
+msgctxt "(Admin)"
+msgid "Save & Generate Policy"
+msgstr "Spara och skapa policy"
+
+#: src/Components/PrivacyPolicy/PrivacyPolicy.php:86
+#: src/Installer/Installer.php:316 src/Installer/Steps/PolicySettings.php:214
+#: views/themes/storefront/footer.php:3
+#: views/themes/twentyseventeen/footer.php:3
+#: views/themes/twentysixteen/footer.php:4
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy Manager"
+msgctxt "(Admin)"
+msgid "Privacy Safe"
+msgstr "Integritetshanterare"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:33
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Privacy Safe by Data443"
+msgstr "Sekretesssäkert av Data443"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:38
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Register for Privacy Safe"
+msgstr "Registrera dig för Sekretesssäker"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:44
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Privacy & GDPR Settings"
+msgctxt "(Admin)"
+msgid "Privacy Safe Settings"
+msgstr "Integritets- och GDPR-inställningar"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:50
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Seal Code"
+msgstr "Kod för försegling"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:56
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Image Code"
+msgstr "Bildkod"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:74
+#, fuzzy
+#| msgid "Data443"
+msgctxt "(Admin)"
+msgid "Support Data443"
+msgstr "Data443"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:83
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Strengthen your reputation. The privacy safe seal assures your customers "
+"that your business is in compliance with privacy laws and regulations. The "
+"privacy safe seal will verify that the GDPR Framework plugin is installed."
+msgstr ""
+"Stärk ditt rykte. Den integritetssäkra förseglingen försäkrar dina kunder "
+"att ditt företag följer sekretesslagar och förordningar. Den "
+"integritetssäkra tätningen verifierar att GDPR Framework-plugin är "
+"installerat."
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:86
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Register now to activate your Privacy Safe seal. Visit the link below, "
+"complete the complete the checkout process. Once approved you will recieve "
+"notice to get your seal code and image code. Enter those here and save. You "
+"can then place the seal where you would like on your site."
+msgstr ""
+"Registrera dig nu för att aktivera din Privacy Safe-tätning. Besök länken "
+"nedan, slutför hela kassaprocessen. När du har godkänts får du meddelande om "
+"att du får din tätningskod och bildkod. Ange dem här och spara. Du kan sedan "
+"placera förseglingen där du vill på din webbplats."
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:86
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Register Here"
+msgstr "Registrera dig här"
+
+#: src/Components/PrivacySafe/AdminTabPrivacySafe.php:89
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Embed the shortcode provided to display your privacy safe seal."
+msgstr ""
+"Bädda in den medföljande kortkoden för att visa din integritetssäkra tätning."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:23
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:57
+msgid "This page is currently disabled."
+msgstr "Denna sida är för närvarande inaktiverad."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:27
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:61
+#, fuzzy
+msgid "Please configure the Privacy Tools page in the admin interface."
+msgstr "Konfigurera sidan Sekretessverktyg i administratörsgränssnittet."
+
+#: src/Components/PrivacyToolsPage/PrivacyToolsPageShortcode.php:43
+#: src/Installer/Installer.php:325
+#: src/Installer/Steps/ConfigurationPages.php:67
+#: views/themes/storefront/footer.php:7
+#: views/themes/twentyseventeen/footer.php:7
+#: views/themes/twentysixteen/footer.php:9
+msgid "Privacy Tools"
+msgstr "Integritetsverktyg"
+
+#: src/Components/Support/AdminTabSupport.php:13
+#: src/Components/Support/AdminTabSupport.php:20
+msgctxt "(Admin)"
+msgid "Support"
+msgstr "Support"
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:54
+#: views/privacy-tools/notices.php:20
+msgid "We have received your request and will reply within 30 days."
+msgstr "Vi har tagit emot din förfrågan och återkommer inom 30 dagar."
+
+#: src/Components/WordpressUser/Controllers/DashboardDataPageController.php:59
+#: views/privacy-tools/notices.php:16
+msgid "Consent withdrawn."
+msgstr "Samtycke återkallat."
+
+#: src/Components/WordpressUser/RegistrationForm.php:58
+msgid "<strong>ERROR</strong>: You must accept the terms and conditions."
+msgstr "<strong>FEL</strong>: Du måste godkänna användarvillkoren."
+
+#: src/Components/WordpressUser/WordpressUser.php:64
+#: src/Components/WordpressUser/WordpressUser.php:65
+#: views/modules/wordpress-user/dashboard/data-page/header.php:2
+msgctxt "(Admin)"
+msgid "Privacy Tools"
+msgstr "Integritetsverktyg"
+
+#: src/DataSubject/AdminTabDataSubject.php:27
+#: src/DataSubject/AdminTabDataSubject.php:41
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data Subjects"
+msgctxt "(Admin)"
+msgid "Data Subjects"
+msgstr "Registrerade"
+
+#: src/DataSubject/DataRepository.php:146
+msgid "Data exported"
+msgstr "Uppgifter exporterade"
+
+#: src/DataSubject/DataRepository.php:162
+msgid "Data export request"
+msgstr "Begäran om att exportera uppgifter"
+
+#: src/DataSubject/DataRepository.php:176
+msgid "Data removed"
+msgstr "Uppgifter raderade"
+
+#: src/DataSubject/DataRepository.php:192
+msgid "Data removal request"
+msgstr "Begäran om att radera uppgifter"
+
+#: src/DataSubject/DataSubjectIdentificator.php:78
+#: src/DataSubject/DataSubjectIdentificator.php:96
+msgid "Your personal data on"
+msgstr "Dina personuppgifter på"
+
+#: src/Helpers.php:28
+msgctxt "(Admin)"
+msgid "Austria"
+msgstr "Österrike"
+
+#: src/Helpers.php:29
+msgctxt "(Admin)"
+msgid "Belgium"
+msgstr "Belgien"
+
+#: src/Helpers.php:30
+msgctxt "(Admin)"
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: src/Helpers.php:31
+msgctxt "(Admin)"
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: src/Helpers.php:32
+msgctxt "(Admin)"
+msgid "Cyprus"
+msgstr "Cypern"
+
+#: src/Helpers.php:33
+msgctxt "(Admin)"
+msgid "Czech Republic"
+msgstr "Tjeckien"
+
+#: src/Helpers.php:34
+msgctxt "(Admin)"
+msgid "Denmark"
+msgstr "Danmark"
+
+#: src/Helpers.php:35
+msgctxt "(Admin)"
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Helpers.php:36
+msgctxt "(Admin)"
+msgid "Finland"
+msgstr "Finland"
+
+#: src/Helpers.php:37
+msgctxt "(Admin)"
+msgid "France"
+msgstr "Frankrike"
+
+#: src/Helpers.php:38
+msgctxt "(Admin)"
+msgid "Germany"
+msgstr "Tyskland"
+
+#: src/Helpers.php:39
+msgctxt "(Admin)"
+msgid "Greece"
+msgstr "Grekland"
+
+#: src/Helpers.php:40
+msgctxt "(Admin)"
+msgid "Hungary"
+msgstr "Ungern"
+
+#: src/Helpers.php:41
+msgctxt "(Admin)"
+msgid "Ireland"
+msgstr "Irland"
+
+#: src/Helpers.php:42
+msgctxt "(Admin)"
+msgid "Italy"
+msgstr "Italien"
+
+#: src/Helpers.php:43
+msgctxt "(Admin)"
+msgid "Latvia"
+msgstr "Lettland"
+
+#: src/Helpers.php:44
+msgctxt "(Admin)"
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: src/Helpers.php:45
+msgctxt "(Admin)"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: src/Helpers.php:46
+msgctxt "(Admin)"
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Helpers.php:47
+msgctxt "(Admin)"
+msgid "Netherlands"
+msgstr "Nederländerna"
+
+#: src/Helpers.php:48
+msgctxt "(Admin)"
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Helpers.php:49
+msgctxt "(Admin)"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Helpers.php:50
+msgctxt "(Admin)"
+msgid "Romania"
+msgstr "Rumänien"
+
+#: src/Helpers.php:51
+msgctxt "(Admin)"
+msgid "Slovakia"
+msgstr "Slovakien"
+
+#: src/Helpers.php:52
+msgctxt "(Admin)"
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#: src/Helpers.php:53
+msgctxt "(Admin)"
+msgid "Spain"
+msgstr "Spanien"
+
+#: src/Helpers.php:54
+msgctxt "(Admin)"
+msgid "Sweden"
+msgstr "Sverige"
+
+#: src/Helpers.php:55
+msgctxt "(Admin)"
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+#: src/Helpers.php:57
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Afghanistan "
+msgctxt "(Admin)"
+msgid "Afghanistan "
+msgstr "Afghanistan "
+
+#: src/Helpers.php:58
+msgctxt "(Admin)"
+msgid "Åland Islands"
+msgstr "Åland"
+
+#: src/Helpers.php:59
+msgctxt "(Admin)"
+msgid "Albania"
+msgstr "Albanien"
+
+#: src/Helpers.php:60
+msgctxt "(Admin)"
+msgid "Algeria"
+msgstr "Algeriet"
+
+#: src/Helpers.php:61
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "American Samoa  "
+msgctxt "(Admin)"
+msgid "American Samoa  "
+msgstr "Amerikanska Samoa"
+
+#: src/Helpers.php:62
+msgctxt "(Admin)"
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Helpers.php:63
+msgctxt "(Admin)"
+msgid "Angola"
+msgstr "Angola"
+
+#: src/Helpers.php:64
+msgctxt "(Admin)"
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: src/Helpers.php:65
+msgctxt "(Admin)"
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: src/Helpers.php:66
+msgctxt "(Admin)"
+msgid "Antigua and Barbuda"
+msgstr "Antigua och Barbuda"
+
+#: src/Helpers.php:67
+msgctxt "(Admin)"
+msgid "Argentina"
+msgstr "Argentina"
+
+#: src/Helpers.php:68
+msgctxt "(Admin)"
+msgid "Armenia"
+msgstr "Armenien"
+
+#: src/Helpers.php:69
+msgctxt "(Admin)"
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/Helpers.php:70
+msgctxt "(Admin)"
+msgid "Australia"
+msgstr "Australien"
+
+#: src/Helpers.php:71
+msgctxt "(Admin)"
+msgid "Azerbaijan"
+msgstr "Azerbajdzjan"
+
+#: src/Helpers.php:72
+msgctxt "(Admin)"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: src/Helpers.php:73
+msgctxt "(Admin)"
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: src/Helpers.php:74
+msgctxt "(Admin)"
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: src/Helpers.php:75
+msgctxt "(Admin)"
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/Helpers.php:76
+msgctxt "(Admin)"
+msgid "Belarus"
+msgstr "Vitryssland"
+
+#: src/Helpers.php:77
+msgctxt "(Admin)"
+msgid "Belize"
+msgstr "Belize"
+
+#: src/Helpers.php:78
+msgctxt "(Admin)"
+msgid "Benin"
+msgstr "Benin"
+
+#: src/Helpers.php:79
+msgctxt "(Admin)"
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: src/Helpers.php:80
+msgctxt "(Admin)"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: src/Helpers.php:81
+msgctxt "(Admin)"
+msgid "Bolivia, Plurinational State of"
+msgstr "Bolivia"
+
+#: src/Helpers.php:82
+msgctxt "(Admin)"
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius och Saba"
+
+#: src/Helpers.php:83
+msgctxt "(Admin)"
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien Hercegovina"
+
+#: src/Helpers.php:84
+msgctxt "(Admin)"
+msgid "Botswana"
+msgstr "Botswana"
+
+#: src/Helpers.php:85
+msgctxt "(Admin)"
+msgid "Bouvet Island"
+msgstr "Bouvetön"
+
+#: src/Helpers.php:86
+msgctxt "(Admin)"
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: src/Helpers.php:87
+msgctxt "(Admin)"
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Oceanterritoriet"
+
+#: src/Helpers.php:88
+msgctxt "(Admin)"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: src/Helpers.php:89
+msgctxt "(Admin)"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: src/Helpers.php:90
+msgctxt "(Admin)"
+msgid "Burundi"
+msgstr "Burundi"
+
+#: src/Helpers.php:91
+msgctxt "(Admin)"
+msgid "Cambodia"
+msgstr "Kambodja"
+
+#: src/Helpers.php:92
+msgctxt "(Admin)"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: src/Helpers.php:93
+msgctxt "(Admin)"
+msgid "Canada"
+msgstr "Kanada"
+
+#: src/Helpers.php:94
+msgctxt "(Admin)"
+msgid "Cape Verde"
+msgstr "Cap Verde"
+
+#: src/Helpers.php:95
+msgctxt "(Admin)"
+msgid "Cayman Islands"
+msgstr "Caymanöarna"
+
+#: src/Helpers.php:96
+msgctxt "(Admin)"
+msgid "Central African Republic"
+msgstr "Centralafrikanska republiken"
+
+#: src/Helpers.php:97
+msgctxt "(Admin)"
+msgid "Chad"
+msgstr "Tchad"
+
+#: src/Helpers.php:98
+msgctxt "(Admin)"
+msgid "Chile"
+msgstr "Chile"
+
+#: src/Helpers.php:99
+msgctxt "(Admin)"
+msgid "China"
+msgstr "Kina"
+
+#: src/Helpers.php:100
+msgctxt "(Admin)"
+msgid "Christmas Island"
+msgstr "Julön"
+
+#: src/Helpers.php:101
+msgctxt "(Admin)"
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosöarna"
+
+#: src/Helpers.php:102
+msgctxt "(Admin)"
+msgid "Colombia"
+msgstr "Colombia"
+
+#: src/Helpers.php:103
+msgctxt "(Admin)"
+msgid "Comoros"
+msgstr "Komorerna"
+
+#: src/Helpers.php:104
+msgctxt "(Admin)"
+msgid "Congo"
+msgstr "Kongo"
+
+#: src/Helpers.php:105
+msgctxt "(Admin)"
+msgid "Congo, the Democratic Republic of the"
+msgstr "Kongo, Demokratiska republiken"
+
+#: src/Helpers.php:106
+msgctxt "(Admin)"
+msgid "Cook Islands"
+msgstr "Cooköarna"
+
+#: src/Helpers.php:107
+msgctxt "(Admin)"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/Helpers.php:108
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Côte dIvoire"
+msgctxt "(Admin)"
+msgid "Côte dIvoire"
+msgstr "Elfenbenskusten"
+
+#: src/Helpers.php:109
+msgctxt "(Admin)"
+msgid "Cuba"
+msgstr "Kuba"
+
+#: src/Helpers.php:110
+msgctxt "(Admin)"
+msgid "Curaçao"
+msgstr "Curaçao"
+
+#: src/Helpers.php:111
+msgctxt "(Admin)"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: src/Helpers.php:112
+msgctxt "(Admin)"
+msgid "Dominica"
+msgstr "Dominica"
+
+#: src/Helpers.php:113
+msgctxt "(Admin)"
+msgid "Dominican Republic"
+msgstr "Dominikanska republiken"
+
+#: src/Helpers.php:114
+msgctxt "(Admin)"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: src/Helpers.php:115
+msgctxt "(Admin)"
+msgid "Egypt"
+msgstr "Egypten"
+
+#: src/Helpers.php:116
+msgctxt "(Admin)"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/Helpers.php:117
+msgctxt "(Admin)"
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: src/Helpers.php:118
+msgctxt "(Admin)"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: src/Helpers.php:119
+msgctxt "(Admin)"
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+#: src/Helpers.php:120
+msgctxt "(Admin)"
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandsöarna"
+
+#: src/Helpers.php:121
+msgctxt "(Admin)"
+msgid "Faroe Islands"
+msgstr "Faroeöarna"
+
+#: src/Helpers.php:122
+msgctxt "(Admin)"
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/Helpers.php:123
+msgctxt "(Admin)"
+msgid "French Guiana"
+msgstr "Franska Guiana"
+
+#: src/Helpers.php:124
+msgctxt "(Admin)"
+msgid "French Polynesia"
+msgstr "Franska polynesien"
+
+#: src/Helpers.php:125
+msgctxt "(Admin)"
+msgid "French Southern Territories"
+msgstr "Franska södra territorierna"
+
+#: src/Helpers.php:126
+msgctxt "(Admin)"
+msgid "Gabon"
+msgstr "Gabon"
+
+#: src/Helpers.php:127
+msgctxt "(Admin)"
+msgid "Gambia"
+msgstr "Gambia"
+
+#: src/Helpers.php:128
+msgctxt "(Admin)"
+msgid "Georgia"
+msgstr "Georgien"
+
+#: src/Helpers.php:129
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Georgia "
+msgctxt "(Admin)"
+msgid "Georgia "
+msgstr "Georgien"
+
+#: src/Helpers.php:130
+msgctxt "(Admin)"
+msgid "Ghana"
+msgstr "Ghana"
+
+#: src/Helpers.php:131
+msgctxt "(Admin)"
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/Helpers.php:132
+msgctxt "(Admin)"
+msgid "Greenland"
+msgstr "Grönland"
+
+#: src/Helpers.php:133
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Grenada "
+msgctxt "(Admin)"
+msgid "Grenada "
+msgstr "Grenada"
+
+#: src/Helpers.php:134
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Guadeloupe  "
+msgctxt "(Admin)"
+msgid "Guadeloupe  "
+msgstr "Guadeloupe"
+
+#: src/Helpers.php:135
+msgctxt "(Admin)"
+msgid "Guam"
+msgstr "Guam"
+
+#: src/Helpers.php:136
+msgctxt "(Admin)"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/Helpers.php:137
+msgctxt "(Admin)"
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/Helpers.php:138
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Guinea  "
+msgctxt "(Admin)"
+msgid "Guinea  "
+msgstr "Guinea"
+
+#: src/Helpers.php:139
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Guinea-Bissau   "
+msgctxt "(Admin)"
+msgid "Guinea-Bissau   "
+msgstr "Guinea-Bissau"
+
+#: src/Helpers.php:140
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Guyana  "
+msgctxt "(Admin)"
+msgid "Guyana  "
+msgstr "Guyana"
+
+#: src/Helpers.php:141
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Haiti   "
+msgctxt "(Admin)"
+msgid "Haiti   "
+msgstr "Haiti"
+
+#: src/Helpers.php:142
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Heard Island and McDonald Islands   "
+msgctxt "(Admin)"
+msgid "Heard Island and McDonald Islands   "
+msgstr "Heard Island och McDonald Islands"
+
+#: src/Helpers.php:143
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Holy See (Vatican City State)   "
+msgctxt "(Admin)"
+msgid "Holy See (Vatican City State)   "
+msgstr "Vatikanstaten"
+
+#: src/Helpers.php:144
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Honduras    "
+msgctxt "(Admin)"
+msgid "Honduras    "
+msgstr "Honduras"
+
+#: src/Helpers.php:145
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Hong Kong   "
+msgctxt "(Admin)"
+msgid "Hong Kong   "
+msgstr "Hong Kong"
+
+#: src/Helpers.php:146
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "India   "
+msgctxt "(Admin)"
+msgid "India   "
+msgstr "Indien"
+
+#: src/Helpers.php:147
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Indonesia   "
+msgctxt "(Admin)"
+msgid "Indonesia   "
+msgstr "Indonesien"
+
+#: src/Helpers.php:148
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Iran, Islamic Republic of   "
+msgctxt "(Admin)"
+msgid "Iran, Islamic Republic of   "
+msgstr "Iran, Islamiska republiken"
+
+#: src/Helpers.php:149
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Iraq    "
+msgctxt "(Admin)"
+msgid "Iraq    "
+msgstr "Irak"
+
+#: src/Helpers.php:150
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Isle of Man "
+msgctxt "(Admin)"
+msgid "Isle of Man "
+msgstr "Isle of Man "
+
+#: src/Helpers.php:151
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Israel  "
+msgctxt "(Admin)"
+msgid "Israel  "
+msgstr "Israel"
+
+#: src/Helpers.php:152
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Jamaica "
+msgctxt "(Admin)"
+msgid "Jamaica "
+msgstr "Jamaica"
+
+#: src/Helpers.php:153
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Japan   "
+msgctxt "(Admin)"
+msgid "Japan   "
+msgstr "Japan"
+
+#: src/Helpers.php:154
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Jersey  "
+msgctxt "(Admin)"
+msgid "Jersey  "
+msgstr "Jersey"
+
+#: src/Helpers.php:155
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Jordan  "
+msgctxt "(Admin)"
+msgid "Jordan  "
+msgstr "Jordanien"
+
+#: src/Helpers.php:156
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Kazakhstan  "
+msgctxt "(Admin)"
+msgid "Kazakhstan  "
+msgstr "Kazakstan"
+
+#: src/Helpers.php:157
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Kenya   "
+msgctxt "(Admin)"
+msgid "Kenya   "
+msgstr "Kenya"
+
+#: src/Helpers.php:158
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Kiribati    "
+msgctxt "(Admin)"
+msgid "Kiribati    "
+msgstr "Kiribati"
+
+#: src/Helpers.php:159
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Korea, Democratic Peoples Republic of   "
+msgctxt "(Admin)"
+msgid "Korea, Democratic Peoples Republic of   "
+msgstr "Korea, Demokratiska Folkrepubliken"
+
+#: src/Helpers.php:160
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Korea, Republic of  "
+msgctxt "(Admin)"
+msgid "Korea, Republic of  "
+msgstr "Korea, Republiken av"
+
+#: src/Helpers.php:161
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Kuwait  "
+msgctxt "(Admin)"
+msgid "Kuwait  "
+msgstr "Kuwait"
+
+#: src/Helpers.php:162
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Kyrgyzstan  "
+msgctxt "(Admin)"
+msgid "Kyrgyzstan  "
+msgstr "Kirgizistan"
+
+#: src/Helpers.php:163
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Lao Peoples Democratic Republic "
+msgctxt "(Admin)"
+msgid "Lao Peoples Democratic Republic "
+msgstr "Demokratiska folkrepubliken Laos"
+
+#: src/Helpers.php:164
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Lebanon "
+msgctxt "(Admin)"
+msgid "Lebanon "
+msgstr "Libanon"
+
+#: src/Helpers.php:165
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Lesotho "
+msgctxt "(Admin)"
+msgid "Lesotho "
+msgstr "Lesotho"
+
+#: src/Helpers.php:166
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Liberia "
+msgctxt "(Admin)"
+msgid "Liberia "
+msgstr "Liberia"
+
+#: src/Helpers.php:167
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Libya   "
+msgctxt "(Admin)"
+msgid "Libya   "
+msgstr "Libyen"
+
+#: src/Helpers.php:168
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Macao   "
+msgctxt "(Admin)"
+msgid "Macao   "
+msgstr "Macao"
+
+#: src/Helpers.php:169
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Macedonia, the Former Yugoslav Republic of  "
+msgctxt "(Admin)"
+msgid "Macedonia, the Former Yugoslav Republic of  "
+msgstr "Makedonien, fd jugoslaviska republiken"
+
+#: src/Helpers.php:170
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Madagascar  "
+msgctxt "(Admin)"
+msgid "Madagascar  "
+msgstr "Madagaskar"
+
+#: src/Helpers.php:171
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Malawi  "
+msgctxt "(Admin)"
+msgid "Malawi  "
+msgstr "Malawi"
+
+#: src/Helpers.php:172
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Malaysia    "
+msgctxt "(Admin)"
+msgid "Malaysia    "
+msgstr "Malaysia"
+
+#: src/Helpers.php:173
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Maldives    "
+msgctxt "(Admin)"
+msgid "Maldives    "
+msgstr "Maldiverna"
+
+#: src/Helpers.php:174
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mali    "
+msgctxt "(Admin)"
+msgid "Mali    "
+msgstr "Mali"
+
+#: src/Helpers.php:175
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Marshall Islands    "
+msgctxt "(Admin)"
+msgid "Marshall Islands    "
+msgstr "Marshallöarna"
+
+#: src/Helpers.php:176
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Martinique  "
+msgctxt "(Admin)"
+msgid "Martinique  "
+msgstr "Martinique"
+
+#: src/Helpers.php:177
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mauritania  "
+msgctxt "(Admin)"
+msgid "Mauritania  "
+msgstr "Mauretanien"
+
+#: src/Helpers.php:178
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mauritius   "
+msgctxt "(Admin)"
+msgid "Mauritius   "
+msgstr "Mauritius"
+
+#: src/Helpers.php:179
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mayotte "
+msgctxt "(Admin)"
+msgid "Mayotte "
+msgstr "Mayotte"
+
+#: src/Helpers.php:180
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mexico  "
+msgctxt "(Admin)"
+msgid "Mexico  "
+msgstr "Mexico"
+
+#: src/Helpers.php:181
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Micronesia, Federated States of "
+msgstr "Mikronesien, Federerade tillstånd i "
+
+#: src/Helpers.php:182
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Moldova, Republic of    "
+msgctxt "(Admin)"
+msgid "Moldova, Republic of    "
+msgstr "Republiken Moldavien"
+
+#: src/Helpers.php:183
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Monaco  "
+msgctxt "(Admin)"
+msgid "Monaco  "
+msgstr "Monaco"
+
+#: src/Helpers.php:184
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mongolia    "
+msgctxt "(Admin)"
+msgid "Mongolia    "
+msgstr "Mongoliet"
+
+#: src/Helpers.php:185
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Montenegro  "
+msgctxt "(Admin)"
+msgid "Montenegro  "
+msgstr "Montenegro"
+
+#: src/Helpers.php:186
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Montserrat  "
+msgctxt "(Admin)"
+msgid "Montserrat  "
+msgstr "Montserrat"
+
+#: src/Helpers.php:187
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Morocco "
+msgctxt "(Admin)"
+msgid "Morocco "
+msgstr "Marocko"
+
+#: src/Helpers.php:188
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Mozambique  "
+msgctxt "(Admin)"
+msgid "Mozambique  "
+msgstr "Moçambique"
+
+#: src/Helpers.php:189
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Myanmar "
+msgctxt "(Admin)"
+msgid "Myanmar "
+msgstr "Myanmar"
+
+#: src/Helpers.php:190
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Namibia "
+msgctxt "(Admin)"
+msgid "Namibia "
+msgstr "Namibia"
+
+#: src/Helpers.php:191
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Nauru   "
+msgctxt "(Admin)"
+msgid "Nauru   "
+msgstr "Nauru"
+
+#: src/Helpers.php:192
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Nepal   "
+msgctxt "(Admin)"
+msgid "Nepal   "
+msgstr "Nepal"
+
+#: src/Helpers.php:193
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "New Caledonia   "
+msgctxt "(Admin)"
+msgid "New Caledonia   "
+msgstr "Nya Kaledonien"
+
+#: src/Helpers.php:194
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "New Zealand "
+msgctxt "(Admin)"
+msgid "New Zealand "
+msgstr "Nya Zeeland"
+
+#: src/Helpers.php:195
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Nicaragua   "
+msgctxt "(Admin)"
+msgid "Nicaragua   "
+msgstr "Nicaragua"
+
+#: src/Helpers.php:196
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Niger   "
+msgctxt "(Admin)"
+msgid "Niger   "
+msgstr "Niger"
+
+#: src/Helpers.php:197
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Nigeria "
+msgctxt "(Admin)"
+msgid "Nigeria "
+msgstr "Nigeria"
+
+#: src/Helpers.php:198
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Niue    "
+msgctxt "(Admin)"
+msgid "Niue    "
+msgstr "Niue"
+
+#: src/Helpers.php:199
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Norfolk Island  "
+msgctxt "(Admin)"
+msgid "Norfolk Island  "
+msgstr "Norfolk Island"
+
+#: src/Helpers.php:200
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Northern Mariana Islands    "
+msgctxt "(Admin)"
+msgid "Northern Mariana Islands    "
+msgstr "Norra Marianerna"
+
+#: src/Helpers.php:201
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Oman    "
+msgctxt "(Admin)"
+msgid "Oman    "
+msgstr "Oman"
+
+#: src/Helpers.php:202
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Pakistan    "
+msgctxt "(Admin)"
+msgid "Pakistan    "
+msgstr "Pakistan"
+
+#: src/Helpers.php:203
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Palau   "
+msgctxt "(Admin)"
+msgid "Palau   "
+msgstr "Palau"
+
+#: src/Helpers.php:204
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Palestine, State of "
+msgstr "Palestina, staten "
+
+#: src/Helpers.php:205
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Panama  "
+msgctxt "(Admin)"
+msgid "Panama  "
+msgstr "Panama"
+
+#: src/Helpers.php:206
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Papua New Guinea    "
+msgctxt "(Admin)"
+msgid "Papua New Guinea    "
+msgstr "Papua Nya Guinea"
+
+#: src/Helpers.php:207
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Paraguay    "
+msgctxt "(Admin)"
+msgid "Paraguay    "
+msgstr "Paraguay"
+
+#: src/Helpers.php:208
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Peru    "
+msgctxt "(Admin)"
+msgid "Peru    "
+msgstr "Peru"
+
+#: src/Helpers.php:209
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Philippines "
+msgctxt "(Admin)"
+msgid "Philippines "
+msgstr "Filippinerna"
+
+#: src/Helpers.php:210
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Pitcairn    "
+msgctxt "(Admin)"
+msgid "Pitcairn    "
+msgstr "Pitcairn"
+
+#: src/Helpers.php:211
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Puerto Rico "
+msgctxt "(Admin)"
+msgid "Puerto Rico "
+msgstr "Puerto Rico"
+
+#: src/Helpers.php:212
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Qatar   "
+msgctxt "(Admin)"
+msgid "Qatar   "
+msgstr "Qatar"
+
+#: src/Helpers.php:213
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Réunion "
+msgctxt "(Admin)"
+msgid "Réunion "
+msgstr "Réunion"
+
+#: src/Helpers.php:214
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Russian Federation  "
+msgctxt "(Admin)"
+msgid "Russian Federation  "
+msgstr "Ryska Federationen"
+
+#: src/Helpers.php:215
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Rwanda  "
+msgctxt "(Admin)"
+msgid "Rwanda  "
+msgstr "Rwanda"
+
+#: src/Helpers.php:216
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Barthélemy    "
+msgctxt "(Admin)"
+msgid "Saint Barthélemy    "
+msgstr "Saint Barthélemy"
+
+#: src/Helpers.php:217
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Helena, Ascension and Tristan da Cunha    "
+msgctxt "(Admin)"
+msgid "Saint Helena, Ascension and Tristan da Cunha    "
+msgstr "Saint Helena, Ascension och Tristan da Cunha"
+
+#: src/Helpers.php:218
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Kitts and Nevis   "
+msgctxt "(Admin)"
+msgid "Saint Kitts and Nevis   "
+msgstr "Saint Kitts och Nevis"
+
+#: src/Helpers.php:219
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Lucia "
+msgctxt "(Admin)"
+msgid "Saint Lucia "
+msgstr "Saint Lucia"
+
+#: src/Helpers.php:220
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Martin (French part)  "
+msgctxt "(Admin)"
+msgid "Saint Martin (French part)  "
+msgstr "Saint Martin (franska delen)"
+
+#: src/Helpers.php:221
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Pierre and Miquelon   "
+msgctxt "(Admin)"
+msgid "Saint Pierre and Miquelon   "
+msgstr "Saint-Pierre och Miquelon"
+
+#: src/Helpers.php:222
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saint Vincent and the Grenadines    "
+msgctxt "(Admin)"
+msgid "Saint Vincent and the Grenadines    "
+msgstr "Saint Vincent och Grenadinerna"
+
+#: src/Helpers.php:223
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Samoa   "
+msgctxt "(Admin)"
+msgid "Samoa   "
+msgstr "Samoa"
+
+#: src/Helpers.php:224
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "San Marino  "
+msgctxt "(Admin)"
+msgid "San Marino  "
+msgstr "San Marino"
+
+#: src/Helpers.php:225
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Sao Tome and Principe   "
+msgctxt "(Admin)"
+msgid "Sao Tome and Principe   "
+msgstr "Sao Tomé och Principe"
+
+#: src/Helpers.php:226
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Saudi Arabia    "
+msgctxt "(Admin)"
+msgid "Saudi Arabia    "
+msgstr "Saudiarabien"
+
+#: src/Helpers.php:227
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Senegal "
+msgctxt "(Admin)"
+msgid "Senegal "
+msgstr "Senegal"
+
+#: src/Helpers.php:228
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Serbia  "
+msgctxt "(Admin)"
+msgid "Serbia  "
+msgstr "Serbien"
+
+#: src/Helpers.php:229
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Seychelles  "
+msgctxt "(Admin)"
+msgid "Seychelles  "
+msgstr "Seychellerna"
+
+#: src/Helpers.php:230
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Sierra Leone    "
+msgctxt "(Admin)"
+msgid "Sierra Leone    "
+msgstr "Sierra Leone"
+
+#: src/Helpers.php:231
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Singapore   "
+msgctxt "(Admin)"
+msgid "Singapore   "
+msgstr "Singapore"
+
+#: src/Helpers.php:232
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Sint Maarten (Dutch part)   "
+msgctxt "(Admin)"
+msgid "Sint Maarten (Dutch part)   "
+msgstr "Sint Maarten (Nederländsk del)"
+
+#: src/Helpers.php:233
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Solomon Islands "
+msgctxt "(Admin)"
+msgid "Solomon Islands "
+msgstr "Salomonöarna"
+
+#: src/Helpers.php:234
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Somalia "
+msgctxt "(Admin)"
+msgid "Somalia "
+msgstr "Somalia"
+
+#: src/Helpers.php:235
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "South Africa    "
+msgctxt "(Admin)"
+msgid "South Africa    "
+msgstr "Sydafrika"
+
+#: src/Helpers.php:236
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "South Georgia and the South Sandwich Islands    "
+msgctxt "(Admin)"
+msgid "South Georgia and the South Sandwich Islands    "
+msgstr "Sydgeorgien och Sydsandwichöarn"
+
+#: src/Helpers.php:237
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "South Sudan "
+msgctxt "(Admin)"
+msgid "South Sudan "
+msgstr "Södra Sudan"
+
+#: src/Helpers.php:238
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Sri Lanka   "
+msgctxt "(Admin)"
+msgid "Sri Lanka   "
+msgstr "Sri Lanka"
+
+#: src/Helpers.php:239
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Sudan   "
+msgctxt "(Admin)"
+msgid "Sudan   "
+msgstr "Sudan"
+
+#: src/Helpers.php:240
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Suriname    "
+msgctxt "(Admin)"
+msgid "Suriname    "
+msgstr "Surinam"
+
+#: src/Helpers.php:241
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Svalbard and Jan Mayen  "
+msgctxt "(Admin)"
+msgid "Svalbard and Jan Mayen  "
+msgstr "Svalbard och Jan Mayen"
+
+#: src/Helpers.php:242
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Swaziland   "
+msgctxt "(Admin)"
+msgid "Swaziland   "
+msgstr "Swaziland"
+
+#: src/Helpers.php:243
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Syrian Arab Republic    "
+msgctxt "(Admin)"
+msgid "Syrian Arab Republic    "
+msgstr "Syriska arabiska republiken"
+
+#: src/Helpers.php:244
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Taiwan   "
+msgctxt "(Admin)"
+msgid "Taiwan   "
+msgstr "Taiwan   "
+
+#: src/Helpers.php:245
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tajikistan  "
+msgctxt "(Admin)"
+msgid "Tajikistan  "
+msgstr "Tadzjikistan"
+
+#: src/Helpers.php:246
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tanzania, United Republic of    "
+msgctxt "(Admin)"
+msgid "Tanzania, United Republic of    "
+msgstr "Tanzania, Förenade republiken"
+
+#: src/Helpers.php:247
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Thailand    "
+msgctxt "(Admin)"
+msgid "Thailand    "
+msgstr "Thailand"
+
+#: src/Helpers.php:248
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Timor-Leste "
+msgctxt "(Admin)"
+msgid "Timor-Leste "
+msgstr "Timor-Leste"
+
+#: src/Helpers.php:249
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Togo    "
+msgctxt "(Admin)"
+msgid "Togo    "
+msgstr "Togo"
+
+#: src/Helpers.php:250
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tokelau "
+msgctxt "(Admin)"
+msgid "Tokelau "
+msgstr "Tokelau"
+
+#: src/Helpers.php:251
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tonga   "
+msgctxt "(Admin)"
+msgid "Tonga   "
+msgstr "Tonga"
+
+#: src/Helpers.php:252
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Trinidad and Tobago "
+msgctxt "(Admin)"
+msgid "Trinidad and Tobago "
+msgstr "Trinidad och Tobago"
+
+#: src/Helpers.php:253
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tunisia "
+msgctxt "(Admin)"
+msgid "Tunisia "
+msgstr "Tunisien"
+
+#: src/Helpers.php:254
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Turkey  "
+msgctxt "(Admin)"
+msgid "Turkey  "
+msgstr "Turkiet"
+
+#: src/Helpers.php:255
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Turkmenistan    "
+msgctxt "(Admin)"
+msgid "Turkmenistan    "
+msgstr "Turkmenistan"
+
+#: src/Helpers.php:256
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Turks and Caicos Islands    "
+msgctxt "(Admin)"
+msgid "Turks and Caicos Islands    "
+msgstr "Turks- och Caicosöarna"
+
+#: src/Helpers.php:257
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Tuvalu  "
+msgctxt "(Admin)"
+msgid "Tuvalu  "
+msgstr "Tuvalu"
+
+#: src/Helpers.php:258
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Uganda  "
+msgctxt "(Admin)"
+msgid "Uganda  "
+msgstr "Uganda"
+
+#: src/Helpers.php:259
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Ukraine "
+msgctxt "(Admin)"
+msgid "Ukraine "
+msgstr "Ukraina"
+
+#: src/Helpers.php:260
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "United Arab Emirates    "
+msgctxt "(Admin)"
+msgid "United Arab Emirates    "
+msgstr "Förenade arabemiraten"
+
+#: src/Helpers.php:261
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "United States Minor Outlying Islands    "
+msgctxt "(Admin)"
+msgid "United States Minor Outlying Islands    "
+msgstr "Förenta staternas mindre öar i Oceanien och Västindien"
+
+#: src/Helpers.php:262
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Uruguay "
+msgctxt "(Admin)"
+msgid "Uruguay "
+msgstr "Uruguay"
+
+#: src/Helpers.php:263
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Uzbekistan  "
+msgctxt "(Admin)"
+msgid "Uzbekistan  "
+msgstr "Uzbekistan"
+
+#: src/Helpers.php:264
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Vanuatu "
+msgctxt "(Admin)"
+msgid "Vanuatu "
+msgstr "Vanuatu"
+
+#: src/Helpers.php:265
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Iran, Islamic Republic of   "
+msgctxt "(Admin)"
+msgid "Venezuela, Bolivarian Republic of   "
+msgstr "Iran, Islamiska republiken"
+
+#: src/Helpers.php:266
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Viet Nam    "
+msgctxt "(Admin)"
+msgid "Viet Nam    "
+msgstr "Vietnam"
+
+#: src/Helpers.php:267
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Virgin Islands, British "
+msgctxt "(Admin)"
+msgid "Virgin Islands, British "
+msgstr "Jungfruöarna, Brittiska"
+
+#: src/Helpers.php:268
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Virgin Islands, U.S.    "
+msgctxt "(Admin)"
+msgid "Virgin Islands, U.S.    "
+msgstr "Jungfruöarna, U.S."
+
+#: src/Helpers.php:269
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Wallis and Futuna   "
+msgctxt "(Admin)"
+msgid "Wallis and Futuna   "
+msgstr "Wallis och Futuna"
+
+#: src/Helpers.php:270
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Western Sahara  "
+msgctxt "(Admin)"
+msgid "Western Sahara  "
+msgstr "Västra Sahara"
+
+#: src/Helpers.php:271
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Yemen   "
+msgctxt "(Admin)"
+msgid "Yemen   "
+msgstr "Jemen"
+
+#: src/Helpers.php:272
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Zambia  "
+msgctxt "(Admin)"
+msgid "Zambia  "
+msgstr "Zambia"
+
+#: src/Helpers.php:273
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Zimbabwe    "
+msgctxt "(Admin)"
+msgid "Zimbabwe    "
+msgstr "Zimbabwe"
+
+#: src/Helpers.php:288
+msgctxt "(Admin)"
+msgid "Iceland"
+msgstr "Island"
+
+#: src/Helpers.php:289
+msgctxt "(Admin)"
+msgid "Norway"
+msgstr "Norge"
+
+#: src/Helpers.php:290
+msgctxt "(Admin)"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Helpers.php:291
+msgctxt "(Admin)"
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: src/Helpers.php:292
+msgctxt "(Admin)"
+msgid "United States"
+msgstr "USA"
+
+#: src/Helpers.php:383
+msgid "An error has occurred. Please contact the site administrator."
+msgstr "Ett fel har inträffat. Kontakta webbplatsens administratör."
+
+#: src/Installer/Installer.php:145
+msgctxt "(Admin)"
+msgid "Setup Wizard"
+msgstr "Installationsguide"
+
+#: src/Installer/Steps/ConfigurationPages.php:24
+#: src/Installer/Steps/ConfigurationPages.php:34
+#: src/Installer/Steps/PolicySettings.php:24
+#: src/Installer/Steps/PolicySettings.php:49
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "&mdash; Create a new page &mdash;"
+msgctxt "(Admin)"
+msgid "&mdash; Create a new page &mdash;"
+msgstr "&mdash; Skapa en ny sida &mdash;"
+
+#: src/Installer/Steps/PolicySettings.php:39
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "We have automatically selected your WooCommerce Terms & Conditions page."
+msgctxt "(Admin)"
+msgid ""
+"We have automatically selected your WooCommerce Terms & Conditions page."
+msgstr "Vi har automatiskt valt din WooCommerce-sida för användarvillkor."
+
+#: src/Modules/ContactForm7/ContactForm7.php:35
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "gdpr terms txt"
+msgctxt "(Admin)"
+msgid "gdpr terms txt"
+msgstr "gdpr-termer txt"
+
+#: src/Modules/ContactForm7/Flamingo.php:23
+#: views/modules/contact-form-7/form-privacy-tab.php:1
+msgid "Privacy"
+msgstr "Integritet"
+
+#: src/Modules/ContactForm7/Flamingo.php:67
+#, fuzzy
+msgid "Form submissions: "
+msgstr "Formulärinlämningar: "
+
+#: src/Modules/ContactForm7/Flamingo.php:162
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Do you want form to be GDPR compliance."
+msgstr "Vill du att formuläret ska vara GDPR-efterlevnad."
+
+#: src/Modules/ContactForm7/Flamingo.php:163
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"You have installed flamingo, To make this GDPR compliance in individual "
+"contact form's privacy tab check the checkbox for include data to be search "
+"on Privacy tool."
+msgstr ""
+"Du har installerat flamingo, För att göra denna GDPR-efterlevnad på det "
+"enskilda kontaktformulärens sekretessflik, markera kryssrutan för att "
+"inkludera data som ska sökas på sekretessverktyget."
+
+#: src/Modules/EddGdpr/EddGdpr.php:48
+#, fuzzy
+#| msgid "Customer Information"
+msgid "EDD Customer Information"
+msgstr "Kundinformation"
+
+#: src/Modules/EddGdpr/EddGdpr.php:57
+#, fuzzy
+#| msgid "Customer Information"
+msgid "EDD Order Information"
+msgstr "Kundinformation"
+
+#: src/Modules/EddGdpr/EddGdpr.php:66
+#, fuzzy
+msgid "EDD File Downloads"
+msgstr "Nedladdningar av EDD-filer"
+
+#: src/Modules/EddGdpr/EddGdpr.php:75
+#, fuzzy
+msgid "EDD API Access Logs"
+msgstr "EDD API-åtkomstloggar"
+
+#: src/Modules/NewsletterGdpr/NewsletterGdpr.php:82
+#, fuzzy
+msgid "Newsletter Form submissions: "
+msgstr "Nyhetsbrev Formulärinlämningar: "
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:47
+msgid "Customer Information"
+msgstr "Kundinformation"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:54
+msgid "Order Information"
+msgstr "Orderinformation"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:165
+msgid "Please acknowledge the Privacy Policy"
+msgstr "Vänligen bekräfta sekretesspolicyn"
+
+#: src/Modules/WooCommerceGdpr/WooCommerceGdpr.php:180
+msgid "Privacy Policy consent is required!"
+msgstr "Samtycke för integritetspolicyn krävs!"
+
+#: src/Router.php:80 src/Router.php:92 src/Router.php:125 src/Router.php:141
+#, php-format
+msgid "Nonce error for action \"%s\". Please go back and try again!"
+msgstr "Fel vid engångskod för åtgärden ”%s”. Gå tillbaka och försök igen!"
+
+#: src/Router.php:149
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "You do not have the required permissions to perform this action!"
+msgctxt "(Admin)"
+msgid "You do not have the required permissions to perform this action!"
+msgstr "Du har inte behörighet att genomföra denna åtgärd!"
+
+#: views/admin/consent.php:3
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Default consent types"
+msgctxt "(Admin)"
+msgid "Default consent types"
+msgstr "Standardtyper för samtycke"
+
+#: views/admin/consent.php:4
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "These are the consent types that have been automatically registered by "
+#| "the framework or a plugin."
+msgctxt "(Admin)"
+msgid ""
+"These are the consent types that have been automatically registered by the "
+"framework or a plugin."
+msgstr ""
+"Dessa är samtyckestyper som automatiskt har blivit registrerade av ramverket "
+"eller av ett tillägg."
+
+#: views/admin/consent.php:7 views/admin/consent.php:53
+msgctxt "(Admin)"
+msgid "Slug"
+msgstr "Slug"
+
+#: views/admin/consent.php:8 views/admin/consent.php:38
+#: views/admin/consent.php:61
+msgctxt "(Admin)"
+msgid "Title"
+msgstr "Titel"
+
+#: views/admin/consent.php:9 views/admin/consent.php:41
+#: views/admin/consent.php:64
+msgctxt "(Admin)"
+msgid "Description"
+msgstr "Beskrivning"
+
+#: views/admin/consent.php:10
+msgctxt "(Admin)"
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: views/admin/consent.php:18
+msgctxt "(Admin)"
+msgid "Visible"
+msgstr "Synlig"
+
+#: views/admin/consent.php:20
+msgctxt "(Admin)"
+msgid "Hidden"
+msgstr "Dold"
+
+#: views/admin/consent.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Custom consent types"
+msgctxt "(Admin)"
+msgid "Custom consent types"
+msgstr "Anpassade samtyckestyper"
+
+#: views/admin/consent.php:30
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Here you can add custom consent types to track. They will not be used "
+#| "anywhere by default - you will need to build an integration for each of "
+#| "them."
+msgctxt "(Admin)"
+msgid ""
+"Here you can add custom consent types to track. They will not be used "
+"anywhere by default - you will need to build an integration for each of them."
+msgstr ""
+"Här kan du lägga till anpassade samtyckestyper att spåra. De kommer inte att "
+"användas någonstans som standard &ndash; du behöver bygga en integration för "
+"varje anpassad samtyckestyp."
+
+#: views/admin/consent.php:35
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Machine-readable slug"
+msgctxt "(Admin)"
+msgid "Machine-readable slug"
+msgstr "Maskinläsbar permalänk"
+
+#: views/admin/consent.php:44 views/admin/consent.php:69
+msgctxt "(Admin)"
+msgid "Visible?"
+msgstr "Synlig?"
+
+#: views/admin/consent.php:73
+msgctxt "(Admin)"
+msgid "Remove"
+msgstr "Ta bort"
+
+#: views/admin/consent.php:79
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Show Consent types"
+msgctxt "(Admin)"
+msgid "Show Consent types"
+msgstr "Visa samtyckestyper"
+
+#: views/admin/consent.php:80
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Add consent type"
+msgctxt "(Admin)"
+msgid "Add consent type"
+msgstr "Lägg till samtyckestyp"
+
+#: views/admin/consent.php:81
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Add consent type"
+msgctxt "(Admin)"
+msgid "Hide consent types"
+msgstr "Lägg till samtyckestyp"
+
+#: views/admin/consent.php:95
+msgctxt "(Admin)"
+msgid "Additional info"
+msgstr "Övrig information"
+
+#: views/admin/consent.php:97
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This text will be displayed to your data subjects on the Privacy Tools "
+#| "page."
+msgctxt "(Admin)"
+msgid ""
+"This text will be displayed to your data subjects on the Privacy Tools page."
+msgstr ""
+"Denna text visas för dina registrerade på sidan för integritetsverktyg."
+
+#: views/admin/consent/enable-consent-until.php:11
+msgctxt "(Admin)"
+msgid " "
+msgstr " "
+
+#: views/admin/data-subjects/search-form.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "On this page, you can find which data subjects personal data you are "
+#| "storing and download, export or delete it."
+msgctxt "(Admin)"
+msgid ""
+"On this page, you can find which data subjects personal data you are storing "
+"and download, export or delete it."
+msgstr ""
+"På denna sida kan du hitta vilka personuppgifter du lagrar för registrerade "
+"och ladda ner, exportera eller radera dem."
+
+#: views/admin/data-subjects/search-form.php:10
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Find data subject by email"
+msgctxt "(Admin)"
+msgid "Find data subject by email"
+msgstr "Hitta registrerad person via e-post"
+
+#: views/admin/data-subjects/search-form.php:11
+msgctxt "(Admin)"
+msgid "Email address"
+msgstr "E-postadress"
+
+#: views/admin/data-subjects/search-form.php:16
+msgctxt "(Admin)"
+msgid "Search"
+msgstr "Sök"
+
+#: views/admin/data-subjects/search-results.php:7
+msgctxt "(Admin)"
+msgid "Username"
+msgstr "Användarnamn"
+
+#: views/admin/data-subjects/search-results.php:13
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data found."
+msgctxt "(Admin)"
+msgid "Data found."
+msgstr "Hittade inga data !"
+
+#: views/admin/data-subjects/search-results.php:14
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "is not a registered user."
+msgctxt "(Admin)"
+msgid "is not a registered user."
+msgstr "är inte en registrerad användare."
+
+#: views/admin/data-subjects/search-results.php:21
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Download data (html)"
+msgctxt "(Admin)"
+msgid "Download data (html)"
+msgstr "Ladda ner uppgifter (html)"
+
+#: views/admin/data-subjects/search-results.php:22
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Export data (json)"
+msgctxt "(Admin)"
+msgid "Export data (json)"
+msgstr "Exportera uppgifter (json)"
+
+#: views/admin/data-subjects/search-results.php:26
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This user has admin capabilities. Deleting data via this interface is "
+#| "disabled."
+msgctxt "(Admin)"
+msgid ""
+"This user has admin capabilities. Deleting data via this interface is "
+"disabled."
+msgstr ""
+"Denna användare har administratörsrättigheter. Radering av data via detta "
+"gränssnitt är inaktiverat."
+
+#: views/admin/data-subjects/search-results.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Anonymize data"
+msgctxt "(Admin)"
+msgid "Anonymize data"
+msgstr "Anonymisera uppgifter"
+
+#: views/admin/data-subjects/search-results.php:30
+msgctxt "(Admin)"
+msgid "Delete data"
+msgstr "Ta bort data"
+
+#: views/admin/data-subjects/search-results.php:34
+msgctxt "(Admin)"
+msgid "No data found!"
+msgstr "Hittade inga data !"
+
+#: views/admin/data-subjects/search-results.php:41
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:4
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Consents given"
+msgctxt "(Admin)"
+msgid "Consents given"
+msgstr "Givna samtycken"
+
+#: views/admin/data-subjects/search-results.php:54
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "No consents given!"
+msgctxt "(Admin)"
+msgid "No consents given!"
+msgstr "Inget samtycke givet!"
+
+#: views/admin/general/custom-policy-url.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Leave blank if privacy policy page already selected"
+msgctxt "(Admin)"
+msgid "Leave blank if privacy policy page already selected"
+msgstr "Lämna tomt om sidan för integritetspolicy redan är valt"
+
+#: views/admin/general/custom-terms-url.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Leave blank if privacy policy page already selected"
+msgctxt "(Admin)"
+msgid "Leave blank if terms and condition page already selected"
+msgstr "Lämna tomt om sidan för integritetspolicy redan är valt"
+
+#: views/admin/general/custom-tools-url.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Leave blank if privacy policy page already selected"
+msgctxt "(Admin)"
+msgid "Leave blank if privacy tools page already selected"
+msgstr "Lämna tomt om sidan för integritetspolicy redan är valt"
+
+#: views/admin/general/delete-action-email.php:5
+#: views/admin/general/export-action-email.php:5
+#: views/installer/steps/configuration-settings.php:29
+#: views/installer/steps/configuration-settings.php:79
+msgid "Email address"
+msgstr "E-postadress"
+
+#: views/admin/general/delete-action-reassign.php:3
+#: views/installer/steps/configuration-settings.php:50
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete content"
+msgctxt "(Admin)"
+msgid "Delete content"
+msgstr "Radera innehåll"
+
+#: views/admin/general/delete-action-reassign.php:6
+#: views/installer/steps/configuration-settings.php:53
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Reassign content to a user"
+msgctxt "(Admin)"
+msgid "Reassign content to a user"
+msgstr "Återtilldela innehåll till en användare"
+
+#: views/admin/general/delete-action-reassign.php:10
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "If the user has submitted any content on your site, should it be deleted "
+#| "or reassigned to another user?"
+msgctxt "(Admin)"
+msgid ""
+"If the user has submitted any content on your site, should it be deleted or "
+"reassigned to another user?"
+msgstr ""
+"Om användaren har lämnat in innehåll till din webbplats, skall det raderas "
+"eller tilldelas en annan användare?"
+
+#: views/admin/general/description-data-page.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Select the page where users can go to control their data. This page must "
+#| "contain the [gdpr_privacy_tools] shortcode."
+msgctxt "(Admin)"
+msgid ""
+"Select the page where users can go to control their data. This page must "
+"contain the [gdpr_privacy_tools] shortcode."
+msgstr ""
+"Välj sidan där användare kan kontrollera deras uppgifter. Denna sida måste "
+"innehålla kortkoden [gdpr_privacy_tools]."
+
+#: views/admin/general/description-delete-action.php:2
+msgctxt "(Admin)"
+msgid "What should happen if a data subject requests deleting their data."
+msgstr "Vad ska hända om en registrerad begär att få deras uppgifter raderade."
+
+#: views/admin/general/description-export-action.php:2
+msgctxt "(Admin)"
+msgid ""
+"What should happen if a data subject requests viewing or exporting their "
+"data."
+msgstr ""
+"Vad ska hända om en registrerad begär att se eller exportera deras uppgifter."
+
+#: views/admin/general/description-position-action.php:2
+msgctxt "(Admin)"
+msgid "Select position of the Popup"
+msgstr "Välj position för popup"
+
+#: views/admin/general/description-terms-page.php:2
+msgctxt "(Admin)"
+msgid "Optional. Select the page which contains your Terms & Conditions"
+msgstr "Valfritt. Välj sidan som innehåller dina användarvillkor"
+
+#: views/admin/general/description-theme-action.php:2
+msgctxt "(Admin)"
+msgid "Select theme of the Popup"
+msgstr "Välj temat för popup-menyn"
+
+#: views/admin/general/disble-checkbox.php:9
+msgctxt "(Admin)"
+msgid "."
+msgstr "."
+
+#: views/admin/general/edd-compatibility.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Enable EDD data on GDPR tool."
+msgstr "Aktivera EDD-data om GDPR-verktyget."
+
+#: views/admin/general/edd-compatibility.php:12
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Will work for EDD Version 2.0.0 or later."
+msgstr "Fungerar för EDD Version 2.0.0 eller senare."
+
+#: views/admin/general/enable-policy-popup.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Enable Policy Link On Popup"
+msgstr "Aktivera principlänk i popup-fönstret"
+
+#: views/admin/general/enable-popup.php:12
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> Need to add custom content <b>gdpr_cookie_consent</b> its "
+"accepted on popup accept button."
+msgstr ""
+"<b>Anmärkning:</b> Behöver lägga till anpassat innehåll "
+"<b>gdpr_cookie_consent</b> det accepteras på popup acceptera knappen."
+
+#: views/admin/general/enable-tac.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable the term and condition page."
+msgctxt "(Admin)"
+msgid "Enable the term and condition page."
+msgstr "Aktivera term och villkorssidan."
+
+#: views/admin/general/enable.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Enable the view, export and forget functionality for users and visitors"
+msgctxt "(Admin)"
+msgid "Enable the view, export and forget functionality for users and visitors"
+msgstr ""
+"Aktivera funktionalitet för att visa, exportera och glömma för användare och "
+"besökare"
+
+#: views/admin/general/enable.php:12
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Enable the Privacy Tools page on front-end and dashboard. This allows "
+#| "visitors to request viewing and deleting their personal data and withdraw "
+#| "consents."
+msgctxt "(Admin)"
+msgid ""
+"Enable the Privacy Tools page on front-end and dashboard. This allows "
+"visitors to request viewing and deleting their personal data and withdraw "
+"consents."
+msgstr ""
+"Aktivera sidan för integritetsverktyg på front-end och adminpanelen. Detta "
+"låter besökare skicka en begäran om att se och radera deras personuppgifter "
+"och återkalla samtycken."
+
+#: views/admin/general/enable_popup_allow_content.php:3
+msgctxt "gdpr-framework"
+msgid "Accept"
+msgstr "Godkänn"
+
+#: views/admin/general/enable_popup_content.php:5
+msgctxt "gdpr-framework"
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Denna webbplats använder cookies för att ge dig den bästa upplevelsen av vår "
+"webbplats."
+
+#: views/admin/general/enable_popup_dismiss_content.php:3
+msgctxt "gdpr-framework"
+msgid "Decline"
+msgstr "Avböj"
+
+#: views/admin/general/enable_popup_header.php:7
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Leave blank if you don't want a header to get displayed."
+msgstr "Lämna tomt om du inte vill att sidhuvudet ska visas."
+
+#: views/admin/general/enable_popup_learnmore_content.php:3
+msgctxt "gdpr-framework"
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: views/admin/general/popup_link_target.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Next Tab"
+msgstr "Fliken Nästa"
+
+#: views/admin/general/popup_link_target.php:6
+msgctxt "(Admin)"
+msgid "Self"
+msgstr "Själv"
+
+#: views/admin/general/stylesheet.php:9
+msgctxt "(Admin)"
+msgid "Enable basic styling for Privacy Tools page."
+msgstr "Aktivera grundläggande stilmall för sidan för integritetsverktyg"
+
+#: views/admin/general/theme-compatibility.php:9
+#: views/installer/steps/integrations.php:21
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Automatically add Privacy Policy and Privacy Tools links to your site "
+#| "footer."
+msgctxt "(Admin)"
+msgid ""
+"Automatically add Privacy Policy and Privacy Tools links to your site footer."
+msgstr ""
+"Lägg till integritetspolicy och integritetsverktygslänkar automatiskt i "
+"sidfoten på din webbplats."
+
+#: views/admin/general/unknown-user-message.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This text will be displayed to your data subjects on the Privacy Tools "
+#| "page."
+msgctxt "(Admin)"
+msgid ""
+"This message is displayed if the email entered on the privacy tools page is "
+"not found."
+msgstr ""
+"Denna text visas för dina registrerade på sidan för integritetsverktyg."
+
+#: views/admin/general/woo-compatibility.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enable WooCommerce Compatibility"
+msgctxt "(Admin)"
+msgid "Enable WooCommerce data on GDPR tool."
+msgstr "Aktivera WooCommerce-kompatibilitet"
+
+#: views/admin/general/woo-compatibility.php:12
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Will work for WooCommerce Version 3.4.0 or later."
+msgstr "Fungerar för WooCommerce Version 3.4.0 eller senare."
+
+#: views/admin/notices/header-privacy-safe.php:5
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Privacy Safe By Data443"
+msgstr "Sekretesssäkert med data443"
+
+#: views/admin/notices/header.php:5 views/admin/settings-page.php:3
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "The GDPR Framework By Data443"
+msgctxt "(Admin)"
+msgid "The GDPR Framework By Data443"
+msgstr "The GDPR Framework By Data443"
+
+#: views/admin/notices/help.php:3 views/admin/settings-page.php:39
+#, fuzzy, php-format
+#| msgctxt "(Admin)"
+#| msgid "Need help? Take a look at our %sdocumentation%s."
+msgctxt "(Admin)"
+msgid "Need help? Take a look at our %sdocumentation%s."
+msgstr "Behövs hjälp? Ta en titt på vår %sdokumentation%s."
+
+#: views/admin/notices/helper-autoinstall.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "A Privacy Policy page has been created, but it is empty. You can generate "
+#| "a policy template on this page."
+msgctxt "(Admin)"
+msgid ""
+"A Privacy Policy page has been created, but it is empty. You can generate a "
+"policy template on this page."
+msgstr ""
+"En sida för integritetspolicy har skapats, men den är tom. Du kan skapa en "
+"policymall på denna sida."
+
+#: views/admin/notices/helper-autoinstall.php:6
+#, fuzzy, php-format
+#| msgid "I accept the %sPrivacy Policy%s"
+msgctxt "(Admin)"
+msgid "Read more about the %sPrivacy Policy%s"
+msgstr "Jag godkänner %sintegritetspolicyn%s"
+
+#: views/admin/notices/helper-policy.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Heads up - your Privacy Policy still requires some attention. Find the "
+#| "places marked with [TODO] and replace them with real content!"
+msgctxt "(Admin)"
+msgid ""
+"Heads up - your Privacy Policy still requires some attention. Find the "
+"places marked with [TODO] and replace them with real content!"
+msgstr ""
+"Se upp &ndash; din integritetspolicy behöver fortfarande lite mer arbete. "
+"Hitta ställena markerade med [TODO] och byt ut dem med äkta innehåll!"
+
+#: views/admin/notices/helper-settings.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "Heads up! The GDPR Framework is not properly configured, so it will not "
+#| "work just yet."
+msgctxt "(Admin)"
+msgid ""
+"Heads up! The GDPR Framework is not properly configured, so it will not work "
+"just yet."
+msgstr ""
+"Se upp! The GDPR Framework är inte korrekt konfigurerat, så det kommer inte "
+"fungera ännu."
+
+#: views/admin/notices/helper-settings.php:4
+#, fuzzy, php-format
+msgctxt "(Admin)"
+msgid "Go to %sTools > Data443 GDPR%s and make sure all fields are filled in."
+msgstr "Gå till %sTools > Data443 GDPR%s och se till att alla fält är ifyllda."
+
+#: views/admin/notices/helper-tools.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "The contents of this page should contain the [gdpr_privacy_tools] "
+#| "shortcode."
+msgctxt "(Admin)"
+msgid ""
+"The contents of this page should contain the [gdpr_privacy_tools] shortcode."
+msgstr "Innehållet på denna sida ska innehålla kortkoden [gdpr_privacy_tools]."
+
+#: views/admin/privacy-manager/header.php:2
+#: views/admin/privacy-manager/header.php:21
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443™ Global Privacy Manager"
+msgctxt "(Admin)"
+msgid "Data443™ Global Privacy Manager"
+msgstr "Data443™ Global integritetshanterare"
+
+#: views/admin/privacy-manager/header.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"ensures privacy regulation compliance, such as GDPR, CCPA, LGPD, etc, at the "
+"next level."
+msgstr ""
+"säkerställer efterlevnad av integritetsregler, såsom GDPR, CCPA, LGPD, etc. "
+"på nästa nivå."
+
+#: views/admin/privacy-manager/header.php:4
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Includes the following features:"
+msgctxt "(Admin)"
+msgid "Includes the following features:"
+msgstr "Inkluderar följande funktioner:"
+
+#: views/admin/privacy-manager/header.php:6
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Available within minutes – designed to be deployed to your website over the "
+"phone with one link!"
+msgstr ""
+"Tillgänglig inom några minuter - utformad för att distribueras till din "
+"webbplats via telefon med en länk!"
+
+#: views/admin/privacy-manager/header.php:7
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Fully branded Subject Access Request Form"
+msgstr "Fullständigt märkt formulär för begäran om ämnesåtkomst"
+
+#: views/admin/privacy-manager/header.php:8
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Custom Workflow Engine"
+msgstr "Anpassad arbetsflödesmotor"
+
+#: views/admin/privacy-manager/header.php:9
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Cookie and Consent Management Tracking"
+msgstr "Spårning av cookie- och samtyckeshantering"
+
+#: views/admin/privacy-manager/header.php:10
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Opt-in and Opt-out Management"
+msgstr "Opt-in och Opt-out Management"
+
+#: views/admin/privacy-manager/header.php:11
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Do Not Sell Management Interface"
+msgstr "Sälj inte hanteringsgränssnitt"
+
+#: views/admin/privacy-manager/header.php:12
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Full On Premise and In Cloud Data Discovery"
+msgstr "Fullständig lokal och i molndataidentifiering"
+
+#: views/admin/privacy-manager/header.php:13
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Complete End to End Data Mapping"
+msgstr "Fullständig datamappning från slut till slut slut"
+
+#: views/admin/privacy-manager/header.php:14
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Full Data Classification and Governance"
+msgstr "Fullständig dataklassificering och styrning"
+
+#: views/admin/privacy-manager/header.php:15
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Data Deletion and Monitoring Compliance Management"
+msgstr "Hantering av databorttagning och övervakning av efterlevnad"
+
+#: views/admin/privacy-manager/header.php:16
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Data Stores instantly available: Windows NTFS, OneDrive, Dropbox, Office365, "
+"GoogleMail, Salesforce, Quickbooks, MailChimp, Sharepoint, MySQL, MSSQL, "
+"PostGreSQL, Mongo"
+msgstr ""
+"Direkt tillgängliga datalager: Windows NTFS, OneDrive, Dropbox, Office365, "
+"GoogleMail, Salesforce, Quickbooks, MailChimp, Sharepoint, MySQL, MSSQL, "
+"PostGreSQL, Mongo"
+
+#: views/admin/privacy-manager/header.php:17
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Data Stores addons available: over 200 SaaS, On Premise databases & File "
+"shares"
+msgstr ""
+"Data Stores tillägg tillgängliga: över 200 SaaS, On Premise databaser & "
+"Filresurser"
+
+#: views/admin/privacy-manager/header.php:18
+#, fuzzy
+msgctxt "(Admin)"
+msgid "PowerBI and Dashboarding"
+msgstr "PowerBI och instrumentpanel"
+
+#: views/admin/privacy-manager/header.php:21
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"No matter where you are on your data privacy journey, the ultimate goal is "
+"compliance."
+msgstr ""
+"Oavsett var du befinner dig på din datasekretessresa är det slutliga målet "
+"efterlevnad."
+
+#: views/admin/privacy-manager/header.php:21
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "enables your organization to comply with all privacy regulations."
+msgctxt "(Admin)"
+msgid "enables your organization to comply with all privacy regulations."
+msgstr "möjliggör för er organisation att fullfölja alla integritetslagar."
+
+#: views/admin/privacy-policy/description-policy-page.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Select the page which will contain your Privacy Policy"
+msgctxt "(Admin)"
+msgid "Select the page which will contain your Privacy Policy"
+msgstr "Välj sidan som ska innehålla din integritetspolicy"
+
+#: views/admin/privacy-policy/generated.php:3
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Your Privacy Policy has been generated."
+msgctxt "(Admin)"
+msgid "Your Privacy Policy has been generated."
+msgstr "Din integritetspolicy har skapats."
+
+#: views/admin/privacy-policy/generated.php:20
+msgctxt "(Admin)"
+msgid "&laquo; Back"
+msgstr "&laquo; tillbaka"
+
+#: views/admin/privacy-policy/has-dpo.php:11
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "I have appointed a Data Protection Officer (DPO)"
+msgctxt "(Admin)"
+msgid "I have appointed a Data Protection Officer (DPO)"
+msgstr "Jag har utsett ett personuppgiftsombud"
+
+#: views/admin/privacy-policy/header.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This page allows you to generate a Privacy Policy based on the "
+#| "information you entered below."
+msgctxt "(Admin)"
+msgid ""
+"This page allows you to generate a Privacy Policy based on the information "
+"you entered below."
+msgstr ""
+"Denna sida låter dig skapa en integritetspolicy baserat på informationen som "
+"du har fyllt i nedan."
+
+#: views/admin/privacy-safe/enable-backlink.php:11
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"<b>Note:</b> We need your support. By selecting to support Data443, a small "
+"link is added below the privacy safe seal linking back to our product page "
+"on data443.com. Uncheck if you prefer not to have the link display on your "
+"site."
+msgstr ""
+"<b>Anmärkning:</b> Vi behöver ditt stöd. Genom att välja att stödja Data443 "
+"läggs en liten länk till under den sekretesssäkra tätningen som länkar "
+"tillbaka till vår produktsida på data443.com. Avmarkera om du föredrar att "
+"inte ha länkvisningen på din webbplats."
+
+#: views/admin/settings-page.php:8
+msgctxt "(Admin)"
+msgid "GDPR settings saved!"
+msgstr "GDPR-inställningar sparade!"
+
+#: views/admin/settings-page.php:31
+#, fuzzy, php-format
+#| msgctxt "(Admin)"
+#| msgid "The GDPR Framework. Built with &#9829; by %sData443%s."
+msgctxt "(Admin)"
+msgid "The GDPR Framework. Built with &#9829; by %sData443%s."
+msgstr "The GDPR Framework. Byggt med &#9829; av %sData443%s."
+
+#: views/admin/settings-page.php:47
+#, fuzzy, php-format
+#| msgctxt "(Admin)"
+#| msgid "Support our development efforts! leave a %s5-star rating%s."
+msgctxt "(Admin)"
+msgid "Support our development efforts! leave a %s5-star rating%s."
+msgstr "Stöd våra utvecklingsinsatser! Lämna ett %s5-stjärnigt betyg%s."
+
+#: views/admin/support/contents.php:5 views/installer/steps/finish.php:11
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Need more info?"
+msgctxt "(Admin)"
+msgid "Need more info?"
+msgstr "Behöver du mer info?"
+
+#: views/admin/support/contents.php:11 views/installer/steps/finish.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Site Owner's guide to GDPR"
+msgctxt "(Admin)"
+msgid "Site Owner's guide to GDPR"
+msgstr "Webbplatsägarens guide till GDPR"
+
+#: views/admin/support/contents.php:14 views/installer/steps/finish.php:20
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Read the full guide on GDPR compliance."
+msgctxt "(Admin)"
+msgid "Read the full guide on GDPR compliance."
+msgstr "Läs hela guiden om GDPR-följsamhet."
+
+#: views/admin/support/contents.php:20 views/installer/steps/finish.php:26
+msgctxt "(Admin)"
+msgid "Knowledge base"
+msgstr "Knowledge base"
+
+#: views/admin/support/contents.php:23 views/installer/steps/finish.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Check out the knowledge base for common questions and answers."
+msgctxt "(Admin)"
+msgid "Check out the knowledge base for common questions and answers."
+msgstr "Kolla in kunskapsdatabasen för vanliga frågor och svar."
+
+#: views/admin/support/contents.php:29 views/installer/steps/finish.php:35
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Developer's guide to GDPR"
+msgctxt "(Admin)"
+msgid "Developer's guide to GDPR"
+msgstr "Utvecklarens guide till GDPR"
+
+#: views/admin/support/contents.php:32 views/installer/steps/finish.php:38
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "We have a thorough guide to help making custom sites compliant."
+msgctxt "(Admin)"
+msgid "We have a thorough guide to help making custom sites compliant."
+msgstr ""
+"Vi har en genomgående guide som hjälper anpassade webbplatser till att följa "
+"GDPR."
+
+#: views/admin/support/contents.php:40 views/installer/steps/finish.php:46
+msgctxt "(Admin)"
+msgid "Need help?"
+msgstr "Behöver du hjälp?"
+
+#: views/admin/support/contents.php:46 views/installer/steps/finish.php:52
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Submit a support request"
+msgctxt "(Admin)"
+msgid "Submit a support request"
+msgstr "Skicka en supportförfrågan"
+
+#: views/admin/support/contents.php:49 views/installer/steps/finish.php:55
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Found a bug or have a question about the plugin? Submit a support request "
+"and we’ll get right on it!"
+msgstr ""
+"Hittade du en bugg eller har du en fråga om plugin? Skicka in en "
+"supportförfrågan så kommer vi rätt på den!"
+
+#: views/admin/support/contents.php:55 views/installer/steps/finish.php:61
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Request a consultation"
+msgctxt "(Admin)"
+msgid "Request a consultation"
+msgstr "Begär en konsultation"
+
+#: views/admin/support/contents.php:58 views/installer/steps/finish.php:64
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Need assistance in making your site compliant? We can help!"
+msgstr ""
+"Behöver du hjälp med att göra din webbplats kompatibel? Vi kan hjälpa till!"
+
+#: views/admin/wizard-buttons.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Restart setup wizard"
+msgctxt "(Admin)"
+msgid "Restart setup wizard"
+msgstr "Starta om installationsguiden"
+
+#: views/email/action-export.php:8 views/email/action-forget.php:12
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This email is just for your information. You don't need to take any action"
+msgctxt "(Admin)"
+msgid ""
+"This email is just for your information. You don't need to take any action"
+msgstr ""
+"Denna e-postadress är enbart för din information. Du behöver inte göra något"
+
+#: views/email/action-forget.php:8
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "The data subject had a user account on your website."
+msgctxt "(Admin)"
+msgid "The data subject had a user account on your website."
+msgstr "Den registrerade hade ett användarkonto på din webbplats."
+
+#: views/email/identify-data-subject.php:2
+msgid "Someone has requested access to your data on"
+msgstr "Någon har begärt åtkomst till dina uppgifter på"
+
+#: views/email/identify-data-subject.php:3
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Om detta var ett misstag eller om du inte bad om denna notifiering, ignorera "
+"meddelandet och inget kommer att hända."
+
+#: views/email/identify-data-subject.php:4
+msgid "To manage your data, visit the following address:"
+msgstr "För att hantera din data, besök följande adress:"
+
+#: views/email/identify-data-subject.php:10
+msgid "This link is valid for 15 minutes."
+msgstr "Denna länk är giltig i 15 minuter."
+
+#: views/email/no-data.php:2
+msgid "Someone has requested information about your personal data on"
+msgstr "Någon har begärt information om dina personuppgifter på"
+
+#: views/email/no-data.php:3
+msgid "None of your personal data is stored on"
+msgstr "Inga av dina personuppgifter sparas på"
+
+#: views/email/no-data.php:5
+msgid ""
+"If this was a mistake or you did not request this email, just ignore it and "
+"nothing will happen."
+msgstr ""
+"Om detta var ett misstag eller om du inte bad om denna notifiering, ignorera "
+"meddelandet och inget kommer att hända."
+
+#: views/email/request-export.php:13 views/email/request-forget.php:13
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgctxt "(Admin)"
+msgid "As a reminder: according to GDPR, you have 30 days to comply."
+msgstr ""
+"Som en påminnelse: enligt GDPR har du enbart 30 dagar kvar på dig att följa "
+"den."
+
+#: views/global/delete-action.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically anonymize data"
+msgctxt "(Admin)"
+msgid "Automatically anonymize data"
+msgstr "Anonymisera uppgifter automatiskt"
+
+#: views/global/delete-action.php:5
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically delete data"
+msgctxt "(Admin)"
+msgid "Automatically delete data"
+msgstr "Ta bort uppgifter automatiskt"
+
+#: views/global/delete-action.php:9
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically anonymize data and notify me via email"
+msgctxt "(Admin)"
+msgid "Automatically anonymize data and notify me via email"
+msgstr "Anonymisera uppgifter automatiskt och meddela mig via e-post"
+
+#: views/global/delete-action.php:13
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically delete data and notify me via email"
+msgctxt "(Admin)"
+msgid "Automatically delete data and notify me via email"
+msgstr "Radera uppgifter automatiskt och meddela mig via e-post"
+
+#: views/global/delete-action.php:16 views/global/export-action.php:10
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Only notify me via email"
+msgctxt "(Admin)"
+msgid "Only notify me via email"
+msgstr "Meddela mig endast via e-post"
+
+#: views/global/export-action.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically download data"
+msgctxt "(Admin)"
+msgid "Automatically download data"
+msgstr "Ladda ner uppgifter automatiskt"
+
+#: views/global/export-action.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Automatically download data and notify me via email"
+msgctxt "(Admin)"
+msgid "Automatically download data and notify me via email"
+msgstr "Ladda ner uppgifter automatiskt och meddela mig via e-post"
+
+#: views/global/position-action.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Banner bottom"
+msgctxt "(Admin)"
+msgid "Banner bottom"
+msgstr "Banner botten"
+
+#: views/global/position-action.php:5
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Floating left"
+msgctxt "(Admin)"
+msgid "Floating left"
+msgstr "Flytande vänster"
+
+#: views/global/position-action.php:8
+msgctxt "(Admin)"
+msgid "Floating Right"
+msgstr "Floating höger"
+
+#: views/global/position-action.php:11
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Banner top"
+msgctxt "(Admin)"
+msgid "Banner top"
+msgstr "Banner toppen"
+
+#: views/global/theme-action.php:2
+msgctxt "(Admin)"
+msgid "Default"
+msgstr "Standard"
+
+#: views/global/theme-action.php:5
+msgctxt "(Admin)"
+msgid "Classic"
+msgstr "Klassisk"
+
+#: views/global/theme-action.php:8
+msgctxt "(Admin)"
+msgid "Edgeless"
+msgstr "Gränslöst"
+
+#: views/installer/continue-notice.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "The The GDPR Framework setup has not been finalized yet."
+msgctxt "(Admin)"
+msgid "The The GDPR Framework setup has not been finalized yet."
+msgstr "Installationen av The GDPR Framework har inte slutförts ännu."
+
+#: views/installer/continue-notice.php:3
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "You can continue the setup at any time."
+msgctxt "(Admin)"
+msgid "You can continue the setup at any time."
+msgstr "Du kan fortsätta installationen närsomhelst."
+
+#: views/installer/continue-notice.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Continue the setup wizard"
+msgctxt "(Admin)"
+msgid "Continue the setup wizard"
+msgstr "Fortsätt installationsguide"
+
+#: views/installer/continue-notice.php:9
+msgctxt "(Admin)"
+msgid "Hide this message"
+msgstr "Dölj detta meddelande"
+
+#: views/installer/footer.php:7
+msgid "Back"
+msgstr "Tillbaka"
+
+#: views/installer/header.php:7
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "WordPress GDPR &rsaquo; Setup Wizard"
+msgctxt "(Admin)"
+msgid "WordPress GDPR &rsaquo; Setup Wizard"
+msgstr "WordPress GDPR &rsaquo; Installationsguide"
+
+#: views/installer/header.php:23
+msgctxt "(Admin)"
+msgid "The GDPR Framework"
+msgstr "The GDPR Framework"
+
+#: views/installer/header.php:26
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "I need help"
+msgctxt "(Admin)"
+msgid "I need help"
+msgstr "Jag behöver hjälp"
+
+#: views/installer/header.php:29
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Developer Docs"
+msgctxt "(Admin)"
+msgid "Developer Docs"
+msgstr "Utvecklardokumentation"
+
+#: views/installer/header.php:36
+msgctxt "(Admin)"
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: views/installer/header.php:46
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Forms & Consent"
+msgctxt "(Admin)"
+msgid "Forms & Consent"
+msgstr "Formulär och samtycken"
+
+#: views/installer/header.php:51
+msgctxt "(Admin)"
+msgid "Integrations"
+msgstr "Integrationer"
+
+#: views/installer/privacy-safe-notice.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Strengthen your reputation. Privacy safe gives your customers total control "
+"of their private information. The privacy safe seal assures your new "
+"customers that your business is in compliance with new privacy laws and "
+"regulations. For the privacy safe seal will verify that GDPR Framework "
+"plugin is installed."
+msgstr ""
+"Stärk ditt rykte. Sekretessskåp ger dina kunder total kontroll över sin "
+"privata information. Den integritetssäkra förseglingen försäkrar dina nya "
+"kunder att ditt företag följer nya sekretesslagar och förordningar. För "
+"integritetssäker tätning kommer att verifiera att GDPR Framework plugin är "
+"installerat."
+
+#: views/installer/privacy-safe-notice.php:9
+msgctxt "(Admin)"
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: views/installer/privacy-safe-notice.php:12
+msgctxt "(Admin)"
+msgid "Maybe Later"
+msgstr "Kanske senare"
+
+#: views/installer/steps/configuration-settings.php:23
+#: views/installer/steps/configuration-settings.php:73
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Enter the email address to notify"
+msgctxt "(Admin)"
+msgid "Enter the email address to notify"
+msgstr "Ange e-postadress att informera"
+
+#: views/installer/steps/disclaimer.php:21
+msgctxt "(Admin)"
+msgid "I accept"
+msgstr "Jag godkänner"
+
+#: views/installer/welcome-notice.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "The The GDPR Framework setup has not been finalized yet."
+msgctxt "(Admin)"
+msgid "The GDPR Framework has not been set up yet. Would you like to do that?"
+msgstr "Installationen av The GDPR Framework har inte slutförts ännu."
+
+#: views/installer/welcome-notice.php:3
+#, fuzzy
+msgctxt "(Admin)"
+msgid "Our setup wizard will guide you through the process."
+msgstr "Vår installationsguide guidar dig genom processen."
+
+#: views/installer/welcome-notice.php:4
+#, fuzzy
+msgctxt "(Admin)"
+msgid "You can also configure the plugin manually by going to"
+msgstr "Du kan också konfigurera plugin manuellt genom att gå till"
+
+#: views/installer/welcome-notice.php:5
+msgctxt "(Admin)"
+msgid "Tools"
+msgstr "Verktyg"
+
+#: views/installer/welcome-notice.php:10
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Run the setup wizard"
+msgctxt "(Admin)"
+msgid "Run the setup wizard"
+msgstr "Kör installationsguiden"
+
+#: views/installer/welcome-notice.php:14
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Auto-install pages"
+msgctxt "(Admin)"
+msgid "Auto-install pages"
+msgstr "Installera sidor automatiskt"
+
+#: views/installer/welcome-notice.php:18
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Skip and install manually"
+msgctxt "(Admin)"
+msgid "Skip and install manually"
+msgstr "Hoppa över och installera manuellt"
+
+#: views/modules/contact-form-7/form-privacy-tab.php:10
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Include the entries of this form when downloading or deleting a data "
+"subject's data."
+msgstr ""
+"Inkludera posterna i det här formuläret när du hämtar eller tar bort en "
+"registrerads data."
+
+#: views/modules/contact-form-7/form-privacy-tab.php:18
+#, fuzzy
+msgctxt "(Admin)"
+msgid ""
+"Select the mail-tag of the sender's email field (for example, your-email)."
+msgstr ""
+"Välj e-postetiketten i avsändarens e-postfält (till exempel din e-post)."
+
+#: views/modules/contact-form-7/generator-privacy.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "This tag generates the default text for Terms & Conditions and/or Privacy "
+#| "Policy checkbox."
+msgctxt "(Admin)"
+msgid ""
+"This tag generates the default text for Terms & Conditions and/or Privacy "
+"Policy checkbox."
+msgstr ""
+"Denna tagg skapar standardtexten för användarvillkor och/eller kryssruta för "
+"integritetspolicy."
+
+#: views/modules/contact-form-7/generator-privacy.php:15
+msgid "Insert"
+msgstr "Ange"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:3
+#: views/privacy-tools/form-consent.php:2
+msgid "Consent"
+msgstr "Samtycke"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:6
+#: views/privacy-tools/form-consent.php:6
+msgid "Here you can withdraw any consents you have given."
+msgstr "Här kan du återkalla samtycken som du har givit."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:8
+msgid "Consents"
+msgstr "Samtycken"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-consent.php:23
+#: views/privacy-tools/form-consent.php:24
+msgid "Withdraw"
+msgstr "Återkalla"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:6
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:5
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete this user and all data"
+msgctxt "(Admin)"
+msgid "Delete this user and all data"
+msgstr "Ta bort denna användare och alla uppgifter"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:12
+msgctxt "(Admin)"
+msgid "Delete my data"
+msgstr "Radera mina uppgifter"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:16
+#: views/privacy-tools/form-delete.php:6 views/privacy-tools/form-delete.php:26
+msgid "Delete all data we have gathered about you."
+msgstr "Radera alla uppgifter som vi har samlat in om dig."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:17
+#: views/privacy-tools/form-delete.php:7 views/privacy-tools/form-delete.php:27
+msgid "If you have a user account on our site, it will also be deleted."
+msgstr ""
+"Om du har ett användarkonto på vår webbplats, kommer den också att tas bort."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:18
+#: views/privacy-tools/form-delete.php:8 views/privacy-tools/form-delete.php:28
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr "Vad försiktig &ndash; denna åtgärd är permanent och kan INTE ångras."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:20
+#: views/privacy-tools/form-delete.php:10
+#, fuzzy
+msgid "Note Regarding Order:"
+msgstr "Anmärkning angående order:"
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:21
+#: views/privacy-tools/form-delete.php:11
+#, fuzzy
+msgid ""
+"Your order with status Processing will not get deleted until status change."
+msgstr ""
+"Din beställning med statusbehandling tas inte bort förrän statusändringen."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:22
+#: views/privacy-tools/form-delete.php:12
+#, fuzzy
+msgid "Your order with status Completed will get anonymize."
+msgstr "Din beställning med status Slutförd kommer att bli anonymiserad."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:23
+#: views/privacy-tools/form-delete.php:13
+#, fuzzy
+msgid "If you delete Completed order you can't apply for refund."
+msgstr "Om du tar bort slutförd order kan du inte ansöka om återbetalning."
+
+#: views/modules/wordpress-user/dashboard/data-page/form-delete.php:29
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:23
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid ""
+#| "You seem to have an administrator or equivalent role, so deleting/"
+#| "anonymizing via this page is disabled."
+msgctxt "(Admin)"
+msgid ""
+"You seem to have an administrator or equivalent role, so deleting/"
+"anonymizing via this page is disabled."
+msgstr ""
+"Du verkar ha en administratörsroll eller motsvarande, därför är radering/"
+"anonymisering via denna sida inaktiverat."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:7
+#: views/privacy-tools/form-export.php:1
+msgid "Download your data"
+msgstr "Ladda ner dina uppgifter"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:12
+#: views/privacy-tools/form-export.php:13
+msgid "Download as table"
+msgstr "Ladda ner som tabell"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:15
+#: views/privacy-tools/form-export.php:22
+msgid "Export as JSON"
+msgstr "Exportera som JSON"
+
+#: views/modules/wordpress-user/dashboard/form-export.php:19
+#: views/privacy-tools/form-export.php:4
+msgid "You can download all your data formatted as a table for viewing."
+msgstr ""
+"Du kan ladda ner alla dina uppgifter formaterad som en tabell för att visas."
+
+#: views/modules/wordpress-user/dashboard/form-export.php:20
+#: views/privacy-tools/form-export.php:5
+msgid "Alternatively, you can export it in machine-readable JSON format."
+msgstr "Alternativt kan du exportera det i ett maskinläsbart JSON-format."
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:11
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Delete user and all data"
+msgctxt "(Admin)"
+msgid "Delete user and all data"
+msgstr "Radera användare och alla uppgifter"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:14
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Anonymize user and all data"
+msgctxt "(Admin)"
+msgid "Anonymize user and all data"
+msgstr "Anonymisera användare och alla uppgifter"
+
+#: views/modules/wordpress-user/dashboard/profile-page/form-delete.php:18
+msgctxt "gdpr-framework"
+msgid "Be careful - this action is permanent and CANNOT be undone."
+msgstr "Var försiktig &ndash; denna handling är permanent och kan INTE ångras."
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:2
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "GDPR Data"
+msgctxt "(Admin)"
+msgid "GDPR Data"
+msgstr "GDPR-uppgifter"
+
+#: views/modules/wordpress-user/dashboard/profile-page/header.php:6
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "This user has been anonymized."
+msgctxt "(Admin)"
+msgid "This user has been anonymized."
+msgstr "Denna användare har blivit anonymiserad."
+
+#: views/modules/wordpress-user/dashboard/profile-page/table-consent.php:17
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "No consents given"
+msgctxt "(Admin)"
+msgid "No consents given"
+msgstr "Inget samtycke givet"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:2
+#, fuzzy
+#| msgctxt "gdpr-framework"
+#| msgid "GDPR User logs"
+msgctxt "gdpr-framework"
+msgid "GDPR User logs"
+msgstr "GDPR användarloggar"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:8
+#, fuzzy
+#| msgctxt "gdpr-framework"
+#| msgid "S.no"
+msgctxt "gdpr-framework"
+msgid "S.no"
+msgstr "S.no"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:9
+msgctxt "gdpr-framework"
+msgid "User ID"
+msgstr "Användar-ID"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:10
+#, fuzzy
+#| msgctxt "gdpr-framework"
+#| msgid "User logs"
+msgctxt "gdpr-framework"
+msgid "User logs"
+msgstr "Användarlogg"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:11
+#, fuzzy
+#| msgctxt "gdpr-framework"
+#| msgid "Updated date"
+msgctxt "gdpr-framework"
+msgid "Updated date"
+msgstr "Uppdaterat datum"
+
+#: views/modules/wordpress-user/dashboard/profile-page/user-logs.php:50
+#, fuzzy
+#| msgctxt "gdpr-framework"
+#| msgid "No User Logs"
+msgctxt "gdpr-framework"
+msgid "No User Logs"
+msgstr "Inga användarloggar"
+
+#: views/privacy-tools/donotsell.php:14
+#, fuzzy
+#| msgid "Data removal request"
+msgid "Do Not Sell Request"
+msgstr "Begäran om att radera uppgifter"
+
+#: views/privacy-tools/donotsell.php:51
+msgid "I agree to receive other communications from "
+msgstr "Jag samtycker till att ta emot annan kommunikation från "
+
+#: views/privacy-tools/donotsell.php:61
+msgctxt "(Admin)"
+msgid "Send Request"
+msgstr "Skicka begäran"
+
+#: views/privacy-tools/form-consent.php:9
+msgid "Consent types"
+msgstr "Samtyckestyper"
+
+#: views/privacy-tools/form-delete.php:3
+#: views/privacy-tools/notice-admin-role.php:1
+msgid "Delete my user and data"
+msgstr "Radera min användare och uppgifter"
+
+#: views/privacy-tools/form-delete.php:20
+#: views/privacy-tools/form-delete.php:32
+msgid "Delete my data"
+msgstr "Radera min uppgifter"
+
+#: views/privacy-tools/form-identify.php:8
+msgid "Back to front page"
+msgstr "Tillbaka till startsidan"
+
+#: views/privacy-tools/form-identify.php:14
+msgid "Please identify yourself via e-mail"
+msgstr "Vänligen identifiera dig via e-post"
+
+#: views/privacy-tools/form-identify.php:17
+#: views/privacy-tools/form-identify.php:20
+msgid "Enter your email address"
+msgstr "Ange din e-postadress"
+
+#: views/privacy-tools/form-identify.php:23
+msgid "Send email"
+msgstr "Skicka e-post"
+
+#: views/privacy-tools/notice-admin-role.php:4
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data deletion is disabled for administrative accounts."
+msgctxt "(Admin)"
+msgid "Data deletion is disabled for administrative accounts."
+msgstr "Radering av uppgifter är inaktiverat för administratörskonton."
+
+#: views/privacy-tools/notices.php:4
+msgid ""
+"We will send you an email with the link to access your data. Please check "
+"your spam folder as well!"
+msgstr ""
+"Vi skickar ett e-postmeddelande med en länk där du kan komma åt dina "
+"uppgifter. Kolla även din skräppostmapp!"
+
+#: views/privacy-tools/notices.php:8
+msgid "The email you entered does not appear to be a valid email."
+msgstr "E-postadressen som du har angivit verkar inte vara en giltig adress."
+
+#: views/privacy-tools/notices.php:12
+msgid "Sorry - the link seems to have expired. Please try again!"
+msgstr "Länken verkar ha gått ut. Försök igen!"
+
+#: views/privacy-tools/notices.php:24
+msgid "Your personal data has been removed!"
+msgstr "Dina personuppgifter har raderats!"
+
+#: views/privacy-tools/privacy-tools.php:5
+msgid "You are identified as"
+msgstr "Du är identifierad som"
+
+#. Plugin Name of the plugin/theme
+msgid "The GDPR Framework"
+msgstr "The GDPR Framework"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.data443.com/gdpr-framework/"
+msgstr "https://www.data443.com/gdpr-framework/"
+
+#. Description of the plugin/theme
+msgid ""
+"Tools to help make your website GDPR-compliant. Fully documented, extendable "
+"and developer-friendly."
+msgstr ""
+"Verktyg för att hjälpa din webbsida följa dataskyddsförordningen. "
+"Fullständigt dokumenterat, flexibelt och utvecklarvänligt."
+
+#. Author of the plugin/theme
+#, fuzzy
+#| msgctxt "(Admin)"
+#| msgid "Data443 GDPR"
+msgid "Data443"
+msgstr "Data443 GDPR"
+
+#. Author URI of the plugin/theme
+msgid "https://www.data443.com/"
+msgstr "https://www.data443.com/"
+
+#, fuzzy
+#~| msgctxt "(Admin)"
+#~| msgid ""
+#~| "You appear to be running a development version of GDPR. You must run "
+#~| "<code>composer install</code> from the plugin directory."
+#~ msgctxt "(Admin)"
+#~ msgid ""
+#~ "You appear to be running a development version of GDPR. You must run "
+#~ "<code>composer install</code> from the plugin directory."
+#~ msgstr ""
+#~ "Du verkar använda en utvecklarversion av GDPR. Du måste köra "
+#~ "<code>composer install</code> från tilläggskatalogen."
+
+#, fuzzy
+#~| msgctxt "(Admin)"
+#~| msgid "Autoloader not found."
+#~ msgctxt "(Admin)"
+#~ msgid "Autoloader not found."
+#~ msgstr "Auto-laddaren hittades inte."
