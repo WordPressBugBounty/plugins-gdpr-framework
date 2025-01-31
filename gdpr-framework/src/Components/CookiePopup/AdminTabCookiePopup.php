@@ -18,19 +18,19 @@ class AdminTabCookiePopup extends AdminTab
         $this->registerSetting('gdpr_enable_popup');
         $this->registerSetting('gdpr_onetime_popup');
         $this->registerSetting('gdpr_policy_popup');                
-        $this->registerSetting('gdpr_popup_content');
-        $this->registerSetting('gdpr_header');
+        $this->registerSetting('gdpr_popup_content', 'sanitize_textarea_field');
+        $this->registerSetting('gdpr_header', 'sanitize_textarea_field');
         $this->registerSetting('gdpr_popup_position');
         $this->registerSetting('gdpr_popup_theme');
-        $this->registerSetting('gdpr_popup_allow_text');
-        $this->registerSetting('gdpr_popup_dismiss_text');
-        $this->registerSetting('gdpr_popup_learnmore_text');
-        $this->registerSetting('gdpr_popup_background');
-        $this->registerSetting('gdpr_popup_text');
+        $this->registerSetting('gdpr_popup_allow_text', 'sanitize_text_field');
+        $this->registerSetting('gdpr_popup_dismiss_text', 'sanitize_text_field');
+        $this->registerSetting('gdpr_popup_learnmore_text', 'sanitize_text_field');
+        $this->registerSetting('gdpr_popup_background', 'sanitize_hex_color');
+        $this->registerSetting('gdpr_popup_text', 'sanitize_hex_color');
         $this->registerSetting('gdpr_popup_link_target');
-        $this->registerSetting('gdpr_popup_button_background');
-        $this->registerSetting('gdpr_popup_button_text');
-        $this->registerSetting('gdpr_popup_border_text');
+        $this->registerSetting('gdpr_popup_button_background', 'sanitize_hex_color');
+        $this->registerSetting('gdpr_popup_button_text', 'sanitize_hex_color');
+        $this->registerSetting('gdpr_popup_border_text', 'sanitize_text_field');
         add_action('gdpr/admin/action/CookiePopup/generate', [$this, 'generateCookiePopup']);
     }
 
@@ -139,7 +139,7 @@ class AdminTabCookiePopup extends AdminTab
     
         $this->registerSettingField(
             'gdpr_popup_button_background',
-            _x('Cookie Acceptance Button Backgroung Color', '(Admin)', 'gdpr-framework'),
+            _x('Cookie Acceptance Button Background Color', '(Admin)', 'gdpr-framework'),
             [$this, 'renderbuttonBackgroundcolor'],
             'gdpr_popup_section'
         );
@@ -203,7 +203,7 @@ class AdminTabCookiePopup extends AdminTab
         global $gdpr;
         $enabled = $gdpr->Options->get('onetime_popup');
         echo gdpr('view')->render('admin/general/enable-onetime-popup', compact('enabled'));
-    }    
+    }
     public function renderEnablePolicyOnPopup()
     {
         global $gdpr;

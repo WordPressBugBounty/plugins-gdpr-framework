@@ -207,7 +207,13 @@ class PrivacyToolsPageController {
 			}
 		}
 
-		$consentInfo = wpautop( gdpr( 'options' )->get( 'consent_info' ) );
+		$info = gdpr( 'options' )->get( 'consent_info' );
+
+		if (empty($info)) {
+			$consentInfo = "";
+		} else {
+			$consentInfo = wpautop( $info );
+		}
 
 		echo gdpr( 'view' )->render(
 			'privacy-tools/form-consent',

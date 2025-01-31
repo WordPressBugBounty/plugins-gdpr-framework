@@ -182,63 +182,63 @@ function popup_gdpr()
 	
 	$gdpr_policy_page_url = apply_filters( 'gdpr_custom_policy_link',$gdpr_policy_page_url);
 
-	$gdpr_cookie_acceptance_content_url = get_option( 'gdpr_popup_content' );
+	$gdpr_cookie_acceptance_content = esc_textarea(get_option( 'gdpr_popup_content' ));
 
-	$gdpr_cookie_acceptance_content_url = do_shortcode( $gdpr_cookie_acceptance_content_url );
+	$gdpr_cookie_acceptance_content = do_shortcode( $gdpr_cookie_acceptance_content );
 
-	if($gdpr_cookie_acceptance_content_url != ""){ 
+	if($gdpr_cookie_acceptance_content != ""){
 
-		$gdpr_message= __($gdpr_cookie_acceptance_content_url, 'gdpr-framework');
+		$gdpr_message= __($gdpr_cookie_acceptance_content, 'gdpr-framework');
 
 	}else{
 
 		$gdpr_message= __('This website uses cookies to ensure you get the best experience on our website.', 'gdpr-framework');
 	}
 	
-	$gdpr_cookie_dismiss_text_url = get_option( 'gdpr_popup_dismiss_text' );
+	$gdpr_cookie_dismiss_text = esc_html(get_option( 'gdpr_popup_dismiss_text' ));
 
-	$gdpr_cookie_dismiss_text_url = do_shortcode( $gdpr_cookie_dismiss_text_url );
+	$gdpr_cookie_dismiss_text = do_shortcode( $gdpr_cookie_dismiss_text );
 
-	if($gdpr_cookie_dismiss_text_url != ""){ 
+	if($gdpr_cookie_dismiss_text != ""){
 
-		$gdpr_dismiss= __($gdpr_cookie_dismiss_text_url, 'gdpr-framework');
+		$gdpr_dismiss= __($gdpr_cookie_dismiss_text, 'gdpr-framework');
 
 	}else{
 
 		$gdpr_dismiss = __('Decline', 'gdpr-framework');
 	}
 
-	$gdpr_cookie_allow_text_url = get_option( 'gdpr_popup_allow_text' );
+	$gdpr_cookie_allow_text = esc_html(get_option( 'gdpr_popup_allow_text' ));
 
-	$gdpr_cookie_allow_text_url = do_shortcode( $gdpr_cookie_allow_text_url );
+	$gdpr_cookie_allow_text = do_shortcode( $gdpr_cookie_allow_text );
 
-	if($gdpr_cookie_dismiss_text_url != ""){ 
+	if($gdpr_cookie_allow_text != ""){
 
-		 $gdpr_allow = __($gdpr_cookie_allow_text_url, 'gdpr-framework');
+		 $gdpr_allow = __($gdpr_cookie_allow_text, 'gdpr-framework');
 
 	}else{
 
 		 $gdpr_allow = __('Accept', 'gdpr-framework');
 	}
 
-	$gdpr_cookie_learnmore_text_url = get_option( 'gdpr_popup_learnmore_text' );
+	$gdpr_cookie_learnmore_text = esc_html(get_option( 'gdpr_popup_learnmore_text' ));
 
-	$gdpr_cookie_learnmore_text_url = do_shortcode( $gdpr_cookie_learnmore_text_url );
+	$gdpr_cookie_learnmore_text = do_shortcode( $gdpr_cookie_learnmore_text );
 
-	if($gdpr_cookie_learnmore_text_url != ""){ 
+	if($gdpr_cookie_learnmore_text != ""){
 
-		$gdpr_link= __($gdpr_cookie_learnmore_text_url, 'gdpr-framework');
+		$gdpr_link= __($gdpr_cookie_learnmore_text, 'gdpr-framework');
 
 	}else{
 
 		$gdpr_link = __('Learn more', 'gdpr-framework');
 	}
 
-	$position = get_option( 'gdpr_popup_position' ); #"bottom-left","top","bottom-right",""
+	$position = esc_attr(get_option( 'gdpr_popup_position' )); #"bottom-left","top","bottom-right",""
 
 	$static = false; # true
 
-	$gdpr_header = get_option( 'gdpr_header' );
+	$gdpr_header = esc_html(get_option( 'gdpr_header' ));
 	
 	$gdpr_header = do_shortcode($gdpr_header);
 
@@ -246,21 +246,21 @@ function popup_gdpr()
 		$gdpr_header= __($gdpr_header, 'gdpr-framework');
 	}
 
-	$gdpr_popup_background=get_option( 'gdpr_popup_background' );
+	$gdpr_popup_background = esc_attr(get_option( 'gdpr_popup_background' ));
 
-	$gdpr_popup_text=get_option( 'gdpr_popup_text' );
+	$gdpr_popup_text = esc_attr(get_option( 'gdpr_popup_text' ));
 
-	$gdpr_button_background=get_option( 'gdpr_popup_button_background' );
+	$gdpr_button_background = esc_attr(get_option( 'gdpr_popup_button_background' ));
 
-	$gdpr_button_text=get_option( 'gdpr_popup_button_text' );
+	$gdpr_button_text = esc_attr(get_option( 'gdpr_popup_button_text' ));
 
-	$gdpr_link_target=get_option( 'gdpr_popup_link_target' );
+	$gdpr_link_target = esc_attr(get_option( 'gdpr_popup_link_target' ));
 
 	if(!$gdpr_link_target){
 		$gdpr_link_target="_blank";
 	}
 	
-	$gdpr_button_border=get_option( 'gdpr_popup_border_text' );
+	$gdpr_button_border = esc_attr(get_option( 'gdpr_popup_border_text' ));
 
 	if(!$gdpr_popup_background){
 		$gdpr_popup_background = "#efefef";
@@ -278,7 +278,7 @@ function popup_gdpr()
 		$gdpr_button_border = "#8ec760";
 	}
 
-	$gdpr_popup_theme = get_option( 'gdpr_popup_theme' );
+	$gdpr_popup_theme = esc_attr(get_option( 'gdpr_popup_theme' ));
 
 	$gdpr_policy_popup = get_option( 'gdpr_policy_popup' );
 	

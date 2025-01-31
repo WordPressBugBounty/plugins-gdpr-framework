@@ -2,9 +2,9 @@
 Contributors: Data443
 Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive, eu cookie law, california privacy law, privacy law, general data protection, ccpa, gdpr law
 Requires at least: 4.7
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: trunk
+Stable tag: 2.2.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,10 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.2.0 (1/30/2025) =
+
+* RDU-1594 Fix potential security vulnerabilities
 
 = 2.1.0 (2/27/2024) =
 
