@@ -1,5 +1,5 @@
 <?php 
-
+if ( ! defined( 'ABSPATH' ) ) exit;
 add_action( "wp_ajax_gdpr_add_consent_accept_cookies", "gdpr_add_consent_accept_cookies" );
 add_action( "wp_ajax_nopriv_gdpr_add_consent_accept_cookies", "gdpr_add_consent_accept_cookies" );
 add_action( "wp_ajax_gdpr_add_consent_deny_cookies", "gdpr_add_consent_deny_cookies" );

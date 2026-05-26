@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\PrivacySafe;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 use Codelight\GDPR\Components\WHMCS\WHMCS;
 

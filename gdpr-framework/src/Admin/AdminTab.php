@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Base class for admin tabs. Extend this.
  *

@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Modules\WPML;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class WPML
 {
 	protected $prefix = 'gdpr_';

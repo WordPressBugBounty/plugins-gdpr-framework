@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\PrivacyToolsPage;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataSubject;
 use Codelight\GDPR\DataSubject\DataSubjectAuthenticator;
 use Codelight\GDPR\DataSubject\DataSubjectIdentificator;

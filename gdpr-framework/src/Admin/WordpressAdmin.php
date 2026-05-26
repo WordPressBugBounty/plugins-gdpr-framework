@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handles general admin functionality
  *

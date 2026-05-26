@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\DataSubject;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 /**

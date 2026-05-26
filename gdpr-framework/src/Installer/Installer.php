@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Installer;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTabGeneral;
 
 /**

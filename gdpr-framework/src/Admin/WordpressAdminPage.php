@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handle registering and rendering the GDPR admin page contents
  *

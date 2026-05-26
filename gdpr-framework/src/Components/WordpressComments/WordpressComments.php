@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\WordpressComments;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataSubject;
 use Codelight\GDPR\DataSubject\DataSubjectManager;
 

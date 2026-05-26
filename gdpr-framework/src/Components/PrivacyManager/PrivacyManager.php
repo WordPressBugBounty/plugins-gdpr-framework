@@ -1,6 +1,9 @@
 <?php
 
 namespace Codelight\GDPR\Components\PrivacyManager;
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handles putting together and rendering the privacy policy page
  *

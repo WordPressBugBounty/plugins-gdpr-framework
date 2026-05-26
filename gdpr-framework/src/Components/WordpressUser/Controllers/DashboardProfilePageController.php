@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\WordpressUser\Controllers;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataExporter;
 use Codelight\GDPR\DataSubject\DataSubject;
 use Codelight\GDPR\DataSubject\DataSubjectManager;
@@ -12,7 +14,7 @@ class DashboardProfilePageController
     protected $dataExporter;
 
     public function __construct(DataSubjectManager $dataSubjectManager, DataExporter $dataExporter)
-    {          
+    {
         $this->dataSubjectManager = $dataSubjectManager;
         $this->dataExporter       = $dataExporter;
         
@@ -29,7 +31,7 @@ class DashboardProfilePageController
     }
 
     protected function isUserAnonymized(DataSubject $dataSubject)
-    {   
+    {
         return !$dataSubject->getEmail();
     }
 

@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\Themes;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class Themes
 {
     protected $theme;

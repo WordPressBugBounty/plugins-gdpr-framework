@@ -1,8 +1,8 @@
 <?php
 
-
 namespace Codelight\GDPR\Installer\Steps;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 use Codelight\GDPR\Installer\InstallerStep;
 use Codelight\GDPR\Installer\InstallerStepInterface;

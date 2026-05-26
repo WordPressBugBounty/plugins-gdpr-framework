@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\DataSubject;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class DataSubjectAdmin
 {
     public function __construct()

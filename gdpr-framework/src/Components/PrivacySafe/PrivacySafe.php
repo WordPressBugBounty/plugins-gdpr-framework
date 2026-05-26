@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\PrivacySafe;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class PrivacySafe {
 
 	public function __construct() {

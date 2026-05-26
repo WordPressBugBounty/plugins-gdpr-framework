@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Installer;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handle redirecting and routing the installer steps
  *

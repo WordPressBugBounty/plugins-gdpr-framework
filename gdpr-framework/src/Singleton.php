@@ -1,6 +1,8 @@
 <?php
 namespace Codelight\GDPR;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataSubjectIdentificator;
 use Codelight\GDPR\DataSubject\DataSubjectAuthenticator;
 use Codelight\GDPR\Modules\WPML\WPML;

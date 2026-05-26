@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\WordpressUser\Controllers;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataExporter;
 use Codelight\GDPR\DataSubject\DataSubject;
 use Codelight\GDPR\DataSubject\DataSubjectAuthenticator;

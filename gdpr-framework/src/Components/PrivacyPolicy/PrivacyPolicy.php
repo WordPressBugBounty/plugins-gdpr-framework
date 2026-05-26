@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\PrivacyPolicy;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handles putting together and rendering the privacy policy page
  *

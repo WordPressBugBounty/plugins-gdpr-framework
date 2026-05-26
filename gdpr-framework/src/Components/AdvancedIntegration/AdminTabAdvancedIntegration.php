@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\AdvancedIntegration;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 class AdminTabAdvancedIntegration extends AdminTab

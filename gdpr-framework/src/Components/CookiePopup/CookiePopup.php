@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\CookiePopup;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handles putting together and rendering the privacy policy page
  *

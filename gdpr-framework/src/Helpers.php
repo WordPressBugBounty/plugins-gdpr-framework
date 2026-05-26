@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * General helper functions
  *

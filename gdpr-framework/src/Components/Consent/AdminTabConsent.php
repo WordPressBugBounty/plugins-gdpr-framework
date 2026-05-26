@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\Consent;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 /**

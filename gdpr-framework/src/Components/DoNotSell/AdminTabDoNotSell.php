@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\DoNotSell;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 class AdminTabDoNotSell extends AdminTab {

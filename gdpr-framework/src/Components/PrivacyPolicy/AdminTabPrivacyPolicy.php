@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\PrivacyPolicy;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 class AdminTabPrivacyPolicy extends AdminTab

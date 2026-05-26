@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\Consent;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /**
  * Handles getting, saving and removing consent based on a whitelist
  *

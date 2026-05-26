@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Modules\ContactForm7;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Components\Consent\ConsentManager;
 use Codelight\GDPR\DataSubject\DataSubjectManager;
 

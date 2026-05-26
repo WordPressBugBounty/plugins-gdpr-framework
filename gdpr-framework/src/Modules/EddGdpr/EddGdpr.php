@@ -1,6 +1,8 @@
 <?php
 namespace Codelight\GDPR\Modules\EddGdpr;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Components\Consent\ConsentManager;
 use Codelight\GDPR\DataSubject\DataSubjectManager;
 

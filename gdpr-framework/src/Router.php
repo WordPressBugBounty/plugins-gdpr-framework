@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataSubjectAuthenticator;
 
 /**

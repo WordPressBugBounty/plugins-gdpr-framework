@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\WordpressUser;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\DataSubject\DataSubjectManager;
 use Codelight\GDPR\Components\WordpressUser\Controllers\DashboardDataPageController;
 use Codelight\GDPR\Components\WordpressUser\Controllers\DashboardProfilePageController;

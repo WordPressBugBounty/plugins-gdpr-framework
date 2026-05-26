@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\Support;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class Support
 {
     public function __construct()

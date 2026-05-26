@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\CookiePopup;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Admin\AdminTab;
 
 class AdminTabCookiePopup extends AdminTab

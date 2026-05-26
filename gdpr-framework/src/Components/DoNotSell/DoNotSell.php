@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Components\DoNotSell;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class DoNotSell {
 
 	public function __construct() {

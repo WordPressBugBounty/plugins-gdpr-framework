@@ -1,6 +1,8 @@
 <?php
 namespace Codelight\GDPR\Modules\WooCommerceGdpr;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 use Codelight\GDPR\Components\Consent\ConsentManager;
 use Codelight\GDPR\DataSubject\DataSubjectManager;
 include_once(WC_ABSPATH . 'includes/class-wc-privacy-exporters.php');

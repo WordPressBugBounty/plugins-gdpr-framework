@@ -1,8 +1,8 @@
 <?php
 
-
 namespace Codelight\GDPR\Modules\ContactForm7;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 class Flamingo
 {

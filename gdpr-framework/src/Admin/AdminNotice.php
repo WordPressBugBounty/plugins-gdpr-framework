@@ -2,6 +2,8 @@
 
 namespace Codelight\GDPR\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class AdminNotice
 {
     protected $template;
