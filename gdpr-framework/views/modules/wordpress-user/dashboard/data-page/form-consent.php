@@ -12,10 +12,11 @@
                             &#10004;
                         </td>
                         <td class="gdpr-consent-user-title">
-                          <?= $item['title']; ?>
+                          <?php // Security fix (SECURITY-AUDIT.md Finding 2 / PR review Finding 4): wp_kses() with the narrow allow-list keeps built-in Privacy Policy/Terms links clickable while stripping scripts and unsafe URLs; custom titles are sanitized to plain text on write. ?>
+                          <?= wp_kses($item['title'], gdpr_allowed_consent_title_html()); ?>
                         </td>
                         <td class="gdpr-consent-user-desc">
-                          <?= $item['description']; ?>
+                          <?= esc_html($item['description']); ?>
                         </td>
                         <td>
                             <?php if ('privacy-policy' !== $item['slug']): ?>

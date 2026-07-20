@@ -62,7 +62,11 @@ class PrivacyToolsPageShortcode
         if (!$gdpr->Options->get('tools_page') || is_null(get_post($gdpr->Options->get('tools_page')))) {
             return __('Please configure the Privacy Tools page in the admin interface.', 'gdpr-framework');
         }
-        $slug = 'do-not-sell-request';
+        // The consent type registered in ConsentManager is 'do-not-sell-info'
+        // (see registerDefaultConsentTypes()); 'do-not-sell-request' never
+        // matched, so getbySlugConsent() always returned null and the form
+        // silently fell back to its generic "receive communications" branch.
+        $slug = 'do-not-sell-info';
         $defaultConsentTypes = $this->consentManager->getbySlugConsent($slug);
         $first_name = '';
         $last_name = '';

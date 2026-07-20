@@ -10,9 +10,10 @@
         <th><?= esc_html_x('Visibility', '(Admin)', 'gdpr-framework'); ?></th>
     <?php foreach ($defaultConsentTypes as $consentType): ?>
         <tr>
-            <td class="gdpr-consent-table-input"><?= $consentType['slug']; ?></td>
-            <td class="gdpr-consent-table-input"><?= $consentType['title']; ?></td>
-            <td class="gdpr-consent-table-desc"><?= $consentType['description']; ?></td>
+            <?php // Security fix (SECURITY-AUDIT.md Finding 2 / PR review Finding 4): escape consent type fields before echoing. The title goes through wp_kses() so built-in Privacy Policy/Terms links stay clickable in this admin table; the slug/description remain plain-text escaped. ?>
+            <td class="gdpr-consent-table-input"><?= esc_html($consentType['slug']); ?></td>
+            <td class="gdpr-consent-table-input"><?= wp_kses($consentType['title'], gdpr_allowed_consent_title_html()); ?></td>
+            <td class="gdpr-consent-table-desc"><?= esc_html($consentType['description']); ?></td>
             <td>
                 <?php if ($consentType['visible']): ?>
                     <?= esc_html_x('Visible', '(Admin)', 'gdpr-framework'); ?>
@@ -85,9 +86,10 @@
 </div>
 
 <?php if (count($customConsentTypes)): ?>
+    <?php // Security fix (SECURITY-AUDIT.md Finding 2): a stored consent title/description containing a closing script tag could break out of the inline block below. ?>
     <script>
         window.repeaterData = [];
-        window.repeaterData['gdpr_consent_types'] = <?= json_encode($customConsentTypes); ?>;
+        window.repeaterData['gdpr_consent_types'] = <?= json_encode($customConsentTypes, JSON_HEX_TAG | JSON_HEX_AMP); ?>;
     </script>
 <?php endif; ?>
 <br>

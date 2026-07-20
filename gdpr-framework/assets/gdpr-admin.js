@@ -1,10 +1,26 @@
 jQuery(function($) {
   /**
+   * Enable/disable every successful form control inside the hidden consent
+   * repeater template -- not just <input>. Fix (SECURITY-AUDIT.md Finding 2 /
+   * PR review Finding 2): the previous code only toggled `input`, leaving the
+   * template's <textarea name="description"> enabled. The browser then
+   * submitted an otherwise-empty consent row (description only), which backend
+   * validation rejected as a missing slug/title and which could block
+   * unrelated settings saves. `:input` also covers <textarea>, <select> and
+   * <button>.
+   */
+  function setConsentRepeaterEnabled(enabled) {
+    $(".js-gdpr-repeater .gdpr-show-hide")
+      .find(":input")
+      .prop("disabled", !enabled);
+  }
+
+  /**
    * requried issue on Consent show repeater
    */
   $(document).on("click", ".show_form_consent_gdpr", function(e) {
-    $(".gdpr-hidden input").prop("disabled", false);
-    $(".gdpr-hidden").removeClass("gdpr-hidden");
+    $(".gdpr-show-hide").removeClass("gdpr-hidden");
+    setConsentRepeaterEnabled(true);
     $(".show_form_consent_gdpr").hide();
   });
   /**
@@ -13,14 +29,16 @@ jQuery(function($) {
 
   $(document).on("click", ".hide_form_consent_gdpr", function(e) {
     $(".gdpr-show-hide").addClass("gdpr-hidden");
-    $(".gdpr-hidden input").prop("disabled", true);
+    setConsentRepeaterEnabled(false);
     $(".show_form_consent_gdpr").show();
   });
   /**
    * Fix issue with more then one consent add.
    */
   $(document).ready(function() {
-    $(".gdpr-hidden input").prop("disabled", true);
+    setConsentRepeaterEnabled(
+      !$(".js-gdpr-repeater .gdpr-show-hide").hasClass("gdpr-hidden")
+    );
   });
   // Handler to open the modal dialog
   $(document).on("click", ".gdpr-open-modal", function(e) {

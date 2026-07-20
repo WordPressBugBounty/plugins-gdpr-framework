@@ -51,6 +51,9 @@ window.addEventListener("load", function () {
 							data: {
 								action: "gdpr_add_consent_accept_cookies",
 								userip: data.ip,
+								// Security fix (SECURITY-AUDIT.md Finding 1): nonce required by
+								// check_ajax_referer('gdpr_consent_cookie', 'nonce') server-side.
+								nonce: gdpr_policy_page.nonce,
 							},
 							success: function (data) {
 								$(".cc-close").click();
@@ -70,6 +73,9 @@ window.addEventListener("load", function () {
 							data: {
 								action: "gdpr_add_consent_deny_cookies",
 								userip: data.ip,
+								// Security fix (SECURITY-AUDIT.md Finding 1): nonce required by
+								// check_ajax_referer('gdpr_consent_cookie', 'nonce') server-side.
+								nonce: gdpr_policy_page.nonce,
 							},
 							success: function (data) {
 								console.log(data);

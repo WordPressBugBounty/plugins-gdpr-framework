@@ -28,23 +28,41 @@
           },
           cache: false
       }).done(function (r) {
-          console.log(r);
-          if (r.donotsellrequests !== '') {
-              console.log('complete')
-              jQuery('#donotsellmsg').addClass('donotsell-msg');
-              jQuery('#donotsellmsg').removeClass('donotsell-error-msg');
-              jQuery('#donotsellmsg').text('Request has been submitted successfully!!').delay(10000).fadeOut();
-              //el_form_submit.attr('data-is-updated', 'true');
-              //el_form_submit.text(el_form_submit.data('is-update-text'));
+          // Show a single, clearly styled status message. r.error is set both
+          // for real errors and for the "verification required" response
+          // (donot_sell_save_post()); anything else with a donotsellrequests
+          // payload is a success.
+          if (r && r.error !== undefined && r.error !== '') {
+              showMessage(r.error, false);
+          } else if (r && r.donotsellrequests) {
+              showMessage('Request has been submitted successfully!!', true);
+          } else {
+              showMessage('Something went wrong. Please try again.', false);
           }
-          console.log(r.error)
-          if(r.error !=='' && r.error != undefined){
-            jQuery('#donotsellmsg').removeClass('donotsell-msg');
-            jQuery('#donotsellmsg').addClass('donotsell-error-msg');
-            jQuery('#donotsell-error-msg').text(r.error).delay(10000).fadeOut();
-          }
+      }).fail(function () {
+          showMessage('Something went wrong. Please try again.', false);
+      }).always(function () {
           el_form_submit.removeAttr('disabled');
       });
+  }
+
+  // Render a success/error message in the status area and make sure it is
+  // visible (the box is hidden again after a delay, and re-shown on the next
+  // submit).
+  function showMessage(text, isSuccess) {
+      var $msg = jQuery('#donotsellmsg');
+
+      $msg.stop(true, true)
+          .toggleClass('donotsell-msg', isSuccess)
+          .toggleClass('donotsell-error-msg', !isSuccess)
+          .text(text)
+          .show();
+
+      if ($msg.length && $msg[0].scrollIntoView) {
+          $msg[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      $msg.delay(10000).fadeOut();
   }
 
   // Used to trigger/simulate post submission without user action.

@@ -7,7 +7,7 @@
  * Author:            Data443
  * Requires at least: 4.7
  * Requires PHP:      5.6
- * Version:           2.3.0
+ * Version:           2.4.0
  * Author URI:        https://www.data443.com/
  * Text Domain:       gdpr-framework
  * Domain Path:       /languages
@@ -33,7 +33,7 @@ if (defined('GDPR_FRAMEWORK_PRO_VERSION')) {
     return;
 }
 
-define('GDPR_FRAMEWORK_VERSION', '2.3.0');
+define('GDPR_FRAMEWORK_VERSION', '2.4.0');
 
 define('GDPR_DEFAULT_UNKNOWN_USER_MESSAGE', 'Message received.');
 
@@ -216,7 +216,15 @@ function my_profile_update( $user_id, $old_user_data )
     if($all_meta_for_user['description']['0']){
         $data['description'] = $all_meta_for_user['description']['0'];
     }
-    $userdata = serialize($data);
+    // Security fix (SECURITY-AUDIT.md Finding 5 / PR review Finding 3): store
+    // this snapshot as JSON rather than PHP-serialized data, so reading it
+    // back (see gdpr_decode_user_log()) never has to run unserialize() on a
+    // DB-sourced string. Legacy serialized rows are still read via the
+    // object-blocking fallback in gdpr_decode_user_log().
+    $userdata = wp_json_encode($data);
+    if (false === $userdata) {
+        return;
+    }
     $model = new \Codelight\GDPR\Components\Consent\UserConsentModel();
     $model->savelog($user_id,$userdata);
 }

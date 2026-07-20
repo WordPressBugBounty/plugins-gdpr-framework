@@ -97,7 +97,17 @@ abstract class WordpressDatabase
     public function getBy($column, $row_id)
     {
         global $wpdb;
-        $column = esc_sql($column);
+
+        // Security fix (SECURITY-AUDIT.md Finding 4): esc_sql() only escapes
+        // quote/backslash characters -- it does not protect a value used in
+        // an identifier position (e.g. a column name), which can carry an
+        // injection payload that needs no quotes at all (UNION, subqueries,
+        // comments). $wpdb->prepare()'s %s only protects the value
+        // placeholder, not $column. Whitelist against the known columns
+        // instead of relying on esc_sql() here.
+        if (!array_key_exists($column, $this->getColumns())) {
+            return null;
+        }
 
         return $wpdb->get_row($wpdb->prepare(
             "SELECT * FROM $this->tableName WHERE $column = %s LIMIT 1;", $row_id
@@ -114,7 +124,13 @@ abstract class WordpressDatabase
     public function getColumn($column, $row_id)
     {
         global $wpdb;
-        $column = esc_sql($column);
+
+        // Security fix (SECURITY-AUDIT.md Finding 4): see getBy() above --
+        // whitelist the column name instead of relying on esc_sql(), which
+        // does not protect an identifier position.
+        if (!array_key_exists($column, $this->getColumns())) {
+            return null;
+        }
 
         return $wpdb->get_var($wpdb->prepare(
             "SELECT $column FROM $this->tableName WHERE $this->primary_key = %s LIMIT 1;", $row_id
@@ -131,8 +147,14 @@ abstract class WordpressDatabase
     public function getColumnBy($column, $column_where, $column_value)
     {
         global $wpdb;
-        $column_where = esc_sql($column_where);
-        $column = esc_sql($column);
+
+        // Security fix (SECURITY-AUDIT.md Finding 4): see getBy() above --
+        // whitelist both column names instead of relying on esc_sql(),
+        // which does not protect an identifier position.
+        $columns = $this->getColumns();
+        if (!array_key_exists($column, $columns) || !array_key_exists($column_where, $columns)) {
+            return null;
+        }
 
         return $wpdb->get_var($wpdb->prepare(
             "SELECT $column FROM $this->tableName WHERE $column_where = %s LIMIT 1;", $column_value
@@ -257,8 +279,12 @@ abstract class WordpressDatabase
         global $wpdb;
         $table = sanitize_text_field($table);
 
+        // Security fix (SECURITY-AUDIT.md Finding 4): %s inside literal
+        // quotes is a $wpdb->prepare() misuse -- prepare() already quotes
+        // %s placeholders itself, so the literal quotes here just changed
+        // what ended up being matched rather than adding protection.
         return $wpdb->get_var($wpdb->prepare(
-                "SHOW TABLES LIKE '%s'", $table
+                'SHOW TABLES LIKE %s', $table
             )) === $table;
     }
 

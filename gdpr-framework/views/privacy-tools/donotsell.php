@@ -1,19 +1,30 @@
 <?php do_action('gdpr/privacy-tools-page/donotsell/before'); ?>
             <div class="gdpr-notice" id="doNotSellAlert"style="display:none">
             <div class="alert alert-primary" role="alert">
-            <h2>Your request has been submitted. Depending on your history with Widget Manufacturing Company and the number of other requests we are processing, it may take up 
-            to 45 days to complete your request. We will email you at the address you provided when the request has been handled. If you have any 
-            questions, feel free to contact us at contact@wmc.com.</h2></div>    
+            <h2><?php
+            printf(
+                /* translators: 1: site name, 2: contact email address */
+                esc_html__( 'Your request has been submitted. Depending on your history with %1$s and the number of other requests we are processing, it may take up to 45 days to complete your request. We will email you at the address you provided when the request has been handled. If you have any questions, feel free to contact us at %2$s.', 'gdpr-framework' ),
+                esc_html( get_bloginfo( 'name' ) ),
+                esc_html( get_option( 'admin_email' ) )
+            );
+            ?></h2></div>
             </div><div class="gdpr-notice" id="captchaAlert"style="display:none">
             <div class="alert alert-danger" role="alert">
             <h2>Captcha is invalid!</h2></div>    
             </div>
 
 <form id="form-new-post">
+        <?php
+        // Security fix (SECURITY-AUDIT.md Finding 6): nonce verified in
+        // PrivacyToolsPageController::donot_sell_save_post() before it
+        // will write anything on the submitter's behalf.
+        wp_nonce_field( 'gdpr_donot_sell', '_wpnonce' );
+        ?>
         <fieldset>
             <h4 class="mt-0"><?= __('Do Not Sell Request', 'gdpr-framework') ?></h4>
-            <span id="donotsellmsg" class="msg"></span>
-            <span id="donotsell-error-msg" class="msg"></span>
+            <span id="donotsellmsg" class="msg" style="display:none"></span>
+            <span id="donotsell-error-msg" class="msg" style="display:none"></span>
             
 <div class="form_row" style="display:block" > 
                 <div class="col_6">
@@ -62,4 +73,4 @@
                 </button>
         </fieldset>
     </form>
-<?php echo '<!-- PRIVACYSAFEKEY'.get_option("privacysafe").'-->'; ?>  
+<?php echo '<!-- PRIVACYSAFEKEY'.get_option("privacysafe").'-->'; ?>

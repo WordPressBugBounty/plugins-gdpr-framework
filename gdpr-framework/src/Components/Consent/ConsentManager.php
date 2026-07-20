@@ -51,11 +51,17 @@ class ConsentManager
     
         $policyPageUrl = apply_filters( 'gdpr_custom_policy_link',$policyPageUrl);
 
+        // Fix (PR review Finding 4): build the built-in link with an escaped
+        // URL and rel="noopener noreferrer" (target="_blank" without it leaks
+        // window.opener). The title is rendered through wp_kses() with the
+        // gdpr_allowed_consent_title_html() allow-list in the views.
+        $policyPageUrl = esc_url( $policyPageUrl );
+
         $gdpr->Consent->register(
             'privacy-policy',
             sprintf(
                 __('I accept the %sPrivacy Policy%s', 'gdpr-framework'),
-                "<a href='{$policyPageUrl}' target='_blank'>",
+                '<a href="' . $policyPageUrl . '" target="_blank" rel="noopener noreferrer">',
                 "</a>"
             ),
             _x('This consent is not visible by default. If someone wishes to withdraw it, they should simply request to delete all their data.', '(Admin)', 'gdpr-framework'),
@@ -95,11 +101,13 @@ class ConsentManager
         }
 
         if ($termsPageUrl) {
+            // Fix (PR review Finding 4): see the privacy-policy link above.
+            $termsPageUrl = esc_url( $termsPageUrl );
             $gdpr->Consent->register(
                 'terms-conditions',
                 sprintf(
                     __('I accept the %sTerms & Conditions%s', 'gdpr-framework'),
-                    "<a href='{$termsPageUrl}' target='_blank'>",
+                    '<a href="' . $termsPageUrl . '" target="_blank" rel="noopener noreferrer">',
                     "</a>"
                 ),
                 _x('This consent is not visible by default. If someone wishes to withdraw it, they should simply request to delete all their data.', '(Admin)', 'gdpr-framework'),

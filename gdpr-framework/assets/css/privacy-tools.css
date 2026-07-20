@@ -1,38 +1,38 @@
-.ccpa-framework-privacy-tools .ccpa-notice {
+.gdpr-framework-privacy-tools .gdpr-notice {
   padding: 10px 20px;
   border: 1px solid #666;
 }
 
-.ccpa-framework-privacy-tools .ccpa-consent td {
+.gdpr-framework-privacy-tools .gdpr-consent td {
   padding: 0.6em;
 }
 
-.ccpa-framework-privacy-tools .ccpa-consent td:first-child {
+.gdpr-framework-privacy-tools .gdpr-consent td:first-child {
   padding-left: 0;
 }
 
-.ccpa-framework-privacy-tools .ccpa-consent td:last-child {
+.gdpr-framework-privacy-tools .gdpr-consent td:last-child {
   padding-right: 0;
 }
 
-.ccpa-framework-privacy-tools .ccpa-download-button,
-.ccpa-framework-privacy-tools .ccpa-export-button,
-.ccpa-framework-privacy-tools .ccpa-delete-button {
+.gdpr-framework-privacy-tools .gdpr-download-button,
+.gdpr-framework-privacy-tools .gdpr-export-button,
+.gdpr-framework-privacy-tools .gdpr-delete-button {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 20px;
 }
 
-.ccpa-framework-privacy-tools .ccpa-download-button input.button,
-.ccpa-framework-privacy-tools .ccpa-export-button input.button,
-.ccpa-framework-privacy-tools .ccpa-delete-button input.button {
+.gdpr-framework-privacy-tools .gdpr-download-button input.button,
+.gdpr-framework-privacy-tools .gdpr-export-button input.button,
+.gdpr-framework-privacy-tools .gdpr-delete-button input.button {
   min-width: 200px;
 }
 
 .g-recaptcha {
     margin: 10px 0px 10px 0px;
 }
-.ccpa-download-button, .ccpa-export-button {
+.gdpr-download-button, .gdpr-export-button {
 	margin: 6px 6px;
 	display: inline-block;
 }

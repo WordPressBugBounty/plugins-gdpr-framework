@@ -28,8 +28,21 @@ class DataManager
         // Remove session keys. Just in case.
         if (isset($meta) && isset($meta['session_tokens']) && count($meta['session_tokens'])) {
             foreach ($meta['session_tokens'] as $token) {
-                foreach (unserialize($token) as $key => $tokenData) {
-                    $data['meta']['session_tokens'][] = $tokenData;
+                // Security fix (SECURITY-AUDIT.md Finding 5 / PR review Finding
+                // 3): decode this DB-sourced string with the object-blocking
+                // gdpr_safe_unserialize() helper rather than
+                // maybe_unserialize(), which would still instantiate a
+                // serialized object. Validate the decoded shape before use.
+                $tokens = gdpr_safe_unserialize($token);
+
+                if (!is_array($tokens)) {
+                    continue;
+                }
+
+                foreach ($tokens as $tokenData) {
+                    if (is_array($tokenData)) {
+                        $data['meta']['session_tokens'][] = $tokenData;
+                    }
                 }
             }
         }

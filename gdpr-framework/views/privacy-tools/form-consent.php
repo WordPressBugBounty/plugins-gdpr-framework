@@ -13,10 +13,11 @@
                         &#10004;
                     </td>
                     <td>
-                        <?= $item['title']; ?>
+                        <?php /* Security fix (SECURITY-AUDIT.md Finding 2 / PR review Finding 4): custom titles are sanitized to plain text on write; wp_kses() with the narrow allow-list keeps built-in Privacy Policy/Terms links clickable while stripping scripts and unsafe URLs. */ ?>
+                        <?= wp_kses($item['title'], gdpr_allowed_consent_title_html()); ?>
                     </td>
                     <td>
-                        <em><?= $item['description']; ?></em>
+                        <em><?= esc_html($item['description']); ?></em>
                     </td>
                     <td>
                         <?php if ('privacy-policy' !== $item['slug']): ?>

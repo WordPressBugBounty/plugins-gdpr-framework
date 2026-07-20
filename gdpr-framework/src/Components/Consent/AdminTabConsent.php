@@ -124,15 +124,44 @@ class AdminTabConsent extends AdminTab
                         $type[$key] = 1;
                     }
                 }
+
+                // Security fix (SECURITY-AUDIT.md Finding 2): title/description
+                // are plain-text fields in views/admin/consent.php (a text
+                // input and a plain textarea, no rich-text editor) but were
+                // previously stored completely unsanitized, then echoed
+                // unescaped on public consent forms and the admin
+                // data-subject search page -- a stored XSS reachable by
+                // anyone who can save a custom consent type. Sanitize on the
+                // way in as defense in depth alongside escaping on the way out.
+                if (isset($type['title'])) {
+                    $type['title'] = sanitize_text_field($type['title']);
+                }
+                if (isset($type['description'])) {
+                    $type['description'] = sanitize_textarea_field($type['description']);
+                }
             }
-		}		
+		}
+
+        // Fix (PR review Finding 2): drop completely empty repeater/template
+        // rows before validating or saving. The hidden "add consent type"
+        // template can otherwise submit an all-blank row (see the JS fix in
+        // assets/gdpr-admin.js), which would fail validation and block the
+        // whole settings save, and would be persisted as junk if it slipped
+        // through.
+        $consentTypes = array_values(array_filter($consentTypes, function ($type) {
+            return '' !== $this->trimField($type, 'slug')
+                || '' !== $this->trimField($type, 'title')
+                || '' !== $this->trimField($type, 'description');
+        }));
 
 		$errors = [];
 
         if (!empty($consentTypes)) {
-            //$errors = $this->validate($consentTypes);
+            // Security fix (SECURITY-AUDIT.md Finding 2): this validation was
+            // disabled, allowing e.g. an empty required title/slug to be saved.
+            $errors = $this->validate($consentTypes);
 		}
-		
+
 		if (!count($errors)) {
             $this->consentManager->saveCustomConsentTypes($consentTypes);
         } else {
@@ -144,25 +173,55 @@ class AdminTabConsent extends AdminTab
 
     protected function validate($consentTypes)
     {
-		$errors = [];
-		
-		
+        // Fix (PR review Finding 2): the previous version indexed
+        // $consentType['slug'] directly (undefined-index warning on a partial
+        // row) and reused the single key 'errors[]' for every failure, so each
+        // new error overwrote the last instead of accumulating. Read fields
+        // defensively, tolerate a completely empty template row, and collect
+        // all distinct errors.
+        $errors = [];
 
         foreach ($consentTypes as $consentType) {
-            if (empty($consentType['slug'])) {
-                $errors['errors[]'] = 'slug-empty';
+            $slug        = $this->trimField($consentType, 'slug');
+            $title       = $this->trimField($consentType, 'title');
+            $description = $this->trimField($consentType, 'description');
+
+            // Ignore a completely empty repeater/template row.
+            if ('' === $slug && '' === $title && '' === $description) {
+                continue;
             }
 
-            if (!preg_match('/^[A-Za-z0-9_-]+$/', $consentType['slug'])) {
-                $errors['errors[]'] = 'slug-invalid';
+            if ('' === $slug) {
+                $errors[] = 'slug-empty';
+            } elseif (!preg_match('/^[A-Za-z0-9_-]+$/', $slug)) {
+                $errors[] = 'slug-invalid';
             }
 
-            if (empty($consentType['title'])) {
-                $errors['errors[]'] = 'title-empty';
+            if ('' === $title) {
+                $errors[] = 'title-empty';
             }
 		}
 
-		return $errors;
+        $errors = array_values(array_unique($errors));
+
+        return empty($errors) ? [] : ['errors' => $errors];
+    }
+
+    /**
+     * Read a consent-type field as a trimmed string, tolerating a missing key
+     * or a non-scalar value (e.g. an array submitted for a text field).
+     *
+     * @param array  $consentType
+     * @param string $key
+     * @return string
+     */
+    protected function trimField($consentType, $key)
+    {
+        if (!isset($consentType[$key]) || !is_scalar($consentType[$key])) {
+            return '';
+        }
+
+        return trim((string) $consentType[$key]);
     }
 
     public function renderErrors()

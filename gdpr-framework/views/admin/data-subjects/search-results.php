@@ -35,7 +35,12 @@
 	<?php endif; ?>
 
 	<hr>
-	<?php echo '<script>console.log(' . json_encode( $consentData ) . ' );</script>'; ?>
+	<?php
+	// Security fix (SECURITY-AUDIT.md Finding 2): an admin-set consent title
+	// containing a closing script tag could break out of this inline debug
+	// block. JSON_HEX_TAG neutralizes it; this console.log is debug output only.
+	echo '<script>console.log(' . json_encode( $consentData, JSON_HEX_TAG | JSON_HEX_AMP ) . ' );</script>';
+	?>
 	<?php if ($consentData): ?>
 		<table class="gdpr-consent">
 			<th colspan="2"><?= esc_html_x('Consents given', '(Admin)', 'gdpr-framework'); ?></th>
@@ -45,7 +50,8 @@
 						&#10004;
 					</td>
 					<td>
-						<?= $item['title']; ?>
+						<?php // Security fix (SECURITY-AUDIT.md Finding 2): escape admin-set consent title before echoing. ?>
+						<?= esc_html($item['title']); ?>
 					</td>
 				</tr>
 			<?php endforeach; ?>
