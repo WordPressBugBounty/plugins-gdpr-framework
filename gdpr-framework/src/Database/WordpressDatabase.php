@@ -83,7 +83,7 @@ abstract class WordpressDatabase
         global $wpdb;
 
         return $wpdb->get_row($wpdb->prepare(
-            "SELECT * FROM $this->tableName WHERE $this->primary_key = %s LIMIT 1;", $row_id
+            "SELECT * FROM $this->tableName WHERE $this->primaryKey = %s LIMIT 1;", $row_id
         ));
     }
 
@@ -133,7 +133,7 @@ abstract class WordpressDatabase
         }
 
         return $wpdb->get_var($wpdb->prepare(
-            "SELECT $column FROM $this->tableName WHERE $this->primary_key = %s LIMIT 1;", $row_id
+            "SELECT $column FROM $this->tableName WHERE $this->primaryKey = %s LIMIT 1;", $row_id
         ));
     }
 
@@ -259,7 +259,7 @@ abstract class WordpressDatabase
         }
 
         if (false === $wpdb->query($wpdb->prepare(
-                "DELETE FROM $this->tableName WHERE $this->primary_key = %d", $row_id
+                "DELETE FROM $this->tableName WHERE $this->primaryKey = %d", $row_id
             ))) {
             return false;
         }

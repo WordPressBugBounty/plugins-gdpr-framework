@@ -23,8 +23,13 @@ abstract class OptionsBase
      */
     public function prefix($name)
     {   
-        // Check for accidental duplicate prefix
-        if ("" === strpos($name, $this->prefix)) {
+        // Check for accidental duplicate prefix.
+        // Fix: this compared strpos() against "" instead of 0. strpos() returns
+        // int 0 when $name starts with the prefix and false when it does not --
+        // it never returns "" -- so under strict comparison the guard was
+        // unreachable and already-prefixed names were silently read from and
+        // written to 'gdpr_gdpr_*'.
+        if (0 === strpos($name, $this->prefix)) {
             trigger_error("You appear to have a duplicate prefix for option {$name}", E_USER_NOTICE);
             return $name;
         }

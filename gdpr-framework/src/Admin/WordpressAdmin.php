@@ -177,10 +177,10 @@ class WordpressAdmin
     {
         global $wpdb;
 
-        $this->logtableName = $wpdb->prefix . 'gdpr_userlogs';
+        $logtableName = $wpdb->prefix . 'gdpr_userlogs';
 
         return $wpdb->delete(
-            $this->logtableName,
+            $logtableName,
             [
                 'user_id'   => $user_id,
             ]

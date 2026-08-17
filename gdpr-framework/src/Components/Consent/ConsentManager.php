@@ -225,7 +225,19 @@ class ConsentManager
      */
     public function isRegisteredConsent($consent)
     {
-        return null !== $this->getConsentTypes( $consent );
+        // Fix: this used to read `null !== $this->getConsentTypes($consent)`.
+        // getConsentTypes() takes no parameters and always returns an array, so
+        // the comparison was always true and the whitelist never rejected
+        // anything -- including $_REQUEST['consent'] forwarded verbatim by
+        // PrivacyToolsPageController::withdrawConsent() and the Contact Form 7
+        // acceptance-field names checked in ContactForm7::getConsentFields().
+        $consentTypes = $this->getConsentTypes();
+
+        if (!is_array($consentTypes)) {
+            return false;
+        }
+
+        return array_key_exists($consent, $consentTypes);
     }
 
     /**
@@ -278,13 +290,18 @@ class ConsentManager
      */
     public function deleteConsent($email, $consent)
     {
-        if ($this->isRegisteredConsent($consent)) {
-            if ($this->model->given($email, $consent)) {
-                do_action('gdpr/consent/withdrawn', $email, $consent, 'deleted');
-            }
-
-            $this->model->delete($email, $consent);
+        // Deliberately NOT gated on isRegisteredConsent(). This is the erasure
+        // path -- delete() below feeds it slugs read straight out of the
+        // database, never caller input -- and a consent type can stop being
+        // registered while its rows remain (a custom type the admin removed,
+        // or 'gdpr_woo_consent' once WooCommerce is deactivated). Skipping
+        // those rows would leave the data subject's email in the table after
+        // they asked to be forgotten.
+        if ($this->model->given($email, $consent)) {
+            do_action('gdpr/consent/withdrawn', $email, $consent, 'deleted');
         }
+
+        $this->model->delete($email, $consent);
     }
 
     /**
@@ -296,13 +313,13 @@ class ConsentManager
      */
     public function anonymizeConsent($email, $consent, $anonymizedId)
     {
-        if ($this->isRegisteredConsent($consent)) {
-            if ($this->model->given($email, $consent)) {
-                do_action('gdpr/consent/withdrawn', $email, $consent, 'anonymized');
-            }
-
-            $this->model->anonymize($email, $consent, $anonymizedId);
+        // Not gated on isRegisteredConsent() -- see deleteConsent() above for
+        // why the erasure path must cover every stored row.
+        if ($this->model->given($email, $consent)) {
+            do_action('gdpr/consent/withdrawn', $email, $consent, 'anonymized');
         }
+
+        $this->model->anonymize($email, $consent, $anonymizedId);
     }
 
     /**

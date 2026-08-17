@@ -9,18 +9,24 @@ include_once(WC_ABSPATH . 'includes/class-wc-privacy-exporters.php');
 include_once(WC_ABSPATH . 'includes/class-wc-privacy-erasers.php');
 
 class WooCommerceGdpr
-{   
+{
+    /* @var DataSubjectManager */
+    protected $dataSubjectManager;
+
+    /* @var ConsentManager */
+    protected $consentManager;
+
     public function __construct(DataSubjectManager $dataSubjectManager, ConsentManager $consentManager)
     {
         global $gdpr;
         $this->dataSubjectManager = $dataSubjectManager;
         $this->consentManager = $consentManager;
-        
+
         if (!$gdpr->Options->get('enable_woo_compatibility'))
         {
             return;
         }
-        if (!class_exists('WooCommerce')) 
+        if (!class_exists('WooCommerce'))
         {
             return;
         }
@@ -40,15 +46,15 @@ class WooCommerceGdpr
     }
     /*
     *   Fatch all order with details have following status. 'wc-pending','wc-on-hold','wc-processing', 'wc-completed','wc-cancelled','wc-refunded','wc-failed'
-    *   
+    *
     */
     public function getWoocommerceExportData(array $data, $email)
-    {   
+    {
         $customer_information = \WC_Privacy_Exporters::customer_data_exporter($email);
         if(!empty($customer_information['data'])){
             $title  = __('Customer Information', 'gdpr');
             $data[$title]['0']= $customer_information;
-        }        
+        }
         $export_items = \WC_Privacy_Exporters::order_data_exporter($email,-1);
         if(empty($export_items['data'])){
             return $data;
@@ -78,8 +84,8 @@ class WooCommerceGdpr
                 if($order->get_status() != "completed" || $order->get_status() != "processing")
                 {
                     $this->wc_gdpr_delete_orders($order_id);
-                } 
-                if($order->get_status() == "completed")           
+                }
+                if($order->get_status() == "completed")
                 {
                     $this->anonymizeWoocommerceEntries($email);
                 }
@@ -104,7 +110,7 @@ class WooCommerceGdpr
             {
                 if($order->get_status() != "processing"){
                     \WC_Privacy_Erasers::remove_order_personal_data($order);
-                }            
+                }
             }
         }
     }
@@ -112,7 +118,7 @@ class WooCommerceGdpr
     *   Delete all order infromation from order ID.
     */
     public function wc_gdpr_delete_orders($order_id)
-    {   
+    {
         /*
         *   delete order with all information
         */
@@ -131,13 +137,13 @@ class WooCommerceGdpr
     /*
     *   Add checkout FGDPR content
     */
-    public function gdpr_woo_add_checkout_privacy_policy() 
+    public function gdpr_woo_add_checkout_privacy_policy()
     {
         global $gdpr;
         $policyPage = $gdpr->Options->get('policy_page');
         $policyPageUrl = get_permalink($policyPage);
         if(isset($policyPageUrl) && $policyPage != "0")
-        {            
+        {
             woocommerce_form_field( 'gdpr_woo_consent', array(
                 'type'          => 'checkbox',
                 'class'         => array('form-row privacy'),
@@ -149,8 +155,8 @@ class WooCommerceGdpr
                                         "<a href='{$policyPageUrl}' target='_blank'>",
                                         "</a>"
                                     ),
-            )); 
-        }        
+            ));
+        }
     }
     /*
     *   Track consent and check for Privacy Policy consent.
@@ -160,7 +166,7 @@ class WooCommerceGdpr
         global $gdpr;
         $policyPage = $gdpr->Options->get('policy_page');
         $policyPageUrl = get_permalink($policyPage);
-        if ( ! (int) isset( $_POST['gdpr_woo_consent'] ) ) 
+        if ( ! (int) isset( $_POST['gdpr_woo_consent'] ) )
         {
             if(isset($policyPageUrl) && $policyPage != "0")
             {

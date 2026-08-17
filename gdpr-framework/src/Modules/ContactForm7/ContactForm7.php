@@ -9,6 +9,12 @@ use Codelight\GDPR\DataSubject\DataSubjectManager;
 
 class ContactForm7
 {
+    /* @var DataSubjectManager */
+    protected $dataSubjectManager;
+
+    /* @var ConsentManager */
+    protected $consentManager;
+
     public function __construct(DataSubjectManager $dataSubjectManager, ConsentManager $consentManager)
     {
         $this->dataSubjectManager = $dataSubjectManager;
@@ -65,7 +71,7 @@ class ContactForm7
     }
 
     public function processFormSubmission(\WPCF7_ContactForm $form, $abort, \WPCF7_Submission $submission)
-    {   
+    {
         $consents = $this->findConsents($form, $submission);
 
         if (!count($consents)) {
@@ -100,7 +106,7 @@ class ContactForm7
     }
 
     public function findEmail($form_id,\WPCF7_Submission $submission)
-    {   
+    {
         $email_key = get_post_meta($form_id->id(), 'gdpr_cf7_email_field', true );
         if (isset($submission->get_posted_data()['your-email'])) {
             return $submission->get_posted_data()['your-email'];

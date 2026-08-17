@@ -1,6 +1,14 @@
 <?php global $gdpr; ?>
 
-<h2><?= ($gdpr->Options->get('gdpr_delete_text') != '') ? $gdpr->Options->get('gdpr_delete_text') : __('Delete my user and data', 'gdpr-framework') ?></h2>
+<?php
+// Options::get() applies the 'gdpr_' prefix itself, so the name is passed
+// unprefixed here -- the setting is registered as (and stored under)
+// 'gdpr_delete_text' by AdminTabPrivacyPolicy. Passing 'gdpr_delete_text'
+// resolved to 'gdpr_gdpr_delete_text', which is never written, so the admin's
+// custom label was silently replaced by the default below on every render.
+$gdprDeleteText = $gdpr->Options->get('delete_text');
+?>
+<h2><?= ('' != $gdprDeleteText) ? $gdprDeleteText : __('Delete my user and data', 'gdpr-framework') ?></h2>
 <br/>
 <p class="description">
     <?= __('Delete all data we have gathered about you.', 'gdpr-framework') ?> <br/>

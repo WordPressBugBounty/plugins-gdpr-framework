@@ -11,7 +11,13 @@ include_once(EDD_PLUGIN_DIR . 'includes/class-edd-download.php');
 include_once(EDD_PLUGIN_DIR . 'includes/privacy-functions.php');
 
 class EddGdpr
-{   
+{
+    /* @var DataSubjectManager */
+    protected $dataSubjectManager;
+
+    /* @var ConsentManager */
+    protected $consentManager;
+
     public function __construct(DataSubjectManager $dataSubjectManager, ConsentManager $consentManager)
     {
         global $gdpr;

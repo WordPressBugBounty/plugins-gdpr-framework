@@ -26,6 +26,9 @@ abstract class InstallerStep
     /* @var int */
     protected $activeSteps;
 
+    /* @var string */
+    protected $errors;
+
     /**
      * Render a step for viewing
      */

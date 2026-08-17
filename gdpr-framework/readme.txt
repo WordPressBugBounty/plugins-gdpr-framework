@@ -4,7 +4,7 @@ Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive,
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,10 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.5.0 (8/17/2026) =
+
+* Fix deprecation warnings in contact form 7 and woocommerce integration code
 
 = 2.4.0 (7/17/2026) =
 

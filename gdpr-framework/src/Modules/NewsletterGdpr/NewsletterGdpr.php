@@ -16,7 +16,13 @@ if(file_exists(dirname( ES_PLUGIN_FILE ) . '/includes/db/class-es-db-contacts.ph
 // Support plugin name: Email Subscribers & Newsletters
 
 class NewsletterGdpr
-{   
+{
+    /* @var DataSubjectManager */
+    protected $dataSubjectManager;
+
+    /* @var ConsentManager */
+    protected $consentManager;
+
     public function __construct(DataSubjectManager $dataSubjectManager, ConsentManager $consentManager)
     {  	    
         $this->dataSubjectManager = $dataSubjectManager;
