@@ -81,7 +81,10 @@ class DataExporter
 
     protected function getHtmlData($data)
     {
-        $table = $this->formatAsTable($this->maybeUnserialize($data));
+        // $data was already decoded once in export(). Decoding it a second
+        // time turned values that were stored as (escaped) serialized text
+        // back into live PHP structures -- see CVE-2026-39797.
+        $table = $this->formatAsTable($data);
         return gdpr('view')->render('global/html-data', compact('table'));
     }
 
@@ -133,6 +136,14 @@ class DataExporter
     /**
      * Recursively maybe unserialize data
      *
+     * Security fix (CVE-2026-39797): this data includes user-supplied text
+     * (comment content, form submissions, profile fields), so it must never
+     * reach WordPress's maybe_unserialize, which instantiates serialized
+     * objects.
+     * Built-in data sources now decode their own stored values; this pass is
+     * kept only for extensions that return serialized arrays via the
+     * 'gdpr/data-subject/data' filter, and it never builds objects.
+     *
      * @param array $data
      * @return array
      */
@@ -142,9 +153,10 @@ class DataExporter
             if (is_array($datum)) {
                 $datum = $this->maybeUnserialize($datum);
             } else {
-                $datum = maybe_unserialize($datum);
+                $datum = gdpr_safe_maybe_unserialize($datum);
             }
         }
+        unset($datum);
 
         return $data;
     }

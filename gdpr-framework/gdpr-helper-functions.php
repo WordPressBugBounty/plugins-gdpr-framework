@@ -49,8 +49,10 @@ if ( ! function_exists( 'gdpr_safe_unserialize' ) ) {
 
 		// PHP 5.6 has no allowed_classes option. Reject object and
 		// custom-object tokens conservatively, including objects nested inside
-		// arrays.
-		if ( preg_match( '/(^|[;{])[OC]:\d+:"/', $value ) ) {
+		// arrays. PHP 5.6 also accepts a signed length ("O:+8:"), so allow
+		// for an optional sign, and match anywhere in the string -- a false
+		// positive inside a string value only means the value is not decoded.
+		if ( preg_match( '/[OC]:[+-]?\d+:"/', $value ) ) {
 			return false;
 		}
 
@@ -81,6 +83,60 @@ if ( ! function_exists( 'gdpr_serialized_contains_object' ) ) {
 		}
 
 		return false;
+	}
+}
+
+/**
+ * Object-safe drop-in for maybe_unserialize(): decodes a serialized
+ * array/scalar, but returns the original string unchanged if it is not
+ * serialized, is malformed, or carries a serialized object.
+ *
+ * Security fix (CVE-2026-39797): the data export used maybe_unserialize() on
+ * every exported value, including attacker-controlled text such as comment
+ * content, so an object payload in a comment was instantiated on export.
+ *
+ * @param mixed $value
+ * @return mixed
+ */
+if ( ! function_exists( 'gdpr_safe_maybe_unserialize' ) ) {
+	function gdpr_safe_maybe_unserialize( $value ) {
+		if ( ! is_string( $value ) || ! is_serialized( $value ) ) {
+			return $value;
+		}
+
+		$decoded = gdpr_safe_unserialize( $value );
+
+		// false is both a legitimate decoded value ("b:0;") and the
+		// rejection signal for objects/malformed input.
+		if ( false === $decoded && 'b:0;' !== trim( $value ) ) {
+			return $value;
+		}
+
+		return $decoded;
+	}
+}
+
+/**
+ * Decode the raw value arrays returned by get_{user,comment}_meta() when
+ * called without a key (WordPress leaves those values serialized), using the
+ * object-safe decoder. Each value is decoded exactly once.
+ *
+ * @param mixed $meta
+ * @return array
+ */
+if ( ! function_exists( 'gdpr_decode_meta_array' ) ) {
+	function gdpr_decode_meta_array( $meta ) {
+		if ( ! is_array( $meta ) ) {
+			return array();
+		}
+
+		foreach ( $meta as $key => $values ) {
+			$meta[ $key ] = is_array( $values )
+				? array_map( 'gdpr_safe_maybe_unserialize', $values )
+				: gdpr_safe_maybe_unserialize( $values );
+		}
+
+		return $meta;
 	}
 }
 

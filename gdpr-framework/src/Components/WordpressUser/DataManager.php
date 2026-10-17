@@ -10,7 +10,10 @@ class DataManager
     {
         $user = $dataSubject->getUser();
         if ($user) {
-            $meta = get_user_meta($user->ID);
+            // get_user_meta() without a key returns raw, still-serialized
+            // values. Decode them here, once, with the object-safe decoder
+            // instead of relying on the exporter (CVE-2026-39797).
+            $meta = gdpr_decode_meta_array(get_user_meta($user->ID));
             $data['meta'] = $meta;
         } else {
             $data = [];
@@ -25,26 +28,23 @@ class DataManager
             'community-events-location',
         ];
 
-        // Remove session keys. Just in case.
+        // Values were decoded by gdpr_decode_meta_array() above. Keep only the
+        // per-session details (login time, expiry, IP, user agent) and drop
+        // the token verifier hashes used as array keys.
         if (isset($meta) && isset($meta['session_tokens']) && count($meta['session_tokens'])) {
-            foreach ($meta['session_tokens'] as $token) {
-                // Security fix (SECURITY-AUDIT.md Finding 5 / PR review Finding
-                // 3): decode this DB-sourced string with the object-blocking
-                // gdpr_safe_unserialize() helper rather than
-                // maybe_unserialize(), which would still instantiate a
-                // serialized object. Validate the decoded shape before use.
-                $tokens = gdpr_safe_unserialize($token);
-
+            $sessions = [];
+            foreach ($meta['session_tokens'] as $tokens) {
                 if (!is_array($tokens)) {
                     continue;
                 }
 
                 foreach ($tokens as $tokenData) {
                     if (is_array($tokenData)) {
-                        $data['meta']['session_tokens'][] = $tokenData;
+                        $sessions[] = $tokenData;
                     }
                 }
             }
+            $data['meta']['session_tokens'] = $sessions;
         }
 
         /*

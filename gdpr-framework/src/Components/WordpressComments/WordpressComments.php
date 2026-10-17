@@ -165,7 +165,9 @@ class WordpressComments {
 					'comment_consent'      => 'privacy-policy',
 				);
 				if ( isset( $comment->comment_ID ) ) {
-					$commentMeta = get_comment_meta( $comment->comment_ID );
+					// Raw, still-serialized values when called without a key;
+					// decode once with the object-safe decoder (CVE-2026-39797).
+					$commentMeta = gdpr_decode_meta_array( get_comment_meta( $comment->comment_ID ) );
 					if ( ! empty( $commentMeta ) ) {
 						$commentData['comment_meta'] = $commentMeta;
 					}

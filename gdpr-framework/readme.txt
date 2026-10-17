@@ -4,7 +4,7 @@ Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive,
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.5.0
+Stable tag: 2.5.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,12 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.5.1 (10/16/2026) =
+
+* Security: fix PHP Object Injection in the personal data export (CVE-2026-39797). Exported values, including comment text and form submissions, were passed to maybe_unserialize(), and the HTML export decoded them twice. Values are now decoded once, at the source, by a decoder that never creates PHP objects.
+* Security: the PHP 5.6 fallback decoder now also rejects signed-length object tokens (e.g. "O:+8:").
+* Privacy: the user data export no longer includes session token verifier hashes. Session details (login time, expiry, IP, user agent) are still exported.
 
 = 2.5.0 (8/17/2026) =
 
