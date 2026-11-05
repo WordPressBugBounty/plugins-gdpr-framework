@@ -190,6 +190,99 @@ if ( ! function_exists( 'gdpr_allowed_consent_title_html' ) ) {
 	}
 }
 
+/**
+ * Arguments for the `donotsellrequests` post type (CCPA "Do Not Sell" requests).
+ *
+ * Security fix (SECURITY-AUDIT.md Finding 8 / Wordfence #481325): the post type
+ * used to be registered with WordPress's default `post` capabilities, `public`
+ * and `show_ui`. Each request stores the requester's email (post title) and
+ * name (post meta), so any Contributor could list them at
+ * wp-admin/edit.php?post_type=donotsellrequests, and Authors/Editors could
+ * edit or trash them. Every primitive capability now maps to the plugin's
+ * admin capability (the same `gdpr/capability` filter the Router uses), and
+ * the type is no longer public. Front-end submissions are unaffected: they
+ * go through wp_insert_post() in donot_sell_save_post(), which does not
+ * check capabilities.
+ *
+ * @return array
+ */
+if ( ! function_exists( 'gdpr_donotsell_post_type_args' ) ) {
+	function gdpr_donotsell_post_type_args() {
+		$capability = apply_filters( 'gdpr/capability', 'manage_options' );
+
+		$capabilities = array();
+		foreach ( array(
+			'read',
+			'create_posts',
+			'edit_posts',
+			'edit_others_posts',
+			'edit_private_posts',
+			'edit_published_posts',
+			'publish_posts',
+			'read_private_posts',
+			'delete_posts',
+			'delete_others_posts',
+			'delete_private_posts',
+			'delete_published_posts',
+		) as $primitive ) {
+			$capabilities[ $primitive ] = $capability;
+		}
+
+		return array(
+			'label'               => 'Do Not Sell Info',
+			'public'              => false,
+			'has_archive'         => false,
+			'exclude_from_search' => true,
+			'publicly_queryable'  => false,
+			'show_in_menu'        => false,
+			'show_in_nav_menus'   => false,
+			'show_in_admin_bar'   => false,
+			'show_in_rest'        => false,
+			'menu_position'       => 20,
+			'show_ui'             => true,
+			'hierarchical'        => false,
+			'rewrite'             => false,
+			'query_var'           => false,
+			'map_meta_cap'        => true,
+			'capabilities'        => $capabilities,
+			'supports'            => array( 'title', 'editor', 'excerpt', 'custom-fields', 'post-formats' ),
+		);
+	}
+}
+
+/**
+ * Whether a "forget" (delete / anonymize) request must be refused for the
+ * data subject with this email.
+ *
+ * Security fix (SECURITY-AUDIT.md Finding 9): the Privacy Tools delete forms
+ * are hidden from administrators (renderDeleteForm() in both the front-end
+ * and dashboard controllers), but the forget() handlers behind them never
+ * re-checked, so a hand-built request still deleted or anonymized an
+ * administrator account. The handlers now enforce the same rule: refuse when
+ * the current user is an administrator, or when the email belongs to a WP
+ * user who is one.
+ *
+ * @param string $email
+ * @return bool
+ */
+if ( ! function_exists( 'gdpr_is_forget_protected' ) ) {
+	function gdpr_is_forget_protected( $email ) {
+		$capability = apply_filters( 'gdpr/capability', 'manage_options' );
+
+		if ( current_user_can( $capability ) ) {
+			return true;
+		}
+
+		if ( empty( $email ) ) {
+			return false;
+		}
+
+		$user = get_user_by( 'email', $email );
+
+		return $user && ! empty( $user->ID ) && user_can( $user->ID, $capability );
+	}
+}
+
 add_action( "wp_ajax_gdpr_add_consent_accept_cookies", "gdpr_add_consent_accept_cookies" );
 add_action( "wp_ajax_nopriv_gdpr_add_consent_accept_cookies", "gdpr_add_consent_accept_cookies" );
 add_action( "wp_ajax_gdpr_add_consent_deny_cookies", "gdpr_add_consent_deny_cookies" );

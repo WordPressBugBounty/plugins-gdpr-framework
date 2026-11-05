@@ -7,7 +7,7 @@
  * Author:            Data443
  * Requires at least: 4.7
  * Requires PHP:      5.6
- * Version:           2.5.1
+ * Version:           2.5.2
  * Author URI:        https://www.data443.com/
  * Text Domain:       gdpr-framework
  * Domain Path:       /languages
@@ -33,7 +33,7 @@ if (defined('GDPR_FRAMEWORK_PRO_VERSION')) {
     return;
 }
 
-define('GDPR_FRAMEWORK_VERSION', '2.5.1');
+define('GDPR_FRAMEWORK_VERSION', '2.5.2');
 
 define('GDPR_DEFAULT_UNKNOWN_USER_MESSAGE', 'Message received.');
 
@@ -84,21 +84,9 @@ add_action('init', 'gdpr_framework_load_textdomain');
  */
 function create_custom_post_type()
 {
-	$args = array(
-		'label'               => 'Do Not Sell Info',
-		'public'              => true,
-		'has_archive'         => false,
-		'exclude_from_search' => true,
-		'publicly_queryable'  => false,
-		'show_in_menu'        => false,
-		'menu_position'       => 20,
-		'show_ui'             => true,
-		'hierarchical'        => false,
-		'rewrite'             => array( 'slug' => 'donotsellrequests' ),
-		'query_var'           => true,
-		'supports'            => array( 'title', 'editor', 'excerpt', 'custom-fields', 'post-formats' ),
-	);
-	register_post_type( 'donotsellrequests', $args );
+	// Capabilities are locked to the plugin's admin capability -- see
+	// gdpr_donotsell_post_type_args() (SECURITY-AUDIT.md Finding 8).
+	register_post_type( 'donotsellrequests', gdpr_donotsell_post_type_args() );
 }
 
 /**
@@ -119,12 +107,12 @@ add_filter('manage_donotsellrequests_posts_columns', function ($columns) {
 });
 
 add_action('manage_donotsellrequests_posts_custom_column', function ($column_key, $post_id) {
+    // Submitter-supplied values: print them escaped, not through _e() (which
+    // echoes raw and would also treat the value as a translatable string).
     if ($column_key == 'donotsell_first_name') {
-        $data = get_post_meta($post_id, 'donotsell_first_name', true);
-        _e($data, 'textdomain');
+        echo esc_html(get_post_meta($post_id, 'donotsell_first_name', true));
     } elseif ($column_key == 'donotsell_last_name') {
-        $data = get_post_meta($post_id, 'donotsell_last_name', true);
-        _e($data, 'textdomain');
+        echo esc_html(get_post_meta($post_id, 'donotsell_last_name', true));
     }
 
 }, 10, 2);
@@ -251,5 +239,8 @@ register_activation_hook(__FILE__, function () {
 	update_option('gdpr_enable', true);
 });
 
-require_once('gdpr-helper-functions.php');
-require_once('bootstrap.php');
+// Absolute paths: a bare filename is resolved against include_path ('.' = the
+// current working directory) before this file's directory, so WP-CLI started
+// from a directory containing its own bootstrap.php would load that instead.
+require_once(dirname(__FILE__) . '/gdpr-helper-functions.php');
+require_once(dirname(__FILE__) . '/bootstrap.php');

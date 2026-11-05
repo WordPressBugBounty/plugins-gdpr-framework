@@ -177,6 +177,12 @@ class DashboardDataPageController
      */
     public function forget(DataSubject $dataSubject)
     {
+        // Security fix (SECURITY-AUDIT.md Finding 9): renderDeleteForm() hides
+        // this action from administrators; enforce the same rule here.
+        if (gdpr_is_forget_protected($dataSubject->getEmail())) {
+            $this->redirect();
+        }
+
         $status = $dataSubject->forget();
 
         if (!$status) {

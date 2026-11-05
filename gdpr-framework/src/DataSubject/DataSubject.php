@@ -31,12 +31,17 @@ class DataSubject {
 	/**
 	 * DataSubject constructor.
 	 *
-	 * @param               $email
-	 * @param \WP_User|null $user
+	 * @param                $email
+	 * @param \WP_User|null  $user
+	 * @param ConsentManager $consentManager
 	 */
-	public function __construct( $email, \WP_User $user = null, ConsentManager $consentManager ) {
+	public function __construct( $email, $user, ConsentManager $consentManager ) {
+		// Fix: `\WP_User $user = null` ahead of a required parameter is an
+		// implicitly nullable type, deprecated in PHP 8.4. The PHP 7.1+
+		// `?\WP_User` syntax would break PHP 5.6, so the type is enforced
+		// here instead. Every caller already passes all three arguments.
 		$this->email          = $email;
-		$this->user           = $user;
+		$this->user           = $user instanceof \WP_User ? $user : null;
 		$this->consentManager = $consentManager;
 		$this->dataRepository = new DataRepository( $email );
 
@@ -86,7 +91,30 @@ class DataSubject {
 	 * Check if the data subject has consented to something specific
 	 */
 	public function hasConsented( $consent ) {
-		return in_array( $consent, $this->consents );
+		// Fix: $this->consents holds the wp_gdpr_consent rows returned by
+		// UserConsentModel::getAll() (objects; arrays on PHP < 7), not
+		// consent slugs, so in_array( $consent, $this->consents ) never
+		// matched and this always returned false -- the comment form asked
+		// logged-in users for privacy-policy consent on every comment.
+		// Match each row's slug, and treat a consent past its valid_until
+		// date as not given (zero dates on legacy rows mean no expiry).
+		$now = current_time( 'mysql' );
+
+		foreach ( (array) $this->consents as $row ) {
+			$row = (array) $row;
+			if ( ! isset( $row['consent'] ) || $row['consent'] !== $consent ) {
+				continue;
+			}
+
+			$validUntil = isset( $row['valid_until'] ) ? (string) $row['valid_until'] : '';
+			if ( '' !== $validUntil && 0 !== strpos( $validUntil, '0000-00-00' ) && $validUntil < $now ) {
+				continue;
+			}
+
+			return true;
+		}
+
+		return false;
 	}
 
 	/**

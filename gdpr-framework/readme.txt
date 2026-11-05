@@ -4,7 +4,7 @@ Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive,
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.5.1
+Stable tag: 2.5.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,16 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.5.2 (11/5/2026) =
+
+* Security: "Do Not Sell" (CCPA) requests, which include names and email addresses, could be listed by any user with Contributor access or above, and edited or deleted by Editors. They are now limited to administrators (manage_options, filterable via gdpr/capability).
+* Security: the Privacy Tools "delete my data" action now refuses to delete administrator accounts, as the form already stated.
+* Security: Contact Form 7 privacy settings are now saved to the form being edited, not to a post ID taken from the request.
+* Fix: data deletion requests failed with a fatal error on PHP 8 when Flamingo was active.
+* Fix: logged-in users who had already accepted the privacy policy were asked again on every comment. Expired consents now count as not given.
+* Fix: under WP-CLI, the plugin could load another project's bootstrap.php from the current directory instead of its own.
+* Fix: PHP 8.1 and 8.4 deprecation notices.
 
 = 2.5.1 (10/16/2026) =
 

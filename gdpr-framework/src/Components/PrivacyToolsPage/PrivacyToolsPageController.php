@@ -334,6 +334,13 @@ class PrivacyToolsPageController {
 	 * @param DataSubject $dataSubject
 	 */
 	public function forget( DataSubject $dataSubject ) {
+		// Security fix (SECURITY-AUDIT.md Finding 9): renderDeleteForm() hides
+		// this action from administrators; enforce the same rule here so a
+		// hand-built request cannot delete/anonymize an administrator account.
+		if ( gdpr_is_forget_protected( $dataSubject->getEmail() ) ) {
+			$this->redirect();
+		}
+
 		$deleted = $dataSubject->forget();
 
 		if ( $deleted ) {

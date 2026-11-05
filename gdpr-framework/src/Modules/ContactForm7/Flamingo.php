@@ -40,16 +40,20 @@ class Flamingo
 
     public function saveCF7Tab(\WPCF7_ContactForm $contactForm, $args, $context)
     {
-        if(isset($_POST['post_ID']) && $_POST['post_ID'])
-        {   
-            $contact_form_id = filter_var($_POST['post_ID'], FILTER_SANITIZE_NUMBER_INT);    
+        // Security fix (SECURITY-AUDIT.md Finding 10): write the settings to the
+        // form Contact Form 7 actually saved (and permission-checked), not to
+        // whatever post ID the request body names.
+        $contact_form_id = absint($contactForm->id());
+        if ($contact_form_id)
+        {
             if (isset($_POST['gdpr_cf7_enabled'])) {
                 $sanitized_gdpr_cf7_enabled = filter_var($_POST['gdpr_cf7_enabled'], FILTER_SANITIZE_NUMBER_INT);
                 update_post_meta($contact_form_id, 'gdpr_cf7_enabled', $sanitized_gdpr_cf7_enabled);
             }
 
             if (isset($_POST['gdpr_cf7_email_field']) && !empty($_POST['gdpr_cf7_email_field'])) {
-                $sanitized_gdpr_cf7_email_field = filter_var($_POST['gdpr_cf7_email_field'], FILTER_SANITIZE_STRING);
+                // FILTER_SANITIZE_STRING is deprecated since PHP 8.1.
+                $sanitized_gdpr_cf7_email_field = sanitize_text_field(wp_unslash($_POST['gdpr_cf7_email_field']));
                 update_post_meta($contact_form_id, 'gdpr_cf7_email_field', $sanitized_gdpr_cf7_email_field);
             }
         }
@@ -148,10 +152,22 @@ class Flamingo
             }
         }
 
-        $contacts = \Flamingo_Contact::search_by_email($email);
-        if (count($contacts)) {
-            foreach ($contacts as $i => $contactId) {
-                (new \Flamingo_Contact($contactId))->delete();
+        // Fix: Flamingo_Contact::search_by_email() returns a single
+        // Flamingo_Contact or null, not a list, so the count()/foreach that
+        // used to wrap it threw a TypeError on PHP 8 for both return values
+        // (count(object) and count(null)). Every GDPR erasure on a site with
+        // Flamingo active therefore died with a fatal error before the user
+        // was deleted. Fetch all matching contacts through find() (same API
+        // getEntriesByEmail() uses).
+        $contacts = \Flamingo_Contact::find([
+            'posts_per_page' => -1,
+            'meta_key'       => '_email',
+            'meta_value'     => $email,
+        ]);
+
+        foreach ((array) $contacts as $contact) {
+            if ($contact instanceof \Flamingo_Contact) {
+                $contact->delete();
             }
         }
 
