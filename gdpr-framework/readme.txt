@@ -4,7 +4,7 @@ Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive,
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.5.2
+Stable tag: 2.5.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,10 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.5.3 (11/7/2026) =
+
+* Security: forgetting a data subject in Easy Digital Downloads could delete the purchase records of other customers whose order email was stored as text. The purchase-meta delete now matches the subject's email exactly.
 
 = 2.5.2 (11/5/2026) =
 

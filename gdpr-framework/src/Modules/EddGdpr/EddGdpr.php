@@ -130,7 +130,7 @@ class EddGdpr
         
         $delete_purchase = $wpdb->query($wpdb->prepare("DELETE FROM {$wpdb->prefix}posts WHERE ID IN (SELECT  post_id FROM {$wpdb->prefix}postmeta WHERE meta_key = %s AND meta_value = %s)",'_edd_payment_user_email',$email));
      
-		$delete_purchasemeta = $wpdb->query($wpdb->prepare("DELETE FROM {$wpdb->prefix}postmeta WHERE post_id IN (select edd_id from(SELECT  post_id as edd_id FROM {$wpdb->prefix}postmeta WHERE meta_key = %s AND meta_value = %d) post_ids)",'_edd_payment_user_email',$email));
+		$delete_purchasemeta = $wpdb->query($wpdb->prepare("DELETE FROM {$wpdb->prefix}postmeta WHERE post_id IN (select edd_id from(SELECT  post_id as edd_id FROM {$wpdb->prefix}postmeta WHERE meta_key = %s AND meta_value = %s) post_ids)",'_edd_payment_user_email',$email));
     }
     /*
     *   Add checkout GDPR content

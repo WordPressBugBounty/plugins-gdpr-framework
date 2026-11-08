@@ -7,7 +7,7 @@
  * Author:            Data443
  * Requires at least: 4.7
  * Requires PHP:      5.6
- * Version:           2.5.2
+ * Version:           2.5.3
  * Author URI:        https://www.data443.com/
  * Text Domain:       gdpr-framework
  * Domain Path:       /languages
@@ -33,7 +33,7 @@ if (defined('GDPR_FRAMEWORK_PRO_VERSION')) {
     return;
 }
 
-define('GDPR_FRAMEWORK_VERSION', '2.5.2');
+define('GDPR_FRAMEWORK_VERSION', '2.5.3');
 
 define('GDPR_DEFAULT_UNKNOWN_USER_MESSAGE', 'Message received.');
 
