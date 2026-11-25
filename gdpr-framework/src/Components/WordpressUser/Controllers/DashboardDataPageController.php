@@ -65,6 +65,11 @@ class DashboardDataPageController
             $class = 'notice notice-success';
         }
 
+        if ('identification_required' === sanitize_key($_REQUEST['gdpr_notice'])) {
+            $message = __('Before changing your personal data, please verify your email address on the Privacy Tools page.', 'gdpr-framework');
+            $class = 'notice notice-warning';
+        }
+
         echo gdpr('view')->render('admin/notice', compact('message', 'class'));
     }
 
@@ -150,6 +155,9 @@ class DashboardDataPageController
      */
     public function withdrawConsent(DataSubject $dataSubject)
     {
+        if (!$this->dataSubjectAuthenticator->isEmailVerified($dataSubject)) {
+            $this->redirect(['gdpr_notice' => 'identification_required']);
+        }
         $consent = sanitize_key($_REQUEST['consent']);
         $dataSubject->withdrawConsent($consent);
         $this->redirect(['gdpr_notice' => 'consent_withdrawn']);
@@ -160,6 +168,9 @@ class DashboardDataPageController
      */
     public function export(DataSubject $dataSubject)
     {
+        if (!$this->dataSubjectAuthenticator->isEmailVerified($dataSubject)) {
+            $this->redirect(['gdpr_notice' => 'identification_required']);
+        }
         $gdpr_format = sanitize_key($_REQUEST['gdpr_format']);
         $data = $dataSubject->export($gdpr_format);
 
@@ -177,6 +188,9 @@ class DashboardDataPageController
      */
     public function forget(DataSubject $dataSubject)
     {
+        if (!$this->dataSubjectAuthenticator->isEmailVerified($dataSubject)) {
+            $this->redirect(['gdpr_notice' => 'identification_required']);
+        }
         // Security fix (SECURITY-AUDIT.md Finding 9): renderDeleteForm() hides
         // this action from administrators; enforce the same rule here.
         if (gdpr_is_forget_protected($dataSubject->getEmail())) {

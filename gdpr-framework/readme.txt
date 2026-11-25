@@ -4,7 +4,7 @@ Tags: gdpr, compliance, security, privacy, wordpress gdpr, eu privacy directive,
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.5.3
+Stable tag: 2.5.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -117,6 +117,13 @@ We are also planning to add other important privacy-related features missing fro
 5. GDPR FRAMEWORK PRIVACY TOOL
 
 == Change log ==
+
+= 2.5.4 (11/25/2026) =
+
+* Security: in certain scenarios, a logged-in user could change their account email to another person's address. These actions now require the address to be verified through the identification link sent to it. (CVE-2026-130149)
+* Security: consent withdrawal is limited to verified email addresses in the same way.
+* Changed: logged-in users who request deletion or export of their data are now asked to verify their email address first. No email is sent when the request is refused.
+* Fix: the identification link now works for logged-in users. Previously it had no effect for them.
 
 = 2.5.3 (11/7/2026) =
 

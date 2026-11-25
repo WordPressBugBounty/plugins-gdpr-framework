@@ -24,6 +24,10 @@
             <?= __('Your personal data has been removed!', 'gdpr-framework'); ?>
         <?php endif; ?>
 
+        <?php if ('identification_required' === sanitize_key($_REQUEST['gdpr_notice'])): ?>
+            <?= __('Before we change or export your personal data, please confirm your email address: enter it above to receive a verification link.', 'gdpr-framework'); ?>
+        <?php endif; ?>
+
         <?php if ('unregistered_user' === sanitize_key($_REQUEST['gdpr_notice'])): ?>
             <?= __(sanitize_text_field(gdpr('options')->get('unknown_user_message', GDPR_DEFAULT_UNKNOWN_USER_MESSAGE)), 'gdpr-framework'); ?>
         <?php endif; ?>

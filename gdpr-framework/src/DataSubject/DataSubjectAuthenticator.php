@@ -50,16 +50,44 @@ class DataSubjectAuthenticator
     }
 
     /**
+     * True only when the request carries an identification cookie whose signed,
+     * expiring key is valid for this subject's own address.
+     *
+     * A logged-in account's user_email is not proof of ownership: WordPress core
+     * lets the account holder change it through the REST API without confirmation.
+     * Destructive and disclosing actions must therefore check this instead of
+     * trusting the identity that authenticate() returns for logged-in users.
+     *
+     * @param DataSubject $dataSubject
+     * @return bool
+     */
+    public function isEmailVerified(DataSubject $dataSubject)
+    {
+        $cookieData = $this->getIdentificationCookieData();
+
+        if (!is_array($cookieData) || count($cookieData) < 2) {
+            return false;
+        }
+
+        $cookieEmail = sanitize_email($cookieData[0]);
+        $subjectEmail = sanitize_email($dataSubject->getEmail());
+
+        if ($cookieEmail === '' || $subjectEmail === '' || $cookieEmail !== $subjectEmail) {
+            return false;
+        }
+
+        return (bool) $this->dataSubjectIdentificator->isKeyValid($cookieEmail, $cookieData[1]);
+    }
+
+    /**
      * If the request contains a new identification key, validate it, then set a new key
      * to make the previous link obsolete.
      */
     public function identify()
     {
         global $gdpr;
-        // Do not attempt to identify logged in users
-        if (is_user_logged_in()) {
-            return;
-        }
+        // Logged-in users identify the same way. The signed key proves control of
+        // the address in the link, which is what isEmailVerified() relies on.
 
         if (isset($_REQUEST['gdpr_key']) && isset($_REQUEST['email'])) { 
             $gdpr_email = sanitize_email($_REQUEST['email']);

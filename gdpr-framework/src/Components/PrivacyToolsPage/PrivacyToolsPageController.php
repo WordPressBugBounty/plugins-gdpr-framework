@@ -305,6 +305,9 @@ class PrivacyToolsPageController {
 	 * @param DataSubject $dataSubject
 	 */
 	public function withdrawConsent( DataSubject $dataSubject ) {
+		if ( ! $this->dataSubjectAuthenticator->isEmailVerified( $dataSubject ) ) {
+			$this->redirect( array( 'gdpr_notice' => 'identification_required' ) );
+		}
 		$consent = sanitize_key( $_REQUEST['consent'] );
 		$dataSubject->withdrawConsent( $consent );
 		$this->redirect( array( 'gdpr_notice' => 'consent_withdrawn' ) );
@@ -316,6 +319,9 @@ class PrivacyToolsPageController {
 	 * @param DataSubject $dataSubject
 	 */
 	public function export( DataSubject $dataSubject ) {
+		if ( ! $this->dataSubjectAuthenticator->isEmailVerified( $dataSubject ) ) {
+			$this->redirect( array( 'gdpr_notice' => 'identification_required' ) );
+		}
 		$format = sanitize_key( $_REQUEST['gdpr_format'] );
 		$data   = $dataSubject->export( $format );
 
@@ -334,6 +340,9 @@ class PrivacyToolsPageController {
 	 * @param DataSubject $dataSubject
 	 */
 	public function forget( DataSubject $dataSubject ) {
+		if ( ! $this->dataSubjectAuthenticator->isEmailVerified( $dataSubject ) ) {
+			$this->redirect( array( 'gdpr_notice' => 'identification_required' ) );
+		}
 		// Security fix (SECURITY-AUDIT.md Finding 9): renderDeleteForm() hides
 		// this action from administrators; enforce the same rule here so a
 		// hand-built request cannot delete/anonymize an administrator account.
